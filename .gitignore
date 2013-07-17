@@ -77,10 +77,13 @@ LICENSE.html
 LICENSE.txt
 LICENSE_EE*
 mage
+media/catalog/
+media/cino/
 media/customer/
 media/downloadable/
 media/.htaccess
 media/import/
+media/tmp/
 media/xmlconnect/
 nbproject/
 pear
