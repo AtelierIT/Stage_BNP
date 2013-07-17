@@ -1,0 +1,5 @@
+suhosin.session.cryptua = off 
+magic_quotes_gpc = off
+short_open_tag = on
+extension=pdo.so
+extension=pdo_mysql.so 

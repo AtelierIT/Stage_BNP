@@ -1,0 +1,2567 @@
+title:MAGMI by dweeves - version:0.7.18
+startup:Running Magmi Product Import Engine v1.7.1 by dweeves
+startup:Import Profile:default
+startup:Import Mode:create
+step:step:0.1%
+plugin;Magmi_CSVDataSource;pluginhello:CSV Datasource-1.3-Dweeves- 
+plugin;CategoryImporter;pluginhello:On the fly category creator/importer-0.2.3-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=On_the_fly_category_creator/importer 
+plugin;ImageAttributeItemProcessor;pluginhello:Image attributes processor-1.0.25-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Image_attributes_processor 
+plugin;CustomOptionsItemProcessor;pluginhello:Custom Options-0.0.7-Pablo & Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Custom_Options 
+plugin;ColumnMappingItemProcessor;pluginhello:Column mapper-0.0.3-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Column_mapper 
+plugin;GenericMapperProcessor;pluginhello:Generic mapper-0.0.6a-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Generic_mapper 
+plugin;GenericMapperProcessor;startup:Generic mapper v0.0.6a - No custom mapping found
+plugin;Magmi_ConfigurableItemProcessor;pluginhello:Configurable Item processor-1.3.7-Dweeves-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Configurable_Item_processor 
+plugin;RelatedProducts;pluginhello:Product relater-1.0.3-Dweeves,jwtechniek-http://sourceforge.net/apps/mediawiki/magmi/index.php?title=Product_relater 
+plugin;Magmi_DefaultAttributeItemProcessor;pluginhello:Standard Attribute Import-1.0.5-Dweeves- 
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - Importing CSV : /chroot/home/stagebon/stage.bonaparteshop.com/html/var/import/catalog_product_20130424_130509.csv using separator [ , ] enclosing [ " ]
+startup:Performing Datasouce Lookup...
+lookup:878:0.045832872390747
+startup:Found 878 records, took 0.045832872390747 sec
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - No BOM detected, assuming File is UTF8 without BOM...
+plugin;Magmi_CSVDataSource;startup:CSV Datasource v1.3 - 134 CSV headers columns found
+columns:134
+plugin;Magmi_DefaultAttributeItemProcessor;startup:Standard Attribute Import v1.0.5 - Newly created items will have default values for columns:store,type
+startup:Ajusted processed columns:137
+itime:1 - 0.00021195411682129 - 0.00021195411682129
+dbtime:0 - 0 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13116_006919_03_A_1053_optimized.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13116_006919_03_A_1053_optimized.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13116_006919_03_A_1053_optimized.jpg cannot be found in images path
+itime:2 - 0.021336793899536 - 0.021027803421021
+dbtime:21 - 0.010274648666382 - 0.010274648666382 - 21
+error:No sku info found for record #2
+itime:3 - 0.022206783294678 - 0.00075984001159668
+dbtime:21 - 0.010274648666382 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /4/1/41fs4f9jftl._sl500_ss500_.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /4/1/41fs4f9jftl._sl500_ss500_.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /4/1/41fs4f9jftl._sl500_ss500_.jpg cannot be found in images path
+itime:4 - 0.045727968215942 - 0.023427963256836
+dbtime:37 - 0.023787975311279 - 0.013513326644897 - 16
+error:No sku info found for record #4
+itime:5 - 0.046495914459229 - 0.00065994262695312
+dbtime:37 - 0.023787975311279 - 0 - 0
+error:No sku info found for record #5
+itime:6 - 0.04733681678772 - 0.0007319450378418
+dbtime:37 - 0.023787975311279 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13112_007769_03_a_9000.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13112_007769_03_a_9000.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13112_007769_03_a_9000.jpg cannot be found in images path
+itime:7 - 0.064903020858765 - 0.017474174499512
+dbtime:59 - 0.030740022659302 - 0.0069520473480225 - 22
+error:No sku info found for record #7
+itime:8 - 0.065764904022217 - 0.00075507164001465
+dbtime:59 - 0.030740022659302 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13112_007769_03_a_9000_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13112_007769_03_a_9000_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13112_007769_03_a_9000_1.jpg cannot be found in images path
+itime:9 - 0.081983804702759 - 0.016124963760376
+dbtime:79 - 0.036550283432007 - 0.0058102607727051 - 20
+error:No sku info found for record #9
+itime:10 - 0.08312201499939 - 0.0010311603546143
+dbtime:79 - 0.036550283432007 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/131f_03_01_v085_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/131f_03_01_v085_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/131f_03_01_v085_1.jpg cannot be found in images path
+itime:11 - 0.098265886306763 - 0.015049934387207
+dbtime:95 - 0.041602373123169 - 0.0050520896911621 - 16
+error:No sku info found for record #11
+itime:12 - 0.099056959152222 - 0.00068402290344238
+dbtime:95 - 0.041602373123169 - 0 - 0
+error:No sku info found for record #12
+itime:13 - 0.099809885025024 - 0.00066089630126953
+dbtime:95 - 0.041602373123169 - 0 - 0
+error:No sku info found for record #13
+itime:14 - 0.10054779052734 - 0.00064587593078613
+dbtime:95 - 0.041602373123169 - 0 - 0
+error:No sku info found for record #14
+itime:15 - 0.10135388374329 - 0.000701904296875
+dbtime:95 - 0.041602373123169 - 0 - 0
+error:No sku info found for record #15
+itime:16 - 0.10210680961609 - 0.00066089630126953
+dbtime:95 - 0.041602373123169 - 0 - 0
+error:No sku info found for record #16
+itime:17 - 0.10295295715332 - 0.00075411796569824
+dbtime:95 - 0.041602373123169 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13108_007090_03_a_4001_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13108_007090_03_a_4001_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13108_007090_03_a_4001_1.jpg cannot be found in images path
+itime:18 - 0.11971282958984 - 0.01666784286499
+dbtime:117 - 0.047971248626709 - 0.00636887550354 - 22
+error:No sku info found for record #18
+itime:19 - 0.1205849647522 - 0.00076508522033691
+dbtime:117 - 0.047971248626709 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13108_007090_03_a_4001_2.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13108_007090_03_a_4001_2.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/13108_007090_03_a_4001_2.jpg cannot be found in images path
+itime:20 - 0.13682794570923 - 0.016149044036865
+dbtime:135 - 0.053918361663818 - 0.0059471130371094 - 18
+error:No sku info found for record #20
+itime:21 - 0.1379029750824 - 0.00096702575683594
+dbtime:135 - 0.053918361663818 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/131f_03_01_v085_1_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/131f_03_01_v085_1_1.jpg cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - /1/3/131f_03_01_v085_1_1.jpg cannot be found in images path
+itime:22 - 0.15287590026855 - 0.014878034591675
+dbtime:151 - 0.05878210067749 - 0.0048637390136719 - 16
+error:No sku info found for record #22
+itime:23 - 0.15366792678833 - 0.00068402290344238
+dbtime:151 - 0.05878210067749 - 0 - 0
+error:No sku info found for record #23
+itime:24 - 0.15442085266113 - 0.00065994262695312
+dbtime:151 - 0.05878210067749 - 0 - 0
+error:No sku info found for record #24
+itime:25 - 0.15517687797546 - 0.00066089630126953
+dbtime:151 - 0.05878210067749 - 0 - 0
+error:No sku info found for record #25
+itime:26 - 0.15593290328979 - 0.00066399574279785
+dbtime:151 - 0.05878210067749 - 0 - 0
+error:No sku info found for record #26
+itime:27 - 0.15668988227844 - 0.00066399574279785
+dbtime:151 - 0.05878210067749 - 0 - 0
+error:No sku info found for record #27
+itime:28 - 0.15742778778076 - 0.00064492225646973
+dbtime:151 - 0.05878210067749 - 0 - 0
+error:No sku info found for record #28
+itime:29 - 0.15825581550598 - 0.00073695182800293
+dbtime:151 - 0.05878210067749 - 0 - 0
+itime:30 - 0.17532801628113 - 0.016980171203613
+dbtime:171 - 0.065790176391602 - 0.0070080757141113 - 20
+error:No sku info found for record #30
+itime:31 - 0.17612099647522 - 0.00068497657775879
+dbtime:171 - 0.065790176391602 - 0 - 0
+error:No sku info found for record #31
+itime:32 - 0.1768798828125 - 0.00066709518432617
+dbtime:171 - 0.065790176391602 - 0 - 0
+error:No sku info found for record #32
+itime:33 - 0.17763495445251 - 0.00066208839416504
+dbtime:171 - 0.065790176391602 - 0 - 0
+error:No sku info found for record #33
+itime:34 - 0.17837882041931 - 0.00065088272094727
+dbtime:171 - 0.065790176391602 - 0 - 0
+error:No sku info found for record #34
+itime:35 - 0.17913293838501 - 0.00066304206848145
+dbtime:171 - 0.065790176391602 - 0 - 0
+error:No sku info found for record #35
+itime:36 - 0.17997097969055 - 0.00074410438537598
+dbtime:171 - 0.065790176391602 - 0 - 0
+itime:37 - 0.19704484939575 - 0.016981840133667
+dbtime:191 - 0.072474479675293 - 0.0066843032836914 - 20
+error:No sku info found for record #37
+itime:38 - 0.19782781600952 - 0.00067687034606934
+dbtime:191 - 0.072474479675293 - 0 - 0
+error:No sku info found for record #38
+itime:39 - 0.19859385490417 - 0.00067400932312012
+dbtime:191 - 0.072474479675293 - 0 - 0
+error:No sku info found for record #39
+itime:40 - 0.19934582710266 - 0.0006568431854248
+dbtime:191 - 0.072474479675293 - 0 - 0
+error:No sku info found for record #40
+itime:41 - 0.20010185241699 - 0.00066304206848145
+dbtime:191 - 0.072474479675293 - 0 - 0
+error:No sku info found for record #41
+itime:42 - 0.20085597038269 - 0.00065898895263672
+dbtime:191 - 0.072474479675293 - 0 - 0
+error:No sku info found for record #42
+itime:43 - 0.20168590545654 - 0.00073790550231934
+dbtime:191 - 0.072474479675293 - 0 - 0
+itime:44 - 0.21935296058655 - 0.017574071884155
+dbtime:211 - 0.079860210418701 - 0.0073857307434082 - 20
+error:No sku info found for record #44
+itime:45 - 0.22013282775879 - 0.00066995620727539
+dbtime:211 - 0.079860210418701 - 0 - 0
+error:No sku info found for record #45
+itime:46 - 0.22088980674744 - 0.00066280364990234
+dbtime:211 - 0.079860210418701 - 0 - 0
+error:No sku info found for record #46
+itime:47 - 0.2216420173645 - 0.00065922737121582
+dbtime:211 - 0.079860210418701 - 0 - 0
+error:No sku info found for record #47
+itime:48 - 0.22238397598267 - 0.00065016746520996
+dbtime:211 - 0.079860210418701 - 0 - 0
+error:No sku info found for record #48
+itime:49 - 0.223140001297 - 0.00066399574279785
+dbtime:211 - 0.079860210418701 - 0 - 0
+error:No sku info found for record #49
+itime:50 - 0.22397184371948 - 0.00074005126953125
+dbtime:211 - 0.079860210418701 - 0 - 0
+itime:51 - 0.24078178405762 - 0.016717910766602
+dbtime:231 - 0.086572170257568 - 0.0067119598388672 - 20
+error:No sku info found for record #51
+itime:52 - 0.24154901504517 - 0.00065922737121582
+dbtime:231 - 0.086572170257568 - 0 - 0
+error:No sku info found for record #52
+itime:53 - 0.24231696128845 - 0.00066208839416504
+dbtime:231 - 0.086572170257568 - 0 - 0
+error:No sku info found for record #53
+itime:54 - 0.24307298660278 - 0.00066399574279785
+dbtime:231 - 0.086572170257568 - 0 - 0
+error:No sku info found for record #54
+itime:55 - 0.24384498596191 - 0.0006711483001709
+dbtime:231 - 0.086572170257568 - 0 - 0
+error:No sku info found for record #55
+itime:56 - 0.24459886550903 - 0.00066184997558594
+dbtime:231 - 0.086572170257568 - 0 - 0
+error:No sku info found for record #56
+itime:57 - 0.24541997909546 - 0.00072813034057617
+dbtime:231 - 0.086572170257568 - 0 - 0
+itime:58 - 0.26250886917114 - 0.01699686050415
+dbtime:251 - 0.093618631362915 - 0.0070464611053467 - 20
+error:No sku info found for record #58
+itime:59 - 0.26329278945923 - 0.00066184997558594
+dbtime:251 - 0.093618631362915 - 0 - 0
+error:No sku info found for record #59
+itime:60 - 0.2640528678894 - 0.00066685676574707
+dbtime:251 - 0.093618631362915 - 0 - 0
+error:No sku info found for record #60
+itime:61 - 0.26480579376221 - 0.00066184997558594
+dbtime:251 - 0.093618631362915 - 0 - 0
+error:No sku info found for record #61
+itime:62 - 0.26554799079895 - 0.00065016746520996
+dbtime:251 - 0.093618631362915 - 0 - 0
+error:No sku info found for record #62
+itime:63 - 0.26631188392639 - 0.0006558895111084
+dbtime:251 - 0.093618631362915 - 0 - 0
+error:No sku info found for record #63
+itime:64 - 0.26714491844177 - 0.00074100494384766
+dbtime:251 - 0.093618631362915 - 0 - 0
+itime:65 - 0.28391599655151 - 0.016679048538208
+dbtime:271 - 0.10038065910339 - 0.0067620277404785 - 20
+error:No sku info found for record #65
+itime:66 - 0.28469181060791 - 0.00066781044006348
+dbtime:271 - 0.10038065910339 - 0 - 0
+error:No sku info found for record #66
+itime:67 - 0.2854437828064 - 0.00065779685974121
+dbtime:271 - 0.10038065910339 - 0 - 0
+error:No sku info found for record #67
+itime:68 - 0.28619194030762 - 0.00065708160400391
+dbtime:271 - 0.10038065910339 - 0 - 0
+error:No sku info found for record #68
+itime:69 - 0.28694701194763 - 0.00066304206848145
+dbtime:271 - 0.10038065910339 - 0 - 0
+error:No sku info found for record #69
+itime:70 - 0.28769779205322 - 0.00065779685974121
+dbtime:271 - 0.10038065910339 - 0 - 0
+error:No sku info found for record #70
+itime:71 - 0.28852200508118 - 0.00073099136352539
+dbtime:271 - 0.10038065910339 - 0 - 0
+itime:72 - 0.30534386634827 - 0.016716003417969
+dbtime:291 - 0.10702061653137 - 0.0066399574279785 - 20
+error:No sku info found for record #72
+itime:73 - 0.30612397193909 - 0.0006721019744873
+dbtime:291 - 0.10702061653137 - 0 - 0
+error:No sku info found for record #73
+itime:74 - 0.30687999725342 - 0.00066208839416504
+dbtime:291 - 0.10702061653137 - 0 - 0
+error:No sku info found for record #74
+itime:75 - 0.30762982368469 - 0.00065898895263672
+dbtime:291 - 0.10702061653137 - 0 - 0
+error:No sku info found for record #75
+itime:76 - 0.30836892127991 - 0.00064611434936523
+dbtime:291 - 0.10702061653137 - 0 - 0
+error:No sku info found for record #76
+itime:77 - 0.30911684036255 - 0.0006568431854248
+dbtime:291 - 0.10702061653137 - 0 - 0
+error:No sku info found for record #77
+itime:78 - 0.30995082855225 - 0.00074100494384766
+dbtime:291 - 0.10702061653137 - 0 - 0
+itime:79 - 0.32726979255676 - 0.017226934432983
+dbtime:311 - 0.11421251296997 - 0.0071918964385986 - 20
+error:No sku info found for record #79
+itime:80 - 0.32805180549622 - 0.00067400932312012
+dbtime:311 - 0.11421251296997 - 0 - 0
+error:No sku info found for record #80
+itime:81 - 0.32881379127502 - 0.00066995620727539
+dbtime:311 - 0.11421251296997 - 0 - 0
+error:No sku info found for record #81
+itime:82 - 0.32955479621887 - 0.00064992904663086
+dbtime:311 - 0.11421251296997 - 0 - 0
+error:No sku info found for record #82
+itime:83 - 0.33031892776489 - 0.00065994262695312
+dbtime:311 - 0.11421251296997 - 0 - 0
+error:No sku info found for record #83
+itime:84 - 0.33107495307922 - 0.00066208839416504
+dbtime:311 - 0.11421251296997 - 0 - 0
+error:No sku info found for record #84
+itime:85 - 0.3318920135498 - 0.00072622299194336
+dbtime:311 - 0.11421251296997 - 0 - 0
+itime:86 - 0.34721994400024 - 0.015236139297485
+dbtime:330 - 0.11958909034729 - 0.0053765773773193 - 19
+error:No sku info found for record #86
+itime:87 - 0.34800887107849 - 0.00068187713623047
+dbtime:330 - 0.11958909034729 - 0 - 0
+error:No sku info found for record #87
+itime:88 - 0.34877896308899 - 0.00066900253295898
+dbtime:330 - 0.11958909034729 - 0 - 0
+error:No sku info found for record #88
+itime:89 - 0.34952998161316 - 0.00065898895263672
+dbtime:330 - 0.11958909034729 - 0 - 0
+error:No sku info found for record #89
+itime:90 - 0.3502938747406 - 0.00065898895263672
+dbtime:330 - 0.11958909034729 - 0 - 0
+error:No sku info found for record #90
+itime:91 - 0.35105586051941 - 0.00066995620727539
+dbtime:330 - 0.11958909034729 - 0 - 0
+error:No sku info found for record #91
+itime:92 - 0.35181093215942 - 0.00066304206848145
+dbtime:330 - 0.11958909034729 - 0 - 0
+error:No sku info found for record #92
+itime:93 - 0.35263395309448 - 0.00072908401489258
+dbtime:330 - 0.11958909034729 - 0 - 0
+itime:94 - 0.36870098114014 - 0.015974044799805
+dbtime:350 - 0.1255190372467 - 0.0059299468994141 - 20
+error:No sku info found for record #94
+itime:95 - 0.36946988105774 - 0.00066208839416504
+dbtime:350 - 0.1255190372467 - 0 - 0
+error:No sku info found for record #95
+itime:96 - 0.37022399902344 - 0.00066208839416504
+dbtime:350 - 0.1255190372467 - 0 - 0
+error:No sku info found for record #96
+itime:97 - 0.37097597122192 - 0.00066018104553223
+dbtime:350 - 0.1255190372467 - 0 - 0
+error:No sku info found for record #97
+itime:98 - 0.37171792984009 - 0.00064992904663086
+dbtime:350 - 0.1255190372467 - 0 - 0
+error:No sku info found for record #98
+itime:99 - 0.37245488166809 - 0.00064396858215332
+dbtime:350 - 0.1255190372467 - 0 - 0
+error:No sku info found for record #99
+itime:100 - 0.37326192855835 - 0.00071597099304199
+dbtime:350 - 0.1255190372467 - 0 - 0
+itime:101 - 0.38932299613953 - 0.015969038009644
+dbtime:370 - 0.13151025772095 - 0.0059912204742432 - 20
+error:No sku info found for record #101
+itime:102 - 0.39010286331177 - 0.0006718635559082
+dbtime:370 - 0.13151025772095 - 0 - 0
+error:No sku info found for record #102
+itime:103 - 0.39086079597473 - 0.00066494941711426
+dbtime:370 - 0.13151025772095 - 0 - 0
+error:No sku info found for record #103
+itime:104 - 0.39160490036011 - 0.00065207481384277
+dbtime:370 - 0.13151025772095 - 0 - 0
+error:No sku info found for record #104
+itime:105 - 0.39235997200012 - 0.00066208839416504
+dbtime:370 - 0.13151025772095 - 0 - 0
+error:No sku info found for record #105
+itime:106 - 0.39311599731445 - 0.00066399574279785
+dbtime:370 - 0.13151025772095 - 0 - 0
+error:No sku info found for record #106
+itime:107 - 0.39393782615662 - 0.00072884559631348
+dbtime:370 - 0.13151025772095 - 0 - 0
+itime:108 - 0.41071796417236 - 0.016688108444214
+dbtime:390 - 0.13821458816528 - 0.0067043304443359 - 20
+error:No sku info found for record #108
+itime:109 - 0.41148781776428 - 0.00066184997558594
+dbtime:390 - 0.13821458816528 - 0 - 0
+error:No sku info found for record #109
+itime:110 - 0.4122428894043 - 0.00064992904663086
+dbtime:390 - 0.13821458816528 - 0 - 0
+error:No sku info found for record #110
+itime:111 - 0.41300082206726 - 0.00066494941711426
+dbtime:390 - 0.13821458816528 - 0 - 0
+error:No sku info found for record #111
+itime:112 - 0.4137499332428 - 0.00065708160400391
+dbtime:390 - 0.13821458816528 - 0 - 0
+error:No sku info found for record #112
+itime:113 - 0.4144868850708 - 0.00064396858215332
+dbtime:390 - 0.13821458816528 - 0 - 0
+error:No sku info found for record #113
+itime:114 - 0.41530895233154 - 0.0007171630859375
+dbtime:390 - 0.13821458816528 - 0 - 0
+itime:115 - 0.43248200416565 - 0.017081022262573
+dbtime:410 - 0.14523935317993 - 0.0070247650146484 - 20
+error:No sku info found for record #115
+itime:116 - 0.4332640171051 - 0.00066208839416504
+dbtime:410 - 0.14523935317993 - 0 - 0
+error:No sku info found for record #116
+itime:117 - 0.43402481079102 - 0.00066781044006348
+dbtime:410 - 0.14523935317993 - 0 - 0
+error:No sku info found for record #117
+itime:118 - 0.43477892875671 - 0.00066208839416504
+dbtime:410 - 0.14523935317993 - 0 - 0
+error:No sku info found for record #118
+itime:119 - 0.43552279472351 - 0.00065183639526367
+dbtime:410 - 0.14523935317993 - 0 - 0
+error:No sku info found for record #119
+itime:120 - 0.43628191947937 - 0.00064897537231445
+dbtime:410 - 0.14523935317993 - 0 - 0
+error:No sku info found for record #120
+itime:121 - 0.43711590766907 - 0.00073409080505371
+dbtime:410 - 0.14523935317993 - 0 - 0
+itime:122 - 0.45396780967712 - 0.016759872436523
+dbtime:430 - 0.15200018882751 - 0.006760835647583 - 20
+error:No sku info found for record #122
+itime:123 - 0.45473885536194 - 0.00066184997558594
+dbtime:430 - 0.15200018882751 - 0 - 0
+error:No sku info found for record #123
+itime:124 - 0.45548486709595 - 0.00065207481384277
+dbtime:430 - 0.15200018882751 - 0 - 0
+error:No sku info found for record #124
+itime:125 - 0.45623683929443 - 0.00064992904663086
+dbtime:430 - 0.15200018882751 - 0 - 0
+error:No sku info found for record #125
+itime:126 - 0.45699286460876 - 0.00066399574279785
+dbtime:430 - 0.15200018882751 - 0 - 0
+error:No sku info found for record #126
+itime:127 - 0.45774579048157 - 0.00065898895263672
+dbtime:430 - 0.15200018882751 - 0 - 0
+error:No sku info found for record #127
+itime:128 - 0.45855379104614 - 0.00071382522583008
+dbtime:430 - 0.15200018882751 - 0 - 0
+itime:129 - 0.47545599937439 - 0.016797065734863
+dbtime:450 - 0.15877389907837 - 0.0067737102508545 - 20
+error:No sku info found for record #129
+itime:130 - 0.47623491287231 - 0.0006709098815918
+dbtime:450 - 0.15877389907837 - 0 - 0
+error:No sku info found for record #130
+itime:131 - 0.47699189186096 - 0.00066304206848145
+dbtime:450 - 0.15877389907837 - 0 - 0
+error:No sku info found for record #131
+itime:132 - 0.47773885726929 - 0.00065183639526367
+dbtime:450 - 0.15877389907837 - 0 - 0
+error:No sku info found for record #132
+itime:133 - 0.47848081588745 - 0.00064897537231445
+dbtime:450 - 0.15877389907837 - 0 - 0
+error:No sku info found for record #133
+itime:134 - 0.4792308807373 - 0.00064492225646973
+dbtime:450 - 0.15877389907837 - 0 - 0
+error:No sku info found for record #134
+itime:135 - 0.48004794120789 - 0.00072312355041504
+dbtime:450 - 0.15877389907837 - 0 - 0
+itime:136 - 0.4971718788147 - 0.017031908035278
+dbtime:470 - 0.1658079624176 - 0.0070340633392334 - 20
+error:No sku info found for record #136
+itime:137 - 0.49795699119568 - 0.00067710876464844
+dbtime:470 - 0.1658079624176 - 0 - 0
+error:No sku info found for record #137
+itime:138 - 0.49871492385864 - 0.00066590309143066
+dbtime:470 - 0.1658079624176 - 0 - 0
+error:No sku info found for record #138
+itime:139 - 0.49945783615112 - 0.00064992904663086
+dbtime:470 - 0.1658079624176 - 0 - 0
+error:No sku info found for record #139
+itime:140 - 0.50020384788513 - 0.00065398216247559
+dbtime:470 - 0.1658079624176 - 0 - 0
+error:No sku info found for record #140
+itime:141 - 0.50095796585083 - 0.00066304206848145
+dbtime:470 - 0.1658079624176 - 0 - 0
+error:No sku info found for record #141
+itime:142 - 0.5017728805542 - 0.00072097778320312
+dbtime:470 - 0.1658079624176 - 0 - 0
+itime:143 - 0.51863288879395 - 0.016764879226685
+dbtime:490 - 0.17264461517334 - 0.0068366527557373 - 20
+error:No sku info found for record #143
+itime:144 - 0.51940989494324 - 0.00066709518432617
+dbtime:490 - 0.17264461517334 - 0 - 0
+error:No sku info found for record #144
+itime:145 - 0.52016687393188 - 0.00066399574279785
+dbtime:490 - 0.17264461517334 - 0 - 0
+error:No sku info found for record #145
+itime:146 - 0.52092480659485 - 0.00066399574279785
+dbtime:490 - 0.17264461517334 - 0 - 0
+error:No sku info found for record #146
+itime:147 - 0.52168083190918 - 0.00066304206848145
+dbtime:490 - 0.17264461517334 - 0 - 0
+error:No sku info found for record #147
+itime:148 - 0.52241992950439 - 0.00064396858215332
+dbtime:490 - 0.17264461517334 - 0 - 0
+error:No sku info found for record #148
+itime:149 - 0.52323079109192 - 0.00071883201599121
+dbtime:490 - 0.17264461517334 - 0 - 0
+itime:150 - 0.53867387771606 - 0.015351057052612
+dbtime:509 - 0.17808389663696 - 0.005439281463623 - 19
+error:No sku info found for record #150
+itime:151 - 0.53944993019104 - 0.00066614151000977
+dbtime:509 - 0.17808389663696 - 0 - 0
+error:No sku info found for record #151
+itime:152 - 0.54020500183105 - 0.00066208839416504
+dbtime:509 - 0.17808389663696 - 0 - 0
+error:No sku info found for record #152
+itime:153 - 0.54096698760986 - 0.00066804885864258
+dbtime:509 - 0.17808389663696 - 0 - 0
+error:No sku info found for record #153
+itime:154 - 0.54172682762146 - 0.00065803527832031
+dbtime:509 - 0.17808389663696 - 0 - 0
+error:No sku info found for record #154
+itime:155 - 0.54247093200684 - 0.00065112113952637
+dbtime:509 - 0.17808389663696 - 0 - 0
+error:No sku info found for record #155
+itime:156 - 0.54322600364685 - 0.00066304206848145
+dbtime:509 - 0.17808389663696 - 0 - 0
+error:No sku info found for record #156
+itime:157 - 0.54405689239502 - 0.00073695182800293
+dbtime:509 - 0.17808389663696 - 0 - 0
+itime:158 - 0.56173086166382 - 0.017581939697266
+dbtime:530 - 0.18549036979675 - 0.00740647315979 - 21
+error:No sku info found for record #158
+itime:159 - 0.56250500679016 - 0.00066518783569336
+dbtime:530 - 0.18549036979675 - 0 - 0
+error:No sku info found for record #159
+itime:160 - 0.56325793266296 - 0.00064611434936523
+dbtime:530 - 0.18549036979675 - 0 - 0
+error:No sku info found for record #160
+itime:161 - 0.56400799751282 - 0.00065803527832031
+dbtime:530 - 0.18549036979675 - 0 - 0
+error:No sku info found for record #161
+itime:162 - 0.56475186347961 - 0.00065207481384277
+dbtime:530 - 0.18549036979675 - 0 - 0
+error:No sku info found for record #162
+itime:163 - 0.56548881530762 - 0.00064396858215332
+dbtime:530 - 0.18549036979675 - 0 - 0
+error:No sku info found for record #163
+itime:164 - 0.56631588935852 - 0.00072002410888672
+dbtime:530 - 0.18549036979675 - 0 - 0
+itime:165 - 0.58322787284851 - 0.016820907592773
+dbtime:551 - 0.19215679168701 - 0.0066664218902588 - 21
+error:No sku info found for record #165
+itime:166 - 0.58400678634644 - 0.0006718635559082
+dbtime:551 - 0.19215679168701 - 0 - 0
+error:No sku info found for record #166
+itime:167 - 0.58475685119629 - 0.00065803527832031
+dbtime:551 - 0.19215679168701 - 0 - 0
+error:No sku info found for record #167
+itime:168 - 0.5854959487915 - 0.00064611434936523
+dbtime:551 - 0.19215679168701 - 0 - 0
+error:No sku info found for record #168
+itime:169 - 0.58625102043152 - 0.00065112113952637
+dbtime:551 - 0.19215679168701 - 0 - 0
+error:No sku info found for record #169
+itime:170 - 0.58700799942017 - 0.00066518783569336
+dbtime:551 - 0.19215679168701 - 0 - 0
+error:No sku info found for record #170
+itime:171 - 0.58783388137817 - 0.0007328987121582
+dbtime:551 - 0.19215679168701 - 0 - 0
+itime:172 - 0.60523581504822 - 0.017307996749878
+dbtime:572 - 0.19936537742615 - 0.0072085857391357 - 21
+error:No sku info found for record #172
+itime:173 - 0.60601902008057 - 0.00067400932312012
+dbtime:572 - 0.19936537742615 - 0 - 0
+error:No sku info found for record #173
+itime:174 - 0.60677480697632 - 0.00066280364990234
+dbtime:572 - 0.19936537742615 - 0 - 0
+error:No sku info found for record #174
+itime:175 - 0.60751295089722 - 0.00064611434936523
+dbtime:572 - 0.19936537742615 - 0 - 0
+error:No sku info found for record #175
+itime:176 - 0.60826587677002 - 0.00064587593078613
+dbtime:572 - 0.19936537742615 - 0 - 0
+error:No sku info found for record #176
+itime:177 - 0.60902285575867 - 0.00066494941711426
+dbtime:572 - 0.19936537742615 - 0 - 0
+error:No sku info found for record #177
+itime:178 - 0.60984992980957 - 0.00073599815368652
+dbtime:572 - 0.19936537742615 - 0 - 0
+itime:179 - 0.62741589546204 - 0.017473936080933
+dbtime:593 - 0.20672965049744 - 0.0073642730712891 - 21
+error:No sku info found for record #179
+itime:180 - 0.62819385528564 - 0.00066995620727539
+dbtime:593 - 0.20672965049744 - 0 - 0
+error:No sku info found for record #180
+itime:181 - 0.62894582748413 - 0.00065898895263672
+dbtime:593 - 0.20672965049744 - 0 - 0
+error:No sku info found for record #181
+itime:182 - 0.62969183921814 - 0.00065398216247559
+dbtime:593 - 0.20672965049744 - 0 - 0
+error:No sku info found for record #182
+itime:183 - 0.63042879104614 - 0.00064277648925781
+dbtime:593 - 0.20672965049744 - 0 - 0
+error:No sku info found for record #183
+itime:184 - 0.63117790222168 - 0.00065708160400391
+dbtime:593 - 0.20672965049744 - 0 - 0
+error:No sku info found for record #184
+itime:185 - 0.63200187683105 - 0.0007328987121582
+dbtime:593 - 0.20672965049744 - 0 - 0
+itime:186 - 0.64907884597778 - 0.016983032226562
+dbtime:614 - 0.2135546207428 - 0.0068249702453613 - 21
+error:No sku info found for record #186
+itime:187 - 0.64988589286804 - 0.00067806243896484
+dbtime:614 - 0.2135546207428 - 0 - 0
+error:No sku info found for record #187
+itime:188 - 0.65063786506653 - 0.00065898895263672
+dbtime:614 - 0.2135546207428 - 0 - 0
+error:No sku info found for record #188
+itime:189 - 0.65137982368469 - 0.00064802169799805
+dbtime:614 - 0.2135546207428 - 0 - 0
+error:No sku info found for record #189
+itime:190 - 0.65213084220886 - 0.00065898895263672
+dbtime:614 - 0.2135546207428 - 0 - 0
+error:No sku info found for record #190
+itime:191 - 0.65288782119751 - 0.00066494941711426
+dbtime:614 - 0.2135546207428 - 0 - 0
+error:No sku info found for record #191
+itime:192 - 0.65371179580688 - 0.0007319450378418
+dbtime:614 - 0.2135546207428 - 0 - 0
+itime:193 - 0.67479801177979 - 0.020991086959839
+dbtime:635 - 0.22436428070068 - 0.010809659957886 - 21
+error:No sku info found for record #193
+itime:194 - 0.67556381225586 - 0.00065493583679199
+dbtime:635 - 0.22436428070068 - 0 - 0
+error:No sku info found for record #194
+itime:195 - 0.67632389068604 - 0.0006558895111084
+dbtime:635 - 0.22436428070068 - 0 - 0
+error:No sku info found for record #195
+itime:196 - 0.67707490921021 - 0.00065708160400391
+dbtime:635 - 0.22436428070068 - 0 - 0
+error:No sku info found for record #196
+itime:197 - 0.67783379554749 - 0.00066494941711426
+dbtime:635 - 0.22436428070068 - 0 - 0
+error:No sku info found for record #197
+itime:198 - 0.67858290672302 - 0.00065493583679199
+dbtime:635 - 0.22436428070068 - 0 - 0
+error:No sku info found for record #198
+itime:199 - 0.67940402030945 - 0.00072813034057617
+dbtime:635 - 0.22436428070068 - 0 - 0
+itime:200 - 0.69622492790222 - 0.016730070114136
+dbtime:656 - 0.23105502128601 - 0.0066907405853271 - 21
+error:No sku info found for record #200
+itime:201 - 0.69701790809631 - 0.00068306922912598
+dbtime:656 - 0.23105502128601 - 0 - 0
+error:No sku info found for record #201
+itime:202 - 0.69776797294617 - 0.00065803527832031
+dbtime:656 - 0.23105502128601 - 0 - 0
+error:No sku info found for record #202
+itime:203 - 0.69850897789001 - 0.00064802169799805
+dbtime:656 - 0.23105502128601 - 0 - 0
+error:No sku info found for record #203
+itime:204 - 0.69926190376282 - 0.00064611434936523
+dbtime:656 - 0.23105502128601 - 0 - 0
+error:No sku info found for record #204
+itime:205 - 0.70001792907715 - 0.00066399574279785
+dbtime:656 - 0.23105502128601 - 0 - 0
+error:No sku info found for record #205
+itime:206 - 0.70083999633789 - 0.00073003768920898
+dbtime:656 - 0.23105502128601 - 0 - 0
+itime:207 - 0.71888995170593 - 0.017956972122192
+dbtime:677 - 0.23873376846313 - 0.007678747177124 - 21
+error:No sku info found for record #207
+itime:208 - 0.71966695785522 - 0.00066709518432617
+dbtime:677 - 0.23873376846313 - 0 - 0
+error:No sku info found for record #208
+itime:209 - 0.72041296958923 - 0.00064802169799805
+dbtime:677 - 0.23873376846313 - 0 - 0
+error:No sku info found for record #209
+itime:210 - 0.7211639881134 - 0.00065708160400391
+dbtime:677 - 0.23873376846313 - 0 - 0
+error:No sku info found for record #210
+itime:211 - 0.72191691398621 - 0.00065898895263672
+dbtime:677 - 0.23873376846313 - 0 - 0
+error:No sku info found for record #211
+itime:212 - 0.72267079353333 - 0.00065994262695312
+dbtime:677 - 0.23873376846313 - 0 - 0
+error:No sku info found for record #212
+itime:213 - 0.72349286079407 - 0.00072503089904785
+dbtime:677 - 0.23873376846313 - 0 - 0
+itime:214 - 0.7404158115387 - 0.016817808151245
+dbtime:698 - 0.24538421630859 - 0.006650447845459 - 21
+error:No sku info found for record #214
+itime:215 - 0.74119591712952 - 0.0006721019744873
+dbtime:698 - 0.24538421630859 - 0 - 0
+error:No sku info found for record #215
+itime:216 - 0.74195098876953 - 0.00066018104553223
+dbtime:698 - 0.24538421630859 - 0 - 0
+error:No sku info found for record #216
+itime:217 - 0.74269795417786 - 0.00065493583679199
+dbtime:698 - 0.24538421630859 - 0 - 0
+error:No sku info found for record #217
+itime:218 - 0.74343681335449 - 0.00064587593078613
+dbtime:698 - 0.24538421630859 - 0 - 0
+error:No sku info found for record #218
+itime:219 - 0.74419283866882 - 0.00065088272094727
+dbtime:698 - 0.24538421630859 - 0 - 0
+error:No sku info found for record #219
+itime:220 - 0.74502182006836 - 0.00073599815368652
+dbtime:698 - 0.24538421630859 - 0 - 0
+itime:221 - 0.76220893859863 - 0.017094135284424
+dbtime:719 - 0.25235509872437 - 0.0069708824157715 - 21
+error:No sku info found for record #221
+itime:222 - 0.76298785209656 - 0.00066804885864258
+dbtime:719 - 0.25235509872437 - 0 - 0
+error:No sku info found for record #222
+itime:223 - 0.76373600959778 - 0.00065302848815918
+dbtime:719 - 0.25235509872437 - 0 - 0
+error:No sku info found for record #223
+itime:224 - 0.7644739151001 - 0.00064301490783691
+dbtime:719 - 0.25235509872437 - 0 - 0
+error:No sku info found for record #224
+itime:225 - 0.76522088050842 - 0.00065398216247559
+dbtime:719 - 0.25235509872437 - 0 - 0
+error:No sku info found for record #225
+itime:226 - 0.76597785949707 - 0.00066304206848145
+dbtime:719 - 0.25235509872437 - 0 - 0
+error:No sku info found for record #226
+itime:227 - 0.76677680015564 - 0.00070381164550781
+dbtime:719 - 0.25235509872437 - 0 - 0
+itime:228 - 0.78216099739075 - 0.015289068222046
+dbtime:738 - 0.25771379470825 - 0.0053586959838867 - 19
+error:No sku info found for record #228
+itime:229 - 0.7829418182373 - 0.00067281723022461
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #229
+itime:230 - 0.78369379043579 - 0.00065779685974121
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #230
+itime:231 - 0.78443789482117 - 0.00065088272094727
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #231
+itime:232 - 0.78518486022949 - 0.0006558895111084
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #232
+itime:233 - 0.78594183921814 - 0.00066494941711426
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #233
+itime:234 - 0.78668999671936 - 0.00065517425537109
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #234
+itime:235 - 0.78743100166321 - 0.00064802169799805
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #235
+itime:236 - 0.78817892074585 - 0.00065708160400391
+dbtime:738 - 0.25771379470825 - 0 - 0
+error:No sku info found for record #236
+itime:237 - 0.78900480270386 - 0.00073480606079102
+dbtime:738 - 0.25771379470825 - 0 - 0
+itime:238 - 0.80594396591187 - 0.016847133636475
+dbtime:759 - 0.26437616348267 - 0.0066623687744141 - 21
+error:No sku info found for record #238
+itime:239 - 0.80671501159668 - 0.00065803527832031
+dbtime:759 - 0.26437616348267 - 0 - 0
+error:No sku info found for record #239
+itime:240 - 0.80745697021484 - 0.00064706802368164
+dbtime:759 - 0.26437616348267 - 0 - 0
+error:No sku info found for record #240
+itime:241 - 0.80819988250732 - 0.00065088272094727
+dbtime:759 - 0.26437616348267 - 0 - 0
+error:No sku info found for record #241
+itime:242 - 0.80895090103149 - 0.00065994262695312
+dbtime:759 - 0.26437616348267 - 0 - 0
+error:No sku info found for record #242
+itime:243 - 0.80970501899719 - 0.00066018104553223
+dbtime:759 - 0.26437616348267 - 0 - 0
+error:No sku info found for record #243
+itime:244 - 0.81052088737488 - 0.00072288513183594
+dbtime:759 - 0.26437616348267 - 0 - 0
+itime:245 - 0.82644295692444 - 0.015815019607544
+dbtime:780 - 0.27004885673523 - 0.0056726932525635 - 21
+error:No sku info found for record #245
+itime:246 - 0.82720899581909 - 0.00066018104553223
+dbtime:780 - 0.27004885673523 - 0 - 0
+error:No sku info found for record #246
+itime:247 - 0.82796192169189 - 0.00066113471984863
+dbtime:780 - 0.27004885673523 - 0 - 0
+error:No sku info found for record #247
+itime:248 - 0.82871198654175 - 0.0006561279296875
+dbtime:780 - 0.27004885673523 - 0 - 0
+error:No sku info found for record #248
+itime:249 - 0.8294529914856 - 0.00064802169799805
+dbtime:780 - 0.27004885673523 - 0 - 0
+error:No sku info found for record #249
+itime:250 - 0.83019495010376 - 0.00064992904663086
+dbtime:780 - 0.27004885673523 - 0 - 0
+error:No sku info found for record #250
+itime:251 - 0.83102679252625 - 0.00073981285095215
+dbtime:780 - 0.27004885673523 - 0 - 0
+itime:252 - 0.84700894355774 - 0.015877962112427
+dbtime:801 - 0.27585411071777 - 0.0058052539825439 - 21
+error:No sku info found for record #252
+itime:253 - 0.84778189659119 - 0.00066494941711426
+dbtime:801 - 0.27585411071777 - 0 - 0
+error:No sku info found for record #253
+itime:254 - 0.8485209941864 - 0.00064611434936523
+dbtime:801 - 0.27585411071777 - 0 - 0
+error:No sku info found for record #254
+itime:255 - 0.84927201271057 - 0.00064611434936523
+dbtime:801 - 0.27585411071777 - 0 - 0
+error:No sku info found for record #255
+itime:256 - 0.85001993179321 - 0.0006561279296875
+dbtime:801 - 0.27585411071777 - 0 - 0
+error:No sku info found for record #256
+itime:257 - 0.85076999664307 - 0.00065803527832031
+dbtime:801 - 0.27585411071777 - 0 - 0
+error:No sku info found for record #257
+itime:258 - 0.85159182548523 - 0.00072884559631348
+dbtime:801 - 0.27585411071777 - 0 - 0
+itime:259 - 0.86745095252991 - 0.015766143798828
+dbtime:822 - 0.28142380714417 - 0.0055696964263916 - 21
+error:No sku info found for record #259
+itime:260 - 0.86822485923767 - 0.00066399574279785
+dbtime:822 - 0.28142380714417 - 0 - 0
+error:No sku info found for record #260
+itime:261 - 0.86897778511047 - 0.00065898895263672
+dbtime:822 - 0.28142380714417 - 0 - 0
+error:No sku info found for record #261
+itime:262 - 0.86971783638 - 0.00064587593078613
+dbtime:822 - 0.28142380714417 - 0 - 0
+error:No sku info found for record #262
+itime:263 - 0.8704559803009 - 0.00064301490783691
+dbtime:822 - 0.28142380714417 - 0 - 0
+error:No sku info found for record #263
+itime:264 - 0.87119793891907 - 0.00064802169799805
+dbtime:822 - 0.28142380714417 - 0 - 0
+error:No sku info found for record #264
+itime:265 - 0.87202286720276 - 0.0007319450378418
+dbtime:822 - 0.28142380714417 - 0 - 0
+itime:266 - 0.88788390159607 - 0.015767097473145
+dbtime:843 - 0.28704118728638 - 0.0056173801422119 - 21
+error:No sku info found for record #266
+itime:267 - 0.8886559009552 - 0.00066399574279785
+dbtime:843 - 0.28704118728638 - 0 - 0
+error:No sku info found for record #267
+itime:268 - 0.88939380645752 - 0.00064396858215332
+dbtime:843 - 0.28704118728638 - 0 - 0
+error:No sku info found for record #268
+itime:269 - 0.89013886451721 - 0.00065302848815918
+dbtime:843 - 0.28704118728638 - 0 - 0
+error:No sku info found for record #269
+itime:270 - 0.89088582992554 - 0.00065493583679199
+dbtime:843 - 0.28704118728638 - 0 - 0
+error:No sku info found for record #270
+itime:271 - 0.8916289806366 - 0.00065112113952637
+dbtime:843 - 0.28704118728638 - 0 - 0
+error:No sku info found for record #271
+itime:272 - 0.89245891571045 - 0.00072193145751953
+dbtime:843 - 0.28704118728638 - 0 - 0
+itime:273 - 0.91025996208191 - 0.017709016799927
+dbtime:864 - 0.29460120201111 - 0.0075600147247314 - 21
+error:No sku info found for record #273
+itime:274 - 0.91103982925415 - 0.00066900253295898
+dbtime:864 - 0.29460120201111 - 0 - 0
+error:No sku info found for record #274
+itime:275 - 0.91179585456848 - 0.00066304206848145
+dbtime:864 - 0.29460120201111 - 0 - 0
+error:No sku info found for record #275
+itime:276 - 0.91253590583801 - 0.00064611434936523
+dbtime:864 - 0.29460120201111 - 0 - 0
+error:No sku info found for record #276
+itime:277 - 0.91328978538513 - 0.00064778327941895
+dbtime:864 - 0.29460120201111 - 0 - 0
+error:No sku info found for record #277
+itime:278 - 0.91404581069946 - 0.00066089630126953
+dbtime:864 - 0.29460120201111 - 0 - 0
+error:No sku info found for record #278
+itime:279 - 0.91487193107605 - 0.00073409080505371
+dbtime:864 - 0.29460120201111 - 0 - 0
+itime:280 - 0.93062400817871 - 0.015660047531128
+dbtime:885 - 0.30022048950195 - 0.0056192874908447 - 21
+error:No sku info found for record #280
+itime:281 - 0.93138980865479 - 0.0006568431854248
+dbtime:885 - 0.30022048950195 - 0 - 0
+error:No sku info found for record #281
+itime:282 - 0.9321448802948 - 0.00065898895263672
+dbtime:885 - 0.30022048950195 - 0 - 0
+error:No sku info found for record #282
+itime:283 - 0.93289685249329 - 0.00065994262695312
+dbtime:885 - 0.30022048950195 - 0 - 0
+error:No sku info found for record #283
+itime:284 - 0.93365478515625 - 0.00066494941711426
+dbtime:885 - 0.30022048950195 - 0 - 0
+error:No sku info found for record #284
+itime:285 - 0.9343957901001 - 0.00064682960510254
+dbtime:885 - 0.30022048950195 - 0 - 0
+error:No sku info found for record #285
+itime:286 - 0.93522500991821 - 0.00073599815368652
+dbtime:885 - 0.30022048950195 - 0 - 0
+itime:287 - 0.95106983184814 - 0.015753030776978
+dbtime:906 - 0.30588603019714 - 0.0056655406951904 - 21
+error:No sku info found for record #287
+itime:288 - 0.95185780525208 - 0.00067687034606934
+dbtime:906 - 0.30588603019714 - 0 - 0
+error:No sku info found for record #288
+itime:289 - 0.95261478424072 - 0.00066280364990234
+dbtime:906 - 0.30588603019714 - 0 - 0
+error:No sku info found for record #289
+itime:290 - 0.95351600646973 - 0.0008080005645752
+dbtime:906 - 0.30588603019714 - 0 - 0
+error:No sku info found for record #290
+itime:291 - 0.95426988601685 - 0.00064492225646973
+dbtime:906 - 0.30588603019714 - 0 - 0
+error:No sku info found for record #291
+itime:292 - 0.95502400398254 - 0.00066113471984863
+dbtime:906 - 0.30588603019714 - 0 - 0
+error:No sku info found for record #292
+itime:293 - 0.95584797859192 - 0.0007321834564209
+dbtime:906 - 0.30588603019714 - 0 - 0
+itime:294 - 0.97296190261841 - 0.017021894454956
+dbtime:927 - 0.31278729438782 - 0.0069012641906738 - 21
+error:No sku info found for record #294
+itime:295 - 0.97376298904419 - 0.00069403648376465
+dbtime:927 - 0.31278729438782 - 0 - 0
+error:No sku info found for record #295
+itime:296 - 0.97450685501099 - 0.00064706802368164
+dbtime:927 - 0.31278729438782 - 0 - 0
+error:No sku info found for record #296
+itime:297 - 0.97525596618652 - 0.00064396858215332
+dbtime:927 - 0.31278729438782 - 0 - 0
+error:No sku info found for record #297
+itime:298 - 0.97601079940796 - 0.00066280364990234
+dbtime:927 - 0.31278729438782 - 0 - 0
+error:No sku info found for record #298
+itime:299 - 0.97675395011902 - 0.00065207481384277
+dbtime:927 - 0.31278729438782 - 0 - 0
+error:No sku info found for record #299
+itime:300 - 0.97755980491638 - 0.00071191787719727
+dbtime:927 - 0.31278729438782 - 0 - 0
+itime:301 - 0.99480795860291 - 0.017145156860352
+dbtime:948 - 0.31931948661804 - 0.0065321922302246 - 21
+error:No sku info found for record #301
+itime:302 - 0.99559497833252 - 0.00067806243896484
+dbtime:948 - 0.31931948661804 - 0 - 0
+error:No sku info found for record #302
+itime:303 - 0.99634289741516 - 0.00064897537231445
+dbtime:948 - 0.31931948661804 - 0 - 0
+error:No sku info found for record #303
+itime:304 - 0.99711084365845 - 0.00067591667175293
+dbtime:948 - 0.31931948661804 - 0 - 0
+error:No sku info found for record #304
+itime:305 - 0.99786186218262 - 0.00065994262695312
+dbtime:948 - 0.31931948661804 - 0 - 0
+error:No sku info found for record #305
+itime:306 - 0.99861001968384 - 0.00065517425537109
+dbtime:948 - 0.31931948661804 - 0 - 0
+error:No sku info found for record #306
+itime:307 - 0.99940586090088 - 0.00070285797119141
+dbtime:948 - 0.31931948661804 - 0 - 0
+itime:308 - 1.0147998332977 - 0.015300989151001
+dbtime:967 - 0.32459187507629 - 0.005272388458252 - 19
+error:No sku info found for record #308
+itime:309 - 1.0155808925629 - 0.0006709098815918
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #309
+itime:310 - 1.0163328647614 - 0.00065803527832031
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #310
+itime:311 - 1.0170888900757 - 0.00066399574279785
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #311
+itime:312 - 1.0178518295288 - 0.0006709098815918
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #312
+itime:313 - 1.0186100006104 - 0.00066614151000977
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #313
+itime:314 - 1.0193538665771 - 0.00064992904663086
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #314
+itime:315 - 1.0201089382172 - 0.00066304206848145
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #315
+itime:316 - 1.0209147930145 - 0.00071096420288086
+dbtime:967 - 0.32459187507629 - 0 - 0
+error:No sku info found for record #316
+itime:317 - 1.0217349529266 - 0.00071907043457031
+dbtime:967 - 0.32459187507629 - 0 - 0
+itime:318 - 1.0383138656616 - 0.016485929489136
+dbtime:988 - 0.33086895942688 - 0.0062770843505859 - 21
+error:No sku info found for record #318
+itime:319 - 1.0390908718109 - 0.00066804885864258
+dbtime:988 - 0.33086895942688 - 0 - 0
+error:No sku info found for record #319
+itime:320 - 1.0398519039154 - 0.00066804885864258
+dbtime:988 - 0.33086895942688 - 0 - 0
+error:No sku info found for record #320
+itime:321 - 1.040599822998 - 0.00065493583679199
+dbtime:988 - 0.33086895942688 - 0 - 0
+error:No sku info found for record #321
+itime:322 - 1.0413339138031 - 0.00064206123352051
+dbtime:988 - 0.33086895942688 - 0 - 0
+error:No sku info found for record #322
+itime:323 - 1.042083978653 - 0.00065803527832031
+dbtime:988 - 0.33086895942688 - 0 - 0
+error:No sku info found for record #323
+itime:324 - 1.0428988933563 - 0.00072288513183594
+dbtime:988 - 0.33086895942688 - 0 - 0
+itime:325 - 1.0589468479156 - 0.015955924987793
+dbtime:1009 - 0.33670902252197 - 0.0058400630950928 - 21
+error:No sku info found for record #325
+itime:326 - 1.0597147941589 - 0.00065779685974121
+dbtime:1009 - 0.33670902252197 - 0 - 0
+error:No sku info found for record #326
+itime:327 - 1.0604548454285 - 0.00064587593078613
+dbtime:1009 - 0.33670902252197 - 0 - 0
+error:No sku info found for record #327
+itime:328 - 1.0611979961395 - 0.00065112113952637
+dbtime:1009 - 0.33670902252197 - 0 - 0
+error:No sku info found for record #328
+itime:329 - 1.0619478225708 - 0.0006568431854248
+dbtime:1009 - 0.33670902252197 - 0 - 0
+error:No sku info found for record #329
+itime:330 - 1.0627059936523 - 0.00066399574279785
+dbtime:1009 - 0.33670902252197 - 0 - 0
+error:No sku info found for record #330
+itime:331 - 1.0635018348694 - 0.00070285797119141
+dbtime:1009 - 0.33670902252197 - 0 - 0
+itime:332 - 1.0794408321381 - 0.015833854675293
+dbtime:1030 - 0.34242105484009 - 0.0057120323181152 - 21
+error:No sku info found for record #332
+itime:333 - 1.080207824707 - 0.00065898895263672
+dbtime:1030 - 0.34242105484009 - 0 - 0
+error:No sku info found for record #333
+itime:334 - 1.0809609889984 - 0.00066018104553223
+dbtime:1030 - 0.34242105484009 - 0 - 0
+error:No sku info found for record #334
+itime:335 - 1.0817129611969 - 0.00065994262695312
+dbtime:1030 - 0.34242105484009 - 0 - 0
+error:No sku info found for record #335
+itime:336 - 1.0824558734894 - 0.00064802169799805
+dbtime:1030 - 0.34242105484009 - 0 - 0
+error:No sku info found for record #336
+itime:337 - 1.0832087993622 - 0.00066089630126953
+dbtime:1030 - 0.34242105484009 - 0 - 0
+error:No sku info found for record #337
+itime:338 - 1.0840218067169 - 0.00072097778320312
+dbtime:1030 - 0.34242105484009 - 0 - 0
+itime:339 - 1.1007578372955 - 0.016640901565552
+dbtime:1051 - 0.34889316558838 - 0.006472110748291 - 21
+error:No sku info found for record #339
+itime:340 - 1.1015229225159 - 0.00065708160400391
+dbtime:1051 - 0.34889316558838 - 0 - 0
+error:No sku info found for record #340
+itime:341 - 1.1022799015045 - 0.00064992904663086
+dbtime:1051 - 0.34889316558838 - 0 - 0
+error:No sku info found for record #341
+itime:342 - 1.1030328273773 - 0.00066089630126953
+dbtime:1051 - 0.34889316558838 - 0 - 0
+error:No sku info found for record #342
+itime:343 - 1.103786945343 - 0.00066208839416504
+dbtime:1051 - 0.34889316558838 - 0 - 0
+error:No sku info found for record #343
+itime:344 - 1.1045269966125 - 0.00064802169799805
+dbtime:1051 - 0.34889316558838 - 0 - 0
+error:No sku info found for record #344
+itime:345 - 1.1053450107574 - 0.00070619583129883
+dbtime:1051 - 0.34889316558838 - 0 - 0
+itime:346 - 1.1213829517365 - 0.015947103500366
+dbtime:1072 - 0.35471892356873 - 0.0058257579803467 - 21
+error:No sku info found for record #346
+itime:347 - 1.1221628189087 - 0.00066995620727539
+dbtime:1072 - 0.35471892356873 - 0 - 0
+error:No sku info found for record #347
+itime:348 - 1.1229169368744 - 0.00066113471984863
+dbtime:1072 - 0.35471892356873 - 0 - 0
+error:No sku info found for record #348
+itime:349 - 1.123664855957 - 0.0006558895111084
+dbtime:1072 - 0.35471892356873 - 0 - 0
+error:No sku info found for record #349
+itime:350 - 1.1244158744812 - 0.00064802169799805
+dbtime:1072 - 0.35471892356873 - 0 - 0
+error:No sku info found for record #350
+itime:351 - 1.1251678466797 - 0.00065994262695312
+dbtime:1072 - 0.35471892356873 - 0 - 0
+error:No sku info found for record #351
+itime:352 - 1.1259808540344 - 0.00071907043457031
+dbtime:1072 - 0.35471892356873 - 0 - 0
+itime:353 - 1.1425969600677 - 0.016524076461792
+dbtime:1093 - 0.36101722717285 - 0.006298303604126 - 21
+error:No sku info found for record #353
+itime:354 - 1.1433589458466 - 0.00065398216247559
+dbtime:1093 - 0.36101722717285 - 0 - 0
+error:No sku info found for record #354
+itime:355 - 1.1441099643707 - 0.00065803527832031
+dbtime:1093 - 0.36101722717285 - 0 - 0
+error:No sku info found for record #355
+itime:356 - 1.1448619365692 - 0.00065994262695312
+dbtime:1093 - 0.36101722717285 - 0 - 0
+error:No sku info found for record #356
+itime:357 - 1.1456098556519 - 0.00065398216247559
+dbtime:1093 - 0.36101722717285 - 0 - 0
+error:No sku info found for record #357
+itime:358 - 1.1463479995728 - 0.00064516067504883
+dbtime:1093 - 0.36101722717285 - 0 - 0
+error:No sku info found for record #358
+itime:359 - 1.1471538543701 - 0.00071406364440918
+dbtime:1093 - 0.36101722717285 - 0 - 0
+itime:360 - 1.1629509925842 - 0.015705108642578
+dbtime:1114 - 0.36665463447571 - 0.0056374073028564 - 21
+error:No sku info found for record #360
+itime:361 - 1.163715839386 - 0.0006568431854248
+dbtime:1114 - 0.36665463447571 - 0 - 0
+error:No sku info found for record #361
+itime:362 - 1.1644577980042 - 0.00064587593078613
+dbtime:1114 - 0.36665463447571 - 0 - 0
+error:No sku info found for record #362
+itime:363 - 1.1651999950409 - 0.00064802169799805
+dbtime:1114 - 0.36665463447571 - 0 - 0
+error:No sku info found for record #363
+itime:364 - 1.1659469604492 - 0.00065398216247559
+dbtime:1114 - 0.36665463447571 - 0 - 0
+error:No sku info found for record #364
+itime:365 - 1.1666920185089 - 0.00065302848815918
+dbtime:1114 - 0.36665463447571 - 0 - 0
+error:No sku info found for record #365
+itime:366 - 1.1675097942352 - 0.00071001052856445
+dbtime:1114 - 0.36665463447571 - 0 - 0
+itime:367 - 1.183336019516 - 0.015720129013062
+dbtime:1135 - 0.37225914001465 - 0.0056045055389404 - 21
+error:No sku info found for record #367
+itime:368 - 1.1841118335724 - 0.00066685676574707
+dbtime:1135 - 0.37225914001465 - 0 - 0
+error:No sku info found for record #368
+itime:369 - 1.1848638057709 - 0.00065994262695312
+dbtime:1135 - 0.37225914001465 - 0 - 0
+error:No sku info found for record #369
+itime:370 - 1.1856138706207 - 0.00065493583679199
+dbtime:1135 - 0.37225914001465 - 0 - 0
+error:No sku info found for record #370
+itime:371 - 1.1863539218903 - 0.00064706802368164
+dbtime:1135 - 0.37225914001465 - 0 - 0
+error:No sku info found for record #371
+itime:372 - 1.1871099472046 - 0.00066399574279785
+dbtime:1135 - 0.37225914001465 - 0 - 0
+error:No sku info found for record #372
+itime:373 - 1.1879198551178 - 0.0007178783416748
+dbtime:1135 - 0.37225914001465 - 0 - 0
+itime:374 - 1.2049648761749 - 0.016951084136963
+dbtime:1156 - 0.37869882583618 - 0.0064396858215332 - 21
+error:No sku info found for record #374
+itime:375 - 1.2057359218597 - 0.00066208839416504
+dbtime:1156 - 0.37869882583618 - 0 - 0
+error:No sku info found for record #375
+itime:376 - 1.2064797878265 - 0.00064992904663086
+dbtime:1156 - 0.37869882583618 - 0 - 0
+error:No sku info found for record #376
+itime:377 - 1.2072379589081 - 0.00065398216247559
+dbtime:1156 - 0.37869882583618 - 0 - 0
+error:No sku info found for record #377
+itime:378 - 1.2079908847809 - 0.00066208839416504
+dbtime:1156 - 0.37869882583618 - 0 - 0
+error:No sku info found for record #378
+itime:379 - 1.2087318897247 - 0.00064897537231445
+dbtime:1156 - 0.37869882583618 - 0 - 0
+error:No sku info found for record #379
+itime:380 - 1.2095308303833 - 0.00070595741271973
+dbtime:1156 - 0.37869882583618 - 0 - 0
+itime:381 - 1.2258589267731 - 0.016222953796387
+dbtime:1177 - 0.38469791412354 - 0.0059990882873535 - 21
+error:No sku info found for record #381
+itime:382 - 1.2266459465027 - 0.00067710876464844
+dbtime:1177 - 0.38469791412354 - 0 - 0
+error:No sku info found for record #382
+itime:383 - 1.2273938655853 - 0.00065207481384277
+dbtime:1177 - 0.38469791412354 - 0 - 0
+error:No sku info found for record #383
+itime:384 - 1.2281458377838 - 0.00065803527832031
+dbtime:1177 - 0.38469791412354 - 0 - 0
+error:No sku info found for record #384
+itime:385 - 1.2289009094238 - 0.00065994262695312
+dbtime:1177 - 0.38469791412354 - 0 - 0
+error:No sku info found for record #385
+itime:386 - 1.2296578884125 - 0.00066208839416504
+dbtime:1177 - 0.38469791412354 - 0 - 0
+error:No sku info found for record #386
+itime:387 - 1.2304608821869 - 0.00070786476135254
+dbtime:1177 - 0.38469791412354 - 0 - 0
+itime:388 - 1.2479588985443 - 0.017404079437256
+dbtime:1198 - 0.39190363883972 - 0.0072057247161865 - 21
+error:No sku info found for record #388
+itime:389 - 1.2487289905548 - 0.00066018104553223
+dbtime:1198 - 0.39190363883972 - 0 - 0
+error:No sku info found for record #389
+itime:390 - 1.249470949173 - 0.00064802169799805
+dbtime:1198 - 0.39190363883972 - 0 - 0
+error:No sku info found for record #390
+itime:391 - 1.2502229213715 - 0.00065898895263672
+dbtime:1198 - 0.39190363883972 - 0 - 0
+error:No sku info found for record #391
+itime:392 - 1.2509779930115 - 0.00066304206848145
+dbtime:1198 - 0.39190363883972 - 0 - 0
+error:No sku info found for record #392
+itime:393 - 1.2517199516296 - 0.00064802169799805
+dbtime:1198 - 0.39190363883972 - 0 - 0
+error:No sku info found for record #393
+itime:394 - 1.2525207996368 - 0.00070786476135254
+dbtime:1198 - 0.39190363883972 - 0 - 0
+itime:395 - 1.2699608802795 - 0.017334938049316
+dbtime:1219 - 0.39900946617126 - 0.007105827331543 - 21
+error:No sku info found for record #395
+itime:396 - 1.2707288265228 - 0.00066089630126953
+dbtime:1219 - 0.39900946617126 - 0 - 0
+error:No sku info found for record #396
+itime:397 - 1.2714719772339 - 0.00064897537231445
+dbtime:1219 - 0.39900946617126 - 0 - 0
+error:No sku info found for record #397
+itime:398 - 1.2722218036652 - 0.00065898895263672
+dbtime:1219 - 0.39900946617126 - 0 - 0
+error:No sku info found for record #398
+itime:399 - 1.2729778289795 - 0.00066304206848145
+dbtime:1219 - 0.39900946617126 - 0 - 0
+error:No sku info found for record #399
+itime:400 - 1.2737219333649 - 0.00064992904663086
+dbtime:1219 - 0.39900946617126 - 0 - 0
+error:No sku info found for record #400
+itime:401 - 1.2745230197906 - 0.00070714950561523
+dbtime:1219 - 0.39900946617126 - 0 - 0
+itime:402 - 1.2917258739471 - 0.017096996307373
+dbtime:1240 - 0.40591263771057 - 0.0069031715393066 - 21
+error:No sku info found for record #402
+itime:403 - 1.2924919128418 - 0.00065803527832031
+dbtime:1240 - 0.40591263771057 - 0 - 0
+error:No sku info found for record #403
+itime:404 - 1.2932479381561 - 0.00065112113952637
+dbtime:1240 - 0.40591263771057 - 0 - 0
+error:No sku info found for record #404
+itime:405 - 1.2941298484802 - 0.00078988075256348
+dbtime:1240 - 0.40591263771057 - 0 - 0
+error:No sku info found for record #405
+itime:406 - 1.2951009273529 - 0.00083398818969727
+dbtime:1240 - 0.40591263771057 - 0 - 0
+error:No sku info found for record #406
+itime:407 - 1.2958538532257 - 0.0006568431854248
+dbtime:1240 - 0.40591263771057 - 0 - 0
+error:No sku info found for record #407
+itime:408 - 1.2966539859772 - 0.00070619583129883
+dbtime:1240 - 0.40591263771057 - 0 - 0
+itime:409 - 1.314857006073 - 0.018098115921021
+dbtime:1261 - 0.41379928588867 - 0.0078866481781006 - 21
+error:No sku info found for record #409
+itime:410 - 1.3156349658966 - 0.00066804885864258
+dbtime:1261 - 0.41379928588867 - 0 - 0
+error:No sku info found for record #410
+itime:411 - 1.3163759708405 - 0.00064706802368164
+dbtime:1261 - 0.41379928588867 - 0 - 0
+error:No sku info found for record #411
+itime:412 - 1.3171238899231 - 0.00065493583679199
+dbtime:1261 - 0.41379928588867 - 0 - 0
+error:No sku info found for record #412
+itime:413 - 1.3178758621216 - 0.00065994262695312
+dbtime:1261 - 0.41379928588867 - 0 - 0
+error:No sku info found for record #413
+itime:414 - 1.3186349868774 - 0.00066518783569336
+dbtime:1261 - 0.41379928588867 - 0 - 0
+error:No sku info found for record #414
+itime:415 - 1.319433927536 - 0.00069808959960938
+dbtime:1261 - 0.41379928588867 - 0 - 0
+itime:416 - 1.3348050117493 - 0.015277147293091
+dbtime:1280 - 0.41909289360046 - 0.005293607711792 - 19
+error:No sku info found for record #416
+itime:417 - 1.3355829715729 - 0.00066804885864258
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #417
+itime:418 - 1.3363318443298 - 0.00065398216247559
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #418
+itime:419 - 1.3370850086212 - 0.00066018104553223
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #419
+itime:420 - 1.3378469944 - 0.00066900253295898
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #420
+itime:421 - 1.3385949134827 - 0.00065708160400391
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #421
+itime:422 - 1.3393518924713 - 0.00066399574279785
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #422
+itime:423 - 1.3401079177856 - 0.00066399574279785
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #423
+itime:424 - 1.3408648967743 - 0.00066494941711426
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #424
+itime:425 - 1.3416168689728 - 0.00065994262695312
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #425
+itime:426 - 1.3423609733582 - 0.00065016746520996
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #426
+itime:427 - 1.3431189060211 - 0.00066590309143066
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #427
+itime:428 - 1.3438718318939 - 0.00066184997558594
+dbtime:1280 - 0.41909289360046 - 0 - 0
+error:No sku info found for record #428
+itime:429 - 1.3446710109711 - 0.00070810317993164
+dbtime:1280 - 0.41909289360046 - 0 - 0
+itime:430 - 1.3615829944611 - 0.016819000244141
+dbtime:1301 - 0.42579007148743 - 0.0066971778869629 - 21
+error:No sku info found for record #430
+itime:431 - 1.3623487949371 - 0.0006568431854248
+dbtime:1301 - 0.42579007148743 - 0 - 0
+error:No sku info found for record #431
+itime:432 - 1.3631060123444 - 0.00066208839416504
+dbtime:1301 - 0.42579007148743 - 0 - 0
+error:No sku info found for record #432
+itime:433 - 1.3638589382172 - 0.00066113471984863
+dbtime:1301 - 0.42579007148743 - 0 - 0
+error:No sku info found for record #433
+itime:434 - 1.364609003067 - 0.00065803527832031
+dbtime:1301 - 0.42579007148743 - 0 - 0
+error:No sku info found for record #434
+itime:435 - 1.3653500080109 - 0.00064802169799805
+dbtime:1301 - 0.42579007148743 - 0 - 0
+error:No sku info found for record #435
+itime:436 - 1.3661580085754 - 0.00071620941162109
+dbtime:1301 - 0.42579007148743 - 0 - 0
+itime:437 - 1.3832149505615 - 0.01696515083313
+dbtime:1322 - 0.43261384963989 - 0.0068237781524658 - 21
+error:No sku info found for record #437
+itime:438 - 1.3839938640594 - 0.0006709098815918
+dbtime:1322 - 0.43261384963989 - 0 - 0
+error:No sku info found for record #438
+itime:439 - 1.3847479820251 - 0.00065898895263672
+dbtime:1322 - 0.43261384963989 - 0 - 0
+error:No sku info found for record #439
+itime:440 - 1.3854899406433 - 0.00064897537231445
+dbtime:1322 - 0.43261384963989 - 0 - 0
+error:No sku info found for record #440
+itime:441 - 1.3862438201904 - 0.00064897537231445
+dbtime:1322 - 0.43261384963989 - 0 - 0
+error:No sku info found for record #441
+itime:442 - 1.3870038986206 - 0.00066709518432617
+dbtime:1322 - 0.43261384963989 - 0 - 0
+error:No sku info found for record #442
+itime:443 - 1.3878037929535 - 0.00070786476135254
+dbtime:1322 - 0.43261384963989 - 0 - 0
+itime:444 - 1.4048819541931 - 0.016984939575195
+dbtime:1343 - 0.43943381309509 - 0.0068199634552002 - 21
+error:No sku info found for record #444
+itime:445 - 1.4056549072266 - 0.00066494941711426
+dbtime:1343 - 0.43943381309509 - 0 - 0
+error:No sku info found for record #445
+itime:446 - 1.4063968658447 - 0.00064706802368164
+dbtime:1343 - 0.43943381309509 - 0 - 0
+error:No sku info found for record #446
+itime:447 - 1.4071438312531 - 0.00065493583679199
+dbtime:1343 - 0.43943381309509 - 0 - 0
+error:No sku info found for record #447
+itime:448 - 1.4079058170319 - 0.00065779685974121
+dbtime:1343 - 0.43943381309509 - 0 - 0
+error:No sku info found for record #448
+itime:449 - 1.408656835556 - 0.00065994262695312
+dbtime:1343 - 0.43943381309509 - 0 - 0
+error:No sku info found for record #449
+itime:450 - 1.4094488620758 - 0.00069594383239746
+dbtime:1343 - 0.43943381309509 - 0 - 0
+itime:451 - 1.4281048774719 - 0.018563985824585
+dbtime:1364 - 0.44775986671448 - 0.0083260536193848 - 21
+error:No sku info found for record #451
+itime:452 - 1.4288849830627 - 0.00067019462585449
+dbtime:1364 - 0.44775986671448 - 0 - 0
+error:No sku info found for record #452
+itime:453 - 1.4296398162842 - 0.00066184997558594
+dbtime:1364 - 0.44775986671448 - 0 - 0
+error:No sku info found for record #453
+itime:454 - 1.4303820133209 - 0.00064802169799805
+dbtime:1364 - 0.44775986671448 - 0 - 0
+error:No sku info found for record #454
+itime:455 - 1.431135892868 - 0.00066089630126953
+dbtime:1364 - 0.44775986671448 - 0 - 0
+error:No sku info found for record #455
+itime:456 - 1.431893825531 - 0.00066590309143066
+dbtime:1364 - 0.44775986671448 - 0 - 0
+error:No sku info found for record #456
+itime:457 - 1.4327008724213 - 0.00071597099304199
+dbtime:1364 - 0.44775986671448 - 0 - 0
+itime:458 - 1.4500708580017 - 0.017277002334595
+dbtime:1385 - 0.45472145080566 - 0.0069615840911865 - 21
+error:No sku info found for record #458
+itime:459 - 1.4508578777313 - 0.00068092346191406
+dbtime:1385 - 0.45472145080566 - 0 - 0
+error:No sku info found for record #459
+itime:460 - 1.4516179561615 - 0.00066709518432617
+dbtime:1385 - 0.45472145080566 - 0 - 0
+error:No sku info found for record #460
+itime:461 - 1.4523618221283 - 0.00065088272094727
+dbtime:1385 - 0.45472145080566 - 0 - 0
+error:No sku info found for record #461
+itime:462 - 1.453293800354 - 0.0008389949798584
+dbtime:1385 - 0.45472145080566 - 0 - 0
+error:No sku info found for record #462
+itime:463 - 1.4540469646454 - 0.00066113471984863
+dbtime:1385 - 0.45472145080566 - 0 - 0
+error:No sku info found for record #463
+itime:464 - 1.4548509120941 - 0.00071191787719727
+dbtime:1385 - 0.45472145080566 - 0 - 0
+itime:465 - 1.4719018936157 - 0.016957998275757
+dbtime:1406 - 0.46147322654724 - 0.0067517757415771 - 21
+error:No sku info found for record #465
+itime:466 - 1.4726798534393 - 0.00066804885864258
+dbtime:1406 - 0.46147322654724 - 0 - 0
+error:No sku info found for record #466
+itime:467 - 1.4734239578247 - 0.00065016746520996
+dbtime:1406 - 0.46147322654724 - 0 - 0
+error:No sku info found for record #467
+itime:468 - 1.4741728305817 - 0.0006568431854248
+dbtime:1406 - 0.46147322654724 - 0 - 0
+error:No sku info found for record #468
+itime:469 - 1.474928855896 - 0.00066184997558594
+dbtime:1406 - 0.46147322654724 - 0 - 0
+error:No sku info found for record #469
+itime:470 - 1.4756820201874 - 0.00066113471984863
+dbtime:1406 - 0.46147322654724 - 0 - 0
+error:No sku info found for record #470
+itime:471 - 1.4764738082886 - 0.00069880485534668
+dbtime:1406 - 0.46147322654724 - 0 - 0
+itime:472 - 1.4946429729462 - 0.01807713508606
+dbtime:1427 - 0.4692816734314 - 0.0078084468841553 - 21
+error:No sku info found for record #472
+itime:473 - 1.4954078197479 - 0.00064897537231445
+dbtime:1427 - 0.4692816734314 - 0 - 0
+error:No sku info found for record #473
+itime:474 - 1.4961719512939 - 0.0006711483001709
+dbtime:1427 - 0.4692816734314 - 0 - 0
+error:No sku info found for record #474
+itime:475 - 1.4969229698181 - 0.00065898895263672
+dbtime:1427 - 0.4692816734314 - 0 - 0
+error:No sku info found for record #475
+itime:476 - 1.4976630210876 - 0.00064802169799805
+dbtime:1427 - 0.4692816734314 - 0 - 0
+error:No sku info found for record #476
+itime:477 - 1.4984300136566 - 0.00065112113952637
+dbtime:1427 - 0.4692816734314 - 0 - 0
+error:No sku info found for record #477
+itime:478 - 1.4992308616638 - 0.00070905685424805
+dbtime:1427 - 0.4692816734314 - 0 - 0
+itime:479 - 1.5145897865295 - 0.015266895294189
+dbtime:1446 - 0.47462344169617 - 0.0053417682647705 - 19
+error:No sku info found for record #479
+itime:480 - 1.5153639316559 - 0.00066614151000977
+dbtime:1446 - 0.47462344169617 - 0 - 0
+error:No sku info found for record #480
+itime:481 - 1.5162370204926 - 0.00065422058105469
+dbtime:1446 - 0.47462344169617 - 0 - 0
+error:No sku info found for record #481
+itime:482 - 1.516991853714 - 0.00066184997558594
+dbtime:1446 - 0.47462344169617 - 0 - 0
+error:No sku info found for record #482
+itime:483 - 1.5177369117737 - 0.00065302848815918
+dbtime:1446 - 0.47462344169617 - 0 - 0
+error:No sku info found for record #483
+itime:484 - 1.5184788703918 - 0.00064802169799805
+dbtime:1446 - 0.47462344169617 - 0 - 0
+error:No sku info found for record #484
+itime:485 - 1.5192828178406 - 0.00069880485534668
+dbtime:1446 - 0.47462344169617 - 0 - 0
+itime:486 - 1.5353558063507 - 0.015980958938599
+dbtime:1467 - 0.48044276237488 - 0.0058193206787109 - 21
+error:No sku info found for record #486
+itime:487 - 1.5361299514771 - 0.00066494941711426
+dbtime:1467 - 0.48044276237488 - 0 - 0
+error:No sku info found for record #487
+itime:488 - 1.5368828773499 - 0.00065898895263672
+dbtime:1467 - 0.48044276237488 - 0 - 0
+error:No sku info found for record #488
+itime:489 - 1.5376288890839 - 0.00065493583679199
+dbtime:1467 - 0.48044276237488 - 0 - 0
+error:No sku info found for record #489
+itime:490 - 1.5383679866791 - 0.00064611434936523
+dbtime:1467 - 0.48044276237488 - 0 - 0
+error:No sku info found for record #490
+itime:491 - 1.5391178131104 - 0.00065779685974121
+dbtime:1467 - 0.48044276237488 - 0 - 0
+error:No sku info found for record #491
+itime:492 - 1.5399198532104 - 0.00070905685424805
+dbtime:1467 - 0.48044276237488 - 0 - 0
+itime:493 - 1.557315826416 - 0.0173020362854
+dbtime:1488 - 0.48757219314575 - 0.007129430770874 - 21
+error:No sku info found for record #493
+itime:494 - 1.5580928325653 - 0.00066900253295898
+dbtime:1488 - 0.48757219314575 - 0 - 0
+error:No sku info found for record #494
+itime:495 - 1.5588519573212 - 0.00066614151000977
+dbtime:1488 - 0.48757219314575 - 0 - 0
+error:No sku info found for record #495
+itime:496 - 1.5596008300781 - 0.0006558895111084
+dbtime:1488 - 0.48757219314575 - 0 - 0
+error:No sku info found for record #496
+itime:497 - 1.560338973999 - 0.00064516067504883
+dbtime:1488 - 0.48757219314575 - 0 - 0
+error:No sku info found for record #497
+itime:498 - 1.5610899925232 - 0.00065898895263672
+dbtime:1488 - 0.48757219314575 - 0 - 0
+error:No sku info found for record #498
+itime:499 - 1.5618989467621 - 0.0007171630859375
+dbtime:1488 - 0.48757219314575 - 0 - 0
+itime:500 - 1.5778799057007 - 0.015888929367065
+dbtime:1509 - 0.49329400062561 - 0.0057218074798584 - 21
+error:No sku info found for record #500
+itime:501 - 1.5786559581757 - 0.00066900253295898
+dbtime:1509 - 0.49329400062561 - 0 - 0
+error:No sku info found for record #501
+itime:502 - 1.5793948173523 - 0.00064587593078613
+dbtime:1509 - 0.49329400062561 - 0 - 0
+error:No sku info found for record #502
+itime:503 - 1.5801429748535 - 0.00065517425537109
+dbtime:1509 - 0.49329400062561 - 0 - 0
+error:No sku info found for record #503
+itime:504 - 1.5808939933777 - 0.00066018104553223
+dbtime:1509 - 0.49329400062561 - 0 - 0
+error:No sku info found for record #504
+itime:505 - 1.5816400051117 - 0.00065422058105469
+dbtime:1509 - 0.49329400062561 - 0 - 0
+error:No sku info found for record #505
+itime:506 - 1.5824279785156 - 0.00069499015808105
+dbtime:1509 - 0.49329400062561 - 0 - 0
+itime:507 - 1.5987370014191 - 0.016216039657593
+dbtime:1530 - 0.49929785728455 - 0.0060038566589355 - 21
+error:No sku info found for record #507
+itime:508 - 1.5995028018951 - 0.00065493583679199
+dbtime:1530 - 0.49929785728455 - 0 - 0
+error:No sku info found for record #508
+itime:509 - 1.6002559661865 - 0.00064802169799805
+dbtime:1530 - 0.49929785728455 - 0 - 0
+error:No sku info found for record #509
+itime:510 - 1.6010038852692 - 0.0006558895111084
+dbtime:1530 - 0.49929785728455 - 0 - 0
+error:No sku info found for record #510
+itime:511 - 1.6017489433289 - 0.00065302848815918
+dbtime:1530 - 0.49929785728455 - 0 - 0
+error:No sku info found for record #511
+itime:512 - 1.6024827957153 - 0.000640869140625
+dbtime:1530 - 0.49929785728455 - 0 - 0
+error:No sku info found for record #512
+itime:513 - 1.603296995163 - 0.00069904327392578
+dbtime:1530 - 0.49929785728455 - 0 - 0
+itime:514 - 1.6192288398743 - 0.015838861465454
+dbtime:1551 - 0.50493311882019 - 0.0056352615356445 - 21
+error:No sku info found for record #514
+itime:515 - 1.6200089454651 - 0.0006711483001709
+dbtime:1551 - 0.50493311882019 - 0 - 0
+error:No sku info found for record #515
+itime:516 - 1.620757818222 - 0.0006568431854248
+dbtime:1551 - 0.50493311882019 - 0 - 0
+error:No sku info found for record #516
+itime:517 - 1.6214988231659 - 0.00064587593078613
+dbtime:1551 - 0.50493311882019 - 0 - 0
+error:No sku info found for record #517
+itime:518 - 1.6222479343414 - 0.00064492225646973
+dbtime:1551 - 0.50493311882019 - 0 - 0
+error:No sku info found for record #518
+itime:519 - 1.6230049133301 - 0.00066590309143066
+dbtime:1551 - 0.50493311882019 - 0 - 0
+error:No sku info found for record #519
+itime:520 - 1.6238038539886 - 0.00070691108703613
+dbtime:1551 - 0.50493311882019 - 0 - 0
+itime:521 - 1.6403648853302 - 0.016467094421387
+dbtime:1572 - 0.51111841201782 - 0.0061852931976318 - 21
+error:No sku info found for record #521
+itime:522 - 1.6411509513855 - 0.0006721019744873
+dbtime:1572 - 0.51111841201782 - 0 - 0
+error:No sku info found for record #522
+itime:523 - 1.6419057846069 - 0.00065994262695312
+dbtime:1572 - 0.51111841201782 - 0 - 0
+error:No sku info found for record #523
+itime:524 - 1.6426568031311 - 0.0006558895111084
+dbtime:1572 - 0.51111841201782 - 0 - 0
+error:No sku info found for record #524
+itime:525 - 1.643394947052 - 0.00064516067504883
+dbtime:1572 - 0.51111841201782 - 0 - 0
+error:No sku info found for record #525
+itime:526 - 1.6441459655762 - 0.00066018104553223
+dbtime:1572 - 0.51111841201782 - 0 - 0
+error:No sku info found for record #526
+itime:527 - 1.6449480056763 - 0.00071001052856445
+dbtime:1572 - 0.51111841201782 - 0 - 0
+itime:528 - 1.6608169078827 - 0.015777111053467
+dbtime:1593 - 0.51680946350098 - 0.0056910514831543 - 21
+error:No sku info found for record #528
+itime:529 - 1.6615920066833 - 0.00066900253295898
+dbtime:1593 - 0.51680946350098 - 0 - 0
+error:No sku info found for record #529
+itime:530 - 1.6623358726501 - 0.00064802169799805
+dbtime:1593 - 0.51680946350098 - 0 - 0
+error:No sku info found for record #530
+itime:531 - 1.6630859375 - 0.00065803527832031
+dbtime:1593 - 0.51680946350098 - 0 - 0
+error:No sku info found for record #531
+itime:532 - 1.6638469696045 - 0.00066995620727539
+dbtime:1593 - 0.51680946350098 - 0 - 0
+error:No sku info found for record #532
+itime:533 - 1.6645979881287 - 0.00065898895263672
+dbtime:1593 - 0.51680946350098 - 0 - 0
+error:No sku info found for record #533
+itime:534 - 1.6653819084167 - 0.00069093704223633
+dbtime:1593 - 0.51680946350098 - 0 - 0
+itime:535 - 1.6822459697723 - 0.016771078109741
+dbtime:1612 - 0.5236074924469 - 0.0067980289459229 - 19
+error:No sku info found for record #535
+itime:536 - 1.683032989502 - 0.00067710876464844
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #536
+itime:537 - 1.6837918758392 - 0.00066590309143066
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #537
+itime:538 - 1.6845378875732 - 0.00065398216247559
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #538
+itime:539 - 1.6852979660034 - 0.00065517425537109
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #539
+itime:540 - 1.6860609054565 - 0.0006709098815918
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #540
+itime:541 - 1.6868209838867 - 0.00066804885864258
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #541
+itime:542 - 1.6875638961792 - 0.00065088272094727
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #542
+itime:543 - 1.6883277893066 - 0.00065994262695312
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #543
+itime:544 - 1.6890859603882 - 0.00066494941711426
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #544
+itime:545 - 1.6898579597473 - 0.00067901611328125
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #545
+itime:546 - 1.6906249523163 - 0.00066399574279785
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #546
+itime:547 - 1.6913688182831 - 0.00065183639526367
+dbtime:1612 - 0.5236074924469 - 0 - 0
+error:No sku info found for record #547
+itime:548 - 1.6921899318695 - 0.00072813034057617
+dbtime:1612 - 0.5236074924469 - 0 - 0
+itime:549 - 1.7081959247589 - 0.015913963317871
+dbtime:1633 - 0.52929449081421 - 0.0056869983673096 - 21
+error:No sku info found for record #549
+itime:550 - 1.7089779376984 - 0.00067305564880371
+dbtime:1633 - 0.52929449081421 - 0 - 0
+error:No sku info found for record #550
+itime:551 - 1.7097218036652 - 0.00065183639526367
+dbtime:1633 - 0.52929449081421 - 0 - 0
+error:No sku info found for record #551
+itime:552 - 1.7104649543762 - 0.00065016746520996
+dbtime:1633 - 0.52929449081421 - 0 - 0
+error:No sku info found for record #552
+itime:553 - 1.7112069129944 - 0.00065112113952637
+dbtime:1633 - 0.52929449081421 - 0 - 0
+error:No sku info found for record #553
+itime:554 - 1.7119629383087 - 0.00066399574279785
+dbtime:1633 - 0.52929449081421 - 0 - 0
+error:No sku info found for record #554
+itime:555 - 1.7127618789673 - 0.00070691108703613
+dbtime:1633 - 0.52929449081421 - 0 - 0
+itime:556 - 1.7330288887024 - 0.020174026489258
+dbtime:1654 - 0.53928208351135 - 0.0099875926971436 - 21
+error:No sku info found for record #556
+itime:557 - 1.7338078022003 - 0.00066900253295898
+dbtime:1654 - 0.53928208351135 - 0 - 0
+error:No sku info found for record #557
+itime:558 - 1.7345488071442 - 0.00064802169799805
+dbtime:1654 - 0.53928208351135 - 0 - 0
+error:No sku info found for record #558
+itime:559 - 1.7353079319 - 0.00065493583679199
+dbtime:1654 - 0.53928208351135 - 0 - 0
+error:No sku info found for record #559
+itime:560 - 1.7360579967499 - 0.00065898895263672
+dbtime:1654 - 0.53928208351135 - 0 - 0
+error:No sku info found for record #560
+itime:561 - 1.7368109226227 - 0.00066113471984863
+dbtime:1654 - 0.53928208351135 - 0 - 0
+error:No sku info found for record #561
+itime:562 - 1.7376129627228 - 0.00071001052856445
+dbtime:1654 - 0.53928208351135 - 0 - 0
+itime:563 - 1.7539038658142 - 0.016197919845581
+dbtime:1675 - 0.54532647132874 - 0.0060443878173828 - 21
+error:No sku info found for record #563
+itime:564 - 1.7546768188477 - 0.00066494941711426
+dbtime:1675 - 0.54532647132874 - 0 - 0
+error:No sku info found for record #564
+itime:565 - 1.7554249763489 - 0.00065112113952637
+dbtime:1675 - 0.54532647132874 - 0 - 0
+error:No sku info found for record #565
+itime:566 - 1.7561738491058 - 0.00065493583679199
+dbtime:1675 - 0.54532647132874 - 0 - 0
+error:No sku info found for record #566
+itime:567 - 1.7569289207458 - 0.00066113471984863
+dbtime:1675 - 0.54532647132874 - 0 - 0
+error:No sku info found for record #567
+itime:568 - 1.7576768398285 - 0.00065302848815918
+dbtime:1675 - 0.54532647132874 - 0 - 0
+error:No sku info found for record #568
+itime:569 - 1.7584698200226 - 0.00069785118103027
+dbtime:1675 - 0.54532647132874 - 0 - 0
+itime:570 - 1.7747747898102 - 0.016211986541748
+dbtime:1696 - 0.55135273933411 - 0.0060262680053711 - 21
+error:No sku info found for record #570
+itime:571 - 1.7755398750305 - 0.0006558895111084
+dbtime:1696 - 0.55135273933411 - 0 - 0
+error:No sku info found for record #571
+itime:572 - 1.7762968540192 - 0.00065088272094727
+dbtime:1696 - 0.55135273933411 - 0 - 0
+error:No sku info found for record #572
+itime:573 - 1.7770459651947 - 0.00065708160400391
+dbtime:1696 - 0.55135273933411 - 0 - 0
+error:No sku info found for record #573
+itime:574 - 1.777792930603 - 0.00065493583679199
+dbtime:1696 - 0.55135273933411 - 0 - 0
+error:No sku info found for record #574
+itime:575 - 1.778529882431 - 0.00064492225646973
+dbtime:1696 - 0.55135273933411 - 0 - 0
+error:No sku info found for record #575
+itime:576 - 1.7793369293213 - 0.00069808959960938
+dbtime:1696 - 0.55135273933411 - 0 - 0
+itime:577 - 1.7953119277954 - 0.015881061553955
+dbtime:1717 - 0.55702042579651 - 0.0056676864624023 - 21
+error:No sku info found for record #577
+itime:578 - 1.7961180210114 - 0.00069808959960938
+dbtime:1717 - 0.55702042579651 - 0 - 0
+error:No sku info found for record #578
+itime:579 - 1.7968838214874 - 0.00066781044006348
+dbtime:1717 - 0.55702042579651 - 0 - 0
+error:No sku info found for record #579
+itime:580 - 1.7976307868958 - 0.00065493583679199
+dbtime:1717 - 0.55702042579651 - 0 - 0
+error:No sku info found for record #580
+itime:581 - 1.7983689308167 - 0.00064396858215332
+dbtime:1717 - 0.55702042579651 - 0 - 0
+error:No sku info found for record #581
+itime:582 - 1.7991218566895 - 0.00065898895263672
+dbtime:1717 - 0.55702042579651 - 0 - 0
+error:No sku info found for record #582
+itime:583 - 1.7999238967896 - 0.00071001052856445
+dbtime:1717 - 0.55702042579651 - 0 - 0
+itime:584 - 1.8175358772278 - 0.017518997192383
+dbtime:1738 - 0.56443524360657 - 0.0074148178100586 - 21
+error:No sku info found for record #584
+itime:585 - 1.8183238506317 - 0.00066685676574707
+dbtime:1738 - 0.56443524360657 - 0 - 0
+error:No sku info found for record #585
+itime:586 - 1.8190758228302 - 0.00065898895263672
+dbtime:1738 - 0.56443524360657 - 0 - 0
+error:No sku info found for record #586
+itime:587 - 1.8198359012604 - 0.00066900253295898
+dbtime:1738 - 0.56443524360657 - 0 - 0
+error:No sku info found for record #587
+itime:588 - 1.8205900192261 - 0.00066113471984863
+dbtime:1738 - 0.56443524360657 - 0 - 0
+error:No sku info found for record #588
+itime:589 - 1.821329832077 - 0.00064682960510254
+dbtime:1738 - 0.56443524360657 - 0 - 0
+error:No sku info found for record #589
+itime:590 - 1.8221437931061 - 0.00072193145751953
+dbtime:1738 - 0.56443524360657 - 0 - 0
+itime:591 - 1.8380098342896 - 0.015774011611938
+dbtime:1759 - 0.57007694244385 - 0.0056416988372803 - 21
+error:No sku info found for record #591
+itime:592 - 1.8387978076935 - 0.00067591667175293
+dbtime:1759 - 0.57007694244385 - 0 - 0
+error:No sku info found for record #592
+itime:593 - 1.8395318984985 - 0.0006411075592041
+dbtime:1759 - 0.57007694244385 - 0 - 0
+error:No sku info found for record #593
+itime:594 - 1.8402907848358 - 0.00065279006958008
+dbtime:1759 - 0.57007694244385 - 0 - 0
+error:No sku info found for record #594
+itime:595 - 1.8410429954529 - 0.00066018104553223
+dbtime:1759 - 0.57007694244385 - 0 - 0
+error:No sku info found for record #595
+itime:596 - 1.8417999744415 - 0.00066518783569336
+dbtime:1759 - 0.57007694244385 - 0 - 0
+error:No sku info found for record #596
+itime:597 - 1.8425989151001 - 0.00070691108703613
+dbtime:1759 - 0.57007694244385 - 0 - 0
+itime:598 - 1.8579440116882 - 0.015252113342285
+dbtime:1778 - 0.57536292076111 - 0.0052859783172607 - 19
+error:No sku info found for record #598
+itime:599 - 1.858717918396 - 0.00066494941711426
+dbtime:1778 - 0.57536292076111 - 0 - 0
+error:No sku info found for record #599
+itime:600 - 1.8594629764557 - 0.00065112113952637
+dbtime:1778 - 0.57536292076111 - 0 - 0
+error:No sku info found for record #600
+itime:601 - 1.8602077960968 - 0.00065279006958008
+dbtime:1778 - 0.57536292076111 - 0 - 0
+error:No sku info found for record #601
+itime:602 - 1.8609609603882 - 0.00066208839416504
+dbtime:1778 - 0.57536292076111 - 0 - 0
+error:No sku info found for record #602
+itime:603 - 1.8617169857025 - 0.00066399574279785
+dbtime:1778 - 0.57536292076111 - 0 - 0
+error:No sku info found for record #603
+itime:604 - 1.8625090122223 - 0.00069808959960938
+dbtime:1778 - 0.57536292076111 - 0 - 0
+itime:605 - 1.8786718845367 - 0.01605486869812
+dbtime:1799 - 0.58126544952393 - 0.0059025287628174 - 21
+error:No sku info found for record #605
+itime:606 - 1.8794388771057 - 0.00065803527832031
+dbtime:1799 - 0.58126544952393 - 0 - 0
+error:No sku info found for record #606
+itime:607 - 1.880185842514 - 0.00065398216247559
+dbtime:1799 - 0.58126544952393 - 0 - 0
+error:No sku info found for record #607
+itime:608 - 1.8809359073639 - 0.00065803527832031
+dbtime:1799 - 0.58126544952393 - 0 - 0
+error:No sku info found for record #608
+itime:609 - 1.8816819190979 - 0.00065302848815918
+dbtime:1799 - 0.58126544952393 - 0 - 0
+error:No sku info found for record #609
+itime:610 - 1.8824188709259 - 0.00064301490783691
+dbtime:1799 - 0.58126544952393 - 0 - 0
+error:No sku info found for record #610
+itime:611 - 1.883229970932 - 0.00071096420288086
+dbtime:1799 - 0.58126544952393 - 0 - 0
+itime:612 - 1.8990778923035 - 0.015755891799927
+dbtime:1820 - 0.58692932128906 - 0.0056638717651367 - 21
+error:No sku info found for record #612
+itime:613 - 1.8998568058014 - 0.00066685676574707
+dbtime:1820 - 0.58692932128906 - 0 - 0
+error:No sku info found for record #613
+itime:614 - 1.9006078243256 - 0.00065803527832031
+dbtime:1820 - 0.58692932128906 - 0 - 0
+error:No sku info found for record #614
+itime:615 - 1.9013450145721 - 0.00064420700073242
+dbtime:1820 - 0.58692932128906 - 0 - 0
+error:No sku info found for record #615
+itime:616 - 1.9020919799805 - 0.00065517425537109
+dbtime:1820 - 0.58692932128906 - 0 - 0
+error:No sku info found for record #616
+itime:617 - 1.9028518199921 - 0.00066900253295898
+dbtime:1820 - 0.58692932128906 - 0 - 0
+error:No sku info found for record #617
+itime:618 - 1.9036529064178 - 0.00070905685424805
+dbtime:1820 - 0.58692932128906 - 0 - 0
+itime:619 - 1.9198439121246 - 0.016097068786621
+dbtime:1841 - 0.59281134605408 - 0.0058820247650146 - 21
+error:No sku info found for record #619
+itime:620 - 1.9206218719482 - 0.00066685676574707
+dbtime:1841 - 0.59281134605408 - 0 - 0
+error:No sku info found for record #620
+itime:621 - 1.9213647842407 - 0.00064897537231445
+dbtime:1841 - 0.59281134605408 - 0 - 0
+error:No sku info found for record #621
+itime:622 - 1.9221119880676 - 0.0006561279296875
+dbtime:1841 - 0.59281134605408 - 0 - 0
+error:No sku info found for record #622
+itime:623 - 1.9228630065918 - 0.00065898895263672
+dbtime:1841 - 0.59281134605408 - 0 - 0
+error:No sku info found for record #623
+itime:624 - 1.9236149787903 - 0.00066018104553223
+dbtime:1841 - 0.59281134605408 - 0 - 0
+error:No sku info found for record #624
+itime:625 - 1.9244070053101 - 0.00069808959960938
+dbtime:1841 - 0.59281134605408 - 0 - 0
+itime:626 - 1.9408378601074 - 0.016337871551514
+dbtime:1862 - 0.59896516799927 - 0.0061538219451904 - 21
+error:No sku info found for record #626
+itime:627 - 1.9416129589081 - 0.00066614151000977
+dbtime:1862 - 0.59896516799927 - 0 - 0
+error:No sku info found for record #627
+itime:628 - 1.9423539638519 - 0.00064706802368164
+dbtime:1862 - 0.59896516799927 - 0 - 0
+error:No sku info found for record #628
+itime:629 - 1.9431009292603 - 0.0006561279296875
+dbtime:1862 - 0.59896516799927 - 0 - 0
+error:No sku info found for record #629
+itime:630 - 1.9438560009003 - 0.00066304206848145
+dbtime:1862 - 0.59896516799927 - 0 - 0
+error:No sku info found for record #630
+itime:631 - 1.9446029663086 - 0.00065302848815918
+dbtime:1862 - 0.59896516799927 - 0 - 0
+error:No sku info found for record #631
+itime:632 - 1.945408821106 - 0.00071287155151367
+dbtime:1862 - 0.59896516799927 - 0 - 0
+itime:633 - 1.963613986969 - 0.018112182617188
+dbtime:1883 - 0.60687685012817 - 0.0079116821289062 - 21
+error:No sku info found for record #633
+itime:634 - 1.9643788337708 - 0.00065398216247559
+dbtime:1883 - 0.60687685012817 - 0 - 0
+error:No sku info found for record #634
+itime:635 - 1.965126991272 - 0.00065517425537109
+dbtime:1883 - 0.60687685012817 - 0 - 0
+error:No sku info found for record #635
+itime:636 - 1.9658739566803 - 0.00065493583679199
+dbtime:1883 - 0.60687685012817 - 0 - 0
+error:No sku info found for record #636
+itime:637 - 1.96661901474 - 0.00065302848815918
+dbtime:1883 - 0.60687685012817 - 0 - 0
+error:No sku info found for record #637
+itime:638 - 1.9673550128937 - 0.00064420700073242
+dbtime:1883 - 0.60687685012817 - 0 - 0
+error:No sku info found for record #638
+itime:639 - 1.9681580066681 - 0.00071215629577637
+dbtime:1883 - 0.60687685012817 - 0 - 0
+itime:640 - 1.9842619895935 - 0.016012191772461
+dbtime:1904 - 0.61253333091736 - 0.0056564807891846 - 21
+error:No sku info found for record #640
+itime:641 - 1.9850389957428 - 0.00066900253295898
+dbtime:1904 - 0.61253333091736 - 0 - 0
+error:No sku info found for record #641
+itime:642 - 1.9857909679413 - 0.00065898895263672
+dbtime:1904 - 0.61253333091736 - 0 - 0
+error:No sku info found for record #642
+itime:643 - 1.9865279197693 - 0.00064611434936523
+dbtime:1904 - 0.61253333091736 - 0 - 0
+error:No sku info found for record #643
+itime:644 - 1.9872958660126 - 0.00065088272094727
+dbtime:1904 - 0.61253333091736 - 0 - 0
+error:No sku info found for record #644
+itime:645 - 1.9880487918854 - 0.00066089630126953
+dbtime:1904 - 0.61253333091736 - 0 - 0
+error:No sku info found for record #645
+itime:646 - 1.9888498783112 - 0.00070786476135254
+dbtime:1904 - 0.61253333091736 - 0 - 0
+itime:647 - 2.0047779083252 - 0.015836000442505
+dbtime:1925 - 0.6181857585907 - 0.0056524276733398 - 21
+error:No sku info found for record #647
+itime:648 - 2.005539894104 - 0.00065302848815918
+dbtime:1925 - 0.6181857585907 - 0 - 0
+error:No sku info found for record #648
+itime:649 - 2.006294965744 - 0.00064897537231445
+dbtime:1925 - 0.6181857585907 - 0 - 0
+error:No sku info found for record #649
+itime:650 - 2.007043838501 - 0.00065803527832031
+dbtime:1925 - 0.6181857585907 - 0 - 0
+error:No sku info found for record #650
+itime:651 - 2.0077919960022 - 0.0006561279296875
+dbtime:1925 - 0.6181857585907 - 0 - 0
+error:No sku info found for record #651
+itime:652 - 2.0085279941559 - 0.00064420700073242
+dbtime:1925 - 0.6181857585907 - 0 - 0
+error:No sku info found for record #652
+itime:653 - 2.0093297958374 - 0.00069284439086914
+dbtime:1925 - 0.6181857585907 - 0 - 0
+itime:654 - 2.0247228145599 - 0.015300989151001
+dbtime:1944 - 0.62357020378113 - 0.0053844451904297 - 19
+error:No sku info found for record #654
+itime:655 - 2.0254909992218 - 0.00066018104553223
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #655
+itime:656 - 2.0262458324432 - 0.00064992904663086
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #656
+itime:657 - 2.0269999504089 - 0.00066208839416504
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #657
+itime:658 - 2.0277500152588 - 0.00065803527832031
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #658
+itime:659 - 2.0284929275513 - 0.00064897537231445
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #659
+itime:660 - 2.0292489528656 - 0.00064897537231445
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #660
+itime:661 - 2.030003786087 - 0.00066399574279785
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #661
+itime:662 - 2.0307569503784 - 0.00066113471984863
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #662
+itime:663 - 2.0315668582916 - 0.00071501731872559
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #663
+itime:664 - 2.0323269367218 - 0.0006561279296875
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #664
+itime:665 - 2.0330998897552 - 0.00068092346191406
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #665
+itime:666 - 2.0338578224182 - 0.00066280364990234
+dbtime:1944 - 0.62357020378113 - 0 - 0
+error:No sku info found for record #666
+itime:667 - 2.0346739292145 - 0.00072503089904785
+dbtime:1944 - 0.62357020378113 - 0 - 0
+itime:668 - 2.0516788959503 - 0.01691198348999
+dbtime:1964 - 0.63040804862976 - 0.0068378448486328 - 20
+error:No sku info found for record #668
+itime:669 - 2.0524477958679 - 0.00066280364990234
+dbtime:1964 - 0.63040804862976 - 0 - 0
+error:No sku info found for record #669
+itime:670 - 2.0532009601593 - 0.00065994262695312
+dbtime:1964 - 0.63040804862976 - 0 - 0
+error:No sku info found for record #670
+itime:671 - 2.0539619922638 - 0.00066709518432617
+dbtime:1964 - 0.63040804862976 - 0 - 0
+error:No sku info found for record #671
+itime:672 - 2.0547168254852 - 0.00066184997558594
+dbtime:1964 - 0.63040804862976 - 0 - 0
+error:No sku info found for record #672
+itime:673 - 2.0554568767548 - 0.00064706802368164
+dbtime:1964 - 0.63040804862976 - 0 - 0
+error:No sku info found for record #673
+itime:674 - 2.0562608242035 - 0.00071191787719727
+dbtime:1964 - 0.63040804862976 - 0 - 0
+itime:675 - 2.0731530189514 - 0.016801118850708
+dbtime:1984 - 0.6370792388916 - 0.0066711902618408 - 20
+error:No sku info found for record #675
+itime:676 - 2.0739459991455 - 0.00068807601928711
+dbtime:1984 - 0.6370792388916 - 0 - 0
+error:No sku info found for record #676
+itime:677 - 2.074747800827 - 0.00071001052856445
+dbtime:1984 - 0.6370792388916 - 0 - 0
+error:No sku info found for record #677
+itime:678 - 2.0754909515381 - 0.00065112113952637
+dbtime:1984 - 0.6370792388916 - 0 - 0
+error:No sku info found for record #678
+itime:679 - 2.0762448310852 - 0.00065302848815918
+dbtime:1984 - 0.6370792388916 - 0 - 0
+error:No sku info found for record #679
+itime:680 - 2.0769958496094 - 0.00065898895263672
+dbtime:1984 - 0.6370792388916 - 0 - 0
+error:No sku info found for record #680
+itime:681 - 2.0778579711914 - 0.00077104568481445
+dbtime:1984 - 0.6370792388916 - 0 - 0
+itime:682 - 2.0947008132935 - 0.016749858856201
+dbtime:2004 - 0.64365601539612 - 0.0065767765045166 - 20
+error:No sku info found for record #682
+itime:683 - 2.09547996521 - 0.00066995620727539
+dbtime:2004 - 0.64365601539612 - 0 - 0
+error:No sku info found for record #683
+itime:684 - 2.0962438583374 - 0.00066089630126953
+dbtime:2004 - 0.64365601539612 - 0 - 0
+error:No sku info found for record #684
+itime:685 - 2.0970067977905 - 0.0006718635559082
+dbtime:2004 - 0.64365601539612 - 0 - 0
+error:No sku info found for record #685
+itime:686 - 2.0977659225464 - 0.00066590309143066
+dbtime:2004 - 0.64365601539612 - 0 - 0
+error:No sku info found for record #686
+itime:687 - 2.0985109806061 - 0.00065112113952637
+dbtime:2004 - 0.64365601539612 - 0 - 0
+error:No sku info found for record #687
+itime:688 - 2.0993390083313 - 0.0007171630859375
+dbtime:2004 - 0.64365601539612 - 0 - 0
+itime:689 - 2.116427898407 - 0.016997098922729
+dbtime:2024 - 0.65048217773438 - 0.0068261623382568 - 20
+error:No sku info found for record #689
+itime:690 - 2.1172080039978 - 0.00066804885864258
+dbtime:2024 - 0.65048217773438 - 0 - 0
+error:No sku info found for record #690
+itime:691 - 2.1179699897766 - 0.00066804885864258
+dbtime:2024 - 0.65048217773438 - 0 - 0
+error:No sku info found for record #691
+itime:692 - 2.1187198162079 - 0.00065493583679199
+dbtime:2024 - 0.65048217773438 - 0 - 0
+error:No sku info found for record #692
+itime:693 - 2.1194670200348 - 0.00065112113952637
+dbtime:2024 - 0.65048217773438 - 0 - 0
+error:No sku info found for record #693
+itime:694 - 2.1202208995819 - 0.00065994262695312
+dbtime:2024 - 0.65048217773438 - 0 - 0
+error:No sku info found for record #694
+itime:695 - 2.1210420131683 - 0.00072503089904785
+dbtime:2024 - 0.65048217773438 - 0 - 0
+itime:696 - 2.140074968338 - 0.018939018249512
+dbtime:2044 - 0.65941619873047 - 0.0089340209960938 - 20
+error:No sku info found for record #696
+itime:697 - 2.1408619880676 - 0.00067710876464844
+dbtime:2044 - 0.65941619873047 - 0 - 0
+error:No sku info found for record #697
+itime:698 - 2.1416168212891 - 0.00066280364990234
+dbtime:2044 - 0.65941619873047 - 0 - 0
+error:No sku info found for record #698
+itime:699 - 2.1423659324646 - 0.00065493583679199
+dbtime:2044 - 0.65941619873047 - 0 - 0
+error:No sku info found for record #699
+itime:700 - 2.1431179046631 - 0.00065994262695312
+dbtime:2044 - 0.65941619873047 - 0 - 0
+error:No sku info found for record #700
+itime:701 - 2.1438789367676 - 0.00066804885864258
+dbtime:2044 - 0.65941619873047 - 0 - 0
+error:No sku info found for record #701
+itime:702 - 2.1446948051453 - 0.00072383880615234
+dbtime:2044 - 0.65941619873047 - 0 - 0
+itime:703 - 2.1615059375763 - 0.016718149185181
+dbtime:2064 - 0.66602730751038 - 0.0066111087799072 - 20
+error:No sku info found for record #703
+itime:704 - 2.1622879505157 - 0.00065803527832031
+dbtime:2064 - 0.66602730751038 - 0 - 0
+error:No sku info found for record #704
+itime:705 - 2.1630439758301 - 0.00066304206848145
+dbtime:2064 - 0.66602730751038 - 0 - 0
+error:No sku info found for record #705
+itime:706 - 2.163831949234 - 0.00069403648376465
+dbtime:2064 - 0.66602730751038 - 0 - 0
+error:No sku info found for record #706
+itime:707 - 2.1645889282227 - 0.00066494941711426
+dbtime:2064 - 0.66602730751038 - 0 - 0
+error:No sku info found for record #707
+itime:708 - 2.165326833725 - 0.00064587593078613
+dbtime:2064 - 0.66602730751038 - 0 - 0
+error:No sku info found for record #708
+itime:709 - 2.166140794754 - 0.00071287155151367
+dbtime:2064 - 0.66602730751038 - 0 - 0
+itime:710 - 2.1820118427277 - 0.015779972076416
+dbtime:2083 - 0.6717836856842 - 0.0057563781738281 - 19
+error:No sku info found for record #710
+itime:711 - 2.182797908783 - 0.00067591667175293
+dbtime:2083 - 0.6717836856842 - 0 - 0
+error:No sku info found for record #711
+itime:712 - 2.1835479736328 - 0.00065708160400391
+dbtime:2083 - 0.6717836856842 - 0 - 0
+error:No sku info found for record #712
+itime:713 - 2.1843688488007 - 0.0007169246673584
+dbtime:2083 - 0.6717836856842 - 0 - 0
+error:No sku info found for record #713
+itime:714 - 2.185124874115 - 0.00066399574279785
+dbtime:2083 - 0.6717836856842 - 0 - 0
+error:No sku info found for record #714
+itime:715 - 2.1858808994293 - 0.00066494941711426
+dbtime:2083 - 0.6717836856842 - 0 - 0
+error:No sku info found for record #715
+itime:716 - 2.1866898536682 - 0.0007169246673584
+dbtime:2083 - 0.6717836856842 - 0 - 0
+itime:717 - 2.2027750015259 - 0.015993118286133
+dbtime:2103 - 0.67734169960022 - 0.0055580139160156 - 20
+error:No sku info found for record #717
+itime:718 - 2.2035429477692 - 0.00065898895263672
+dbtime:2103 - 0.67734169960022 - 0 - 0
+error:No sku info found for record #718
+itime:719 - 2.2043027877808 - 0.00065493583679199
+dbtime:2103 - 0.67734169960022 - 0 - 0
+error:No sku info found for record #719
+itime:720 - 2.2050588130951 - 0.00066399574279785
+dbtime:2103 - 0.67734169960022 - 0 - 0
+error:No sku info found for record #720
+itime:721 - 2.2058107852936 - 0.00065994262695312
+dbtime:2103 - 0.67734169960022 - 0 - 0
+error:No sku info found for record #721
+itime:722 - 2.2065508365631 - 0.00064492225646973
+dbtime:2103 - 0.67734169960022 - 0 - 0
+error:No sku info found for record #722
+itime:723 - 2.2074298858643 - 0.00077104568481445
+dbtime:2103 - 0.67734169960022 - 0 - 0
+itime:724 - 2.2231969833374 - 0.015675067901611
+dbtime:2123 - 0.68292903900146 - 0.0055873394012451 - 20
+error:No sku info found for record #724
+itime:725 - 2.2239809036255 - 0.00067400932312012
+dbtime:2123 - 0.68292903900146 - 0 - 0
+error:No sku info found for record #725
+itime:726 - 2.224730014801 - 0.00065517425537109
+dbtime:2123 - 0.68292903900146 - 0 - 0
+error:No sku info found for record #726
+itime:727 - 2.2254748344421 - 0.00064992904663086
+dbtime:2123 - 0.68292903900146 - 0 - 0
+error:No sku info found for record #727
+itime:728 - 2.2262279987335 - 0.00065898895263672
+dbtime:2123 - 0.68292903900146 - 0 - 0
+error:No sku info found for record #728
+itime:729 - 2.2269859313965 - 0.00066399574279785
+dbtime:2123 - 0.68292903900146 - 0 - 0
+error:No sku info found for record #729
+itime:730 - 2.2277898788452 - 0.00071001052856445
+dbtime:2123 - 0.68292903900146 - 0 - 0
+itime:731 - 2.2434778213501 - 0.015592813491821
+dbtime:2143 - 0.68851542472839 - 0.0055863857269287 - 20
+error:No sku info found for record #731
+itime:732 - 2.2442629337311 - 0.00066304206848145
+dbtime:2143 - 0.68851542472839 - 0 - 0
+error:No sku info found for record #732
+itime:733 - 2.2450239658356 - 0.00066614151000977
+dbtime:2143 - 0.68851542472839 - 0 - 0
+error:No sku info found for record #733
+itime:734 - 2.2457799911499 - 0.00066399574279785
+dbtime:2143 - 0.68851542472839 - 0 - 0
+error:No sku info found for record #734
+itime:735 - 2.2465229034424 - 0.00064992904663086
+dbtime:2143 - 0.68851542472839 - 0 - 0
+error:No sku info found for record #735
+itime:736 - 2.247279882431 - 0.00064706802368164
+dbtime:2143 - 0.68851542472839 - 0 - 0
+error:No sku info found for record #736
+itime:737 - 2.2480959892273 - 0.00072503089904785
+dbtime:2143 - 0.68851542472839 - 0 - 0
+itime:738 - 2.2642369270325 - 0.016048908233643
+dbtime:2163 - 0.69453954696655 - 0.0060241222381592 - 20
+error:No sku info found for record #738
+itime:739 - 2.2650189399719 - 0.00067400932312012
+dbtime:2163 - 0.69453954696655 - 0 - 0
+error:No sku info found for record #739
+itime:740 - 2.265772819519 - 0.00066184997558594
+dbtime:2163 - 0.69453954696655 - 0 - 0
+error:No sku info found for record #740
+itime:741 - 2.2665178775787 - 0.00065207481384277
+dbtime:2163 - 0.69453954696655 - 0 - 0
+error:No sku info found for record #741
+itime:742 - 2.2672829627991 - 0.00065016746520996
+dbtime:2163 - 0.69453954696655 - 0 - 0
+error:No sku info found for record #742
+itime:743 - 2.2680389881134 - 0.00066399574279785
+dbtime:2163 - 0.69453954696655 - 0 - 0
+error:No sku info found for record #743
+itime:744 - 2.2688539028168 - 0.00072407722473145
+dbtime:2163 - 0.69453954696655 - 0 - 0
+itime:745 - 2.2845129966736 - 0.015564203262329
+dbtime:2183 - 0.70009255409241 - 0.0055530071258545 - 20
+error:No sku info found for record #745
+itime:746 - 2.2852938175201 - 0.00065898895263672
+dbtime:2183 - 0.70009255409241 - 0 - 0
+error:No sku info found for record #746
+itime:747 - 2.2860507965088 - 0.00066494941711426
+dbtime:2183 - 0.70009255409241 - 0 - 0
+error:No sku info found for record #747
+itime:748 - 2.2868058681488 - 0.00066304206848145
+dbtime:2183 - 0.70009255409241 - 0 - 0
+error:No sku info found for record #748
+itime:749 - 2.2875499725342 - 0.00064897537231445
+dbtime:2183 - 0.70009255409241 - 0 - 0
+error:No sku info found for record #749
+itime:750 - 2.2883529663086 - 0.00069904327392578
+dbtime:2183 - 0.70009255409241 - 0 - 0
+error:No sku info found for record #750
+itime:751 - 2.2891759872437 - 0.00073099136352539
+dbtime:2183 - 0.70009255409241 - 0 - 0
+itime:752 - 2.307226896286 - 0.017957925796509
+dbtime:2203 - 0.70804834365845 - 0.00795578956604 - 20
+error:No sku info found for record #752
+itime:753 - 2.3080108165741 - 0.00067591667175293
+dbtime:2203 - 0.70804834365845 - 0 - 0
+error:No sku info found for record #753
+itime:754 - 2.3087658882141 - 0.00066304206848145
+dbtime:2203 - 0.70804834365845 - 0 - 0
+error:No sku info found for record #754
+itime:755 - 2.3095128536224 - 0.00065183639526367
+dbtime:2203 - 0.70804834365845 - 0 - 0
+error:No sku info found for record #755
+itime:756 - 2.3102719783783 - 0.00065207481384277
+dbtime:2203 - 0.70804834365845 - 0 - 0
+error:No sku info found for record #756
+itime:757 - 2.3110308647156 - 0.00066804885864258
+dbtime:2203 - 0.70804834365845 - 0 - 0
+error:No sku info found for record #757
+itime:758 - 2.3118369579315 - 0.00071406364440918
+dbtime:2203 - 0.70804834365845 - 0 - 0
+itime:759 - 2.3277139663696 - 0.015784978866577
+dbtime:2222 - 0.7138249874115 - 0.0057766437530518 - 19
+error:No sku info found for record #759
+itime:760 - 2.3284909725189 - 0.00066900253295898
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #760
+itime:761 - 2.3292548656464 - 0.00065898895263672
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #761
+itime:762 - 2.3300178050995 - 0.00066995620727539
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #762
+itime:763 - 2.3307819366455 - 0.0006721019744873
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #763
+itime:764 - 2.3315298557281 - 0.00065398216247559
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #764
+itime:765 - 2.3322968482971 - 0.00065493583679199
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #765
+itime:766 - 2.3330619335175 - 0.00067400932312012
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #766
+itime:767 - 2.3338198661804 - 0.00066590309143066
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #767
+itime:768 - 2.3345639705658 - 0.00065207481384277
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #768
+itime:769 - 2.3353288173676 - 0.00066184997558594
+dbtime:2222 - 0.7138249874115 - 0 - 0
+error:No sku info found for record #769
+itime:770 - 2.3361527919769 - 0.0007319450378418
+dbtime:2222 - 0.7138249874115 - 0 - 0
+itime:771 - 2.3521828651428 - 0.01593804359436
+dbtime:2242 - 0.71967577934265 - 0.0058507919311523 - 20
+error:No sku info found for record #771
+itime:772 - 2.3529667854309 - 0.00067496299743652
+dbtime:2242 - 0.71967577934265 - 0 - 0
+error:No sku info found for record #772
+itime:773 - 2.3537149429321 - 0.00065493583679199
+dbtime:2242 - 0.71967577934265 - 0 - 0
+error:No sku info found for record #773
+itime:774 - 2.3544688224792 - 0.00065994262695312
+dbtime:2242 - 0.71967577934265 - 0 - 0
+error:No sku info found for record #774
+itime:775 - 2.3552269935608 - 0.00066304206848145
+dbtime:2242 - 0.71967577934265 - 0 - 0
+error:No sku info found for record #775
+itime:776 - 2.3559889793396 - 0.00066804885864258
+dbtime:2242 - 0.71967577934265 - 0 - 0
+error:No sku info found for record #776
+itime:777 - 2.3567957878113 - 0.00071477890014648
+dbtime:2242 - 0.71967577934265 - 0 - 0
+itime:778 - 2.3724629878998 - 0.015573024749756
+dbtime:2262 - 0.72521281242371 - 0.0055370330810547 - 20
+error:No sku info found for record #778
+itime:779 - 2.3732438087463 - 0.00066184997558594
+dbtime:2262 - 0.72521281242371 - 0 - 0
+error:No sku info found for record #779
+itime:780 - 2.374000787735 - 0.00066399574279785
+dbtime:2262 - 0.72521281242371 - 0 - 0
+error:No sku info found for record #780
+itime:781 - 2.3747518062592 - 0.00065898895263672
+dbtime:2262 - 0.72521281242371 - 0 - 0
+error:No sku info found for record #781
+itime:782 - 2.3754959106445 - 0.00064992904663086
+dbtime:2262 - 0.72521281242371 - 0 - 0
+error:No sku info found for record #782
+itime:783 - 2.3762509822845 - 0.00064802169799805
+dbtime:2262 - 0.72521281242371 - 0 - 0
+error:No sku info found for record #783
+itime:784 - 2.3770649433136 - 0.00072193145751953
+dbtime:2262 - 0.72521281242371 - 0 - 0
+itime:785 - 2.3927857875824 - 0.015628814697266
+dbtime:2282 - 0.73082137107849 - 0.0056085586547852 - 20
+error:No sku info found for record #785
+itime:786 - 2.3935539722443 - 0.00065898895263672
+dbtime:2282 - 0.73082137107849 - 0 - 0
+error:No sku info found for record #786
+itime:787 - 2.3943219184875 - 0.00066399574279785
+dbtime:2282 - 0.73082137107849 - 0 - 0
+error:No sku info found for record #787
+itime:788 - 2.3950808048248 - 0.00066494941711426
+dbtime:2282 - 0.73082137107849 - 0 - 0
+error:No sku info found for record #788
+itime:789 - 2.3958928585052 - 0.00072002410888672
+dbtime:2282 - 0.73082137107849 - 0 - 0
+error:No sku info found for record #789
+itime:790 - 2.3966479301453 - 0.00066113471984863
+dbtime:2282 - 0.73082137107849 - 0 - 0
+error:No sku info found for record #790
+itime:791 - 2.397451877594 - 0.00071096420288086
+dbtime:2282 - 0.73082137107849 - 0 - 0
+itime:792 - 2.4132239818573 - 0.015681028366089
+dbtime:2302 - 0.73644757270813 - 0.0056262016296387 - 20
+error:No sku info found for record #792
+itime:793 - 2.4140038490295 - 0.0006718635559082
+dbtime:2302 - 0.73644757270813 - 0 - 0
+error:No sku info found for record #793
+itime:794 - 2.414755821228 - 0.00065994262695312
+dbtime:2302 - 0.73644757270813 - 0 - 0
+error:No sku info found for record #794
+itime:795 - 2.4155008792877 - 0.00064992904663086
+dbtime:2302 - 0.73644757270813 - 0 - 0
+error:No sku info found for record #795
+itime:796 - 2.4162528514862 - 0.00064897537231445
+dbtime:2302 - 0.73644757270813 - 0 - 0
+error:No sku info found for record #796
+itime:797 - 2.4170079231262 - 0.00066304206848145
+dbtime:2302 - 0.73644757270813 - 0 - 0
+error:No sku info found for record #797
+itime:798 - 2.417820930481 - 0.00071811676025391
+dbtime:2302 - 0.73644757270813 - 0 - 0
+itime:799 - 2.4339129924774 - 0.015998125076294
+dbtime:2322 - 0.74240303039551 - 0.0059554576873779 - 20
+error:No sku info found for record #799
+itime:800 - 2.4346928596497 - 0.0006718635559082
+dbtime:2322 - 0.74240303039551 - 0 - 0
+error:No sku info found for record #800
+itime:801 - 2.435439825058 - 0.00065302848815918
+dbtime:2322 - 0.74240303039551 - 0 - 0
+error:No sku info found for record #801
+itime:802 - 2.436185836792 - 0.00065398216247559
+dbtime:2322 - 0.74240303039551 - 0 - 0
+error:No sku info found for record #802
+itime:803 - 2.436940908432 - 0.00066399574279785
+dbtime:2322 - 0.74240303039551 - 0 - 0
+error:No sku info found for record #803
+itime:804 - 2.4376900196075 - 0.00065708160400391
+dbtime:2322 - 0.74240303039551 - 0 - 0
+error:No sku info found for record #804
+itime:805 - 2.4384949207306 - 0.00071096420288086
+dbtime:2322 - 0.74240303039551 - 0 - 0
+itime:806 - 2.4544548988342 - 0.015856981277466
+dbtime:2342 - 0.74817490577698 - 0.0057718753814697 - 20
+error:No sku info found for record #806
+itime:807 - 2.455246925354 - 0.00066399574279785
+dbtime:2342 - 0.74817490577698 - 0 - 0
+error:No sku info found for record #807
+itime:808 - 2.456004858017 - 0.00066590309143066
+dbtime:2342 - 0.74817490577698 - 0 - 0
+error:No sku info found for record #808
+itime:809 - 2.4567549228668 - 0.00065803527832031
+dbtime:2342 - 0.74817490577698 - 0 - 0
+error:No sku info found for record #809
+itime:810 - 2.4574987888336 - 0.00065088272094727
+dbtime:2342 - 0.74817490577698 - 0 - 0
+error:No sku info found for record #810
+itime:811 - 2.4582529067993 - 0.00064611434936523
+dbtime:2342 - 0.74817490577698 - 0 - 0
+error:No sku info found for record #811
+itime:812 - 2.459056854248 - 0.00071191787719727
+dbtime:2342 - 0.74817490577698 - 0 - 0
+itime:813 - 2.4745109081268 - 0.015361070632935
+dbtime:2361 - 0.75366139411926 - 0.0054864883422852 - 19
+error:No sku info found for record #813
+itime:814 - 2.4752969741821 - 0.00066304206848145
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #814
+itime:815 - 2.4760639667511 - 0.0006721019744873
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #815
+itime:816 - 2.4768288135529 - 0.0006718635559082
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #816
+itime:817 - 2.4775869846344 - 0.00066614151000977
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #817
+itime:818 - 2.4783318042755 - 0.00065088272094727
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #818
+itime:819 - 2.4790887832642 - 0.00066590309143066
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #819
+itime:820 - 2.4798510074615 - 0.00066900253295898
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #820
+itime:821 - 2.4806039333344 - 0.00065994262695312
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #821
+itime:822 - 2.4813499450684 - 0.00064992904663086
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #822
+itime:823 - 2.4821050167084 - 0.00066304206848145
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #823
+itime:824 - 2.4828698635101 - 0.0006709098815918
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #824
+itime:825 - 2.4836218357086 - 0.00065994262695312
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #825
+itime:826 - 2.484365940094 - 0.00064897537231445
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #826
+itime:827 - 2.485121011734 - 0.00066208839416504
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #827
+itime:828 - 2.4858739376068 - 0.00066208839416504
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #828
+itime:829 - 2.4866378307343 - 0.0006718635559082
+dbtime:2361 - 0.75366139411926 - 0 - 0
+error:No sku info found for record #829
+itime:830 - 2.4874420166016 - 0.00071215629577637
+dbtime:2361 - 0.75366139411926 - 0 - 0
+itime:831 - 2.5053448677063 - 0.017811059951782
+dbtime:2381 - 0.7613844871521 - 0.0077230930328369 - 20
+error:No sku info found for record #831
+itime:832 - 2.5061259269714 - 0.00067305564880371
+dbtime:2381 - 0.7613844871521 - 0 - 0
+error:No sku info found for record #832
+itime:833 - 2.5068869590759 - 0.00066900253295898
+dbtime:2381 - 0.7613844871521 - 0 - 0
+error:No sku info found for record #833
+itime:834 - 2.5076439380646 - 0.00066494941711426
+dbtime:2381 - 0.7613844871521 - 0 - 0
+error:No sku info found for record #834
+itime:835 - 2.5083909034729 - 0.00065398216247559
+dbtime:2381 - 0.7613844871521 - 0 - 0
+error:No sku info found for record #835
+itime:836 - 2.5091469287872 - 0.00066399574279785
+dbtime:2381 - 0.7613844871521 - 0 - 0
+error:No sku info found for record #836
+itime:837 - 2.5099658966064 - 0.00072693824768066
+dbtime:2381 - 0.7613844871521 - 0 - 0
+itime:838 - 2.5255649089813 - 0.015506982803345
+dbtime:2401 - 0.76687908172607 - 0.0054945945739746 - 20
+error:No sku info found for record #838
+itime:839 - 2.5263509750366 - 0.00066518783569336
+dbtime:2401 - 0.76687908172607 - 0 - 0
+error:No sku info found for record #839
+itime:840 - 2.5271189212799 - 0.00066709518432617
+dbtime:2401 - 0.76687908172607 - 0 - 0
+error:No sku info found for record #840
+itime:841 - 2.5278778076172 - 0.00066685676574707
+dbtime:2401 - 0.76687908172607 - 0 - 0
+error:No sku info found for record #841
+itime:842 - 2.5286328792572 - 0.00066304206848145
+dbtime:2401 - 0.76687908172607 - 0 - 0
+error:No sku info found for record #842
+itime:843 - 2.5293769836426 - 0.00064897537231445
+dbtime:2401 - 0.76687908172607 - 0 - 0
+error:No sku info found for record #843
+itime:844 - 2.5301978588104 - 0.00072789192199707
+dbtime:2401 - 0.76687908172607 - 0 - 0
+itime:845 - 2.5460059642792 - 0.015716075897217
+dbtime:2421 - 0.77247524261475 - 0.0055961608886719 - 20
+error:No sku info found for record #845
+itime:846 - 2.5467867851257 - 0.0006718635559082
+dbtime:2421 - 0.77247524261475 - 0 - 0
+error:No sku info found for record #846
+itime:847 - 2.5475678443909 - 0.00065302848815918
+dbtime:2421 - 0.77247524261475 - 0 - 0
+error:No sku info found for record #847
+itime:848 - 2.548327922821 - 0.00065708160400391
+dbtime:2421 - 0.77247524261475 - 0 - 0
+error:No sku info found for record #848
+itime:849 - 2.5490808486938 - 0.00066089630126953
+dbtime:2421 - 0.77247524261475 - 0 - 0
+error:No sku info found for record #849
+itime:850 - 2.5498449802399 - 0.0006711483001709
+dbtime:2421 - 0.77247524261475 - 0 - 0
+error:No sku info found for record #850
+itime:851 - 2.5506589412689 - 0.00072193145751953
+dbtime:2421 - 0.77247524261475 - 0 - 0
+itime:852 - 2.5668258666992 - 0.016072988510132
+dbtime:2441 - 0.77845859527588 - 0.0059833526611328 - 20
+error:No sku info found for record #852
+itime:853 - 2.5676050186157 - 0.00067019462585449
+dbtime:2441 - 0.77845859527588 - 0 - 0
+error:No sku info found for record #853
+itime:854 - 2.5683507919312 - 0.00065183639526367
+dbtime:2441 - 0.77845859527588 - 0 - 0
+error:No sku info found for record #854
+itime:855 - 2.5691080093384 - 0.00066304206848145
+dbtime:2441 - 0.77845859527588 - 0 - 0
+error:No sku info found for record #855
+itime:856 - 2.5698628425598 - 0.00066089630126953
+dbtime:2441 - 0.77845859527588 - 0 - 0
+error:No sku info found for record #856
+itime:857 - 2.570613861084 - 0.00065898895263672
+dbtime:2441 - 0.77845859527588 - 0 - 0
+error:No sku info found for record #857
+itime:858 - 2.5714168548584 - 0.00071096420288086
+dbtime:2441 - 0.77845859527588 - 0 - 0
+itime:859 - 2.5871288776398 - 0.015619993209839
+dbtime:2461 - 0.78404498100281 - 0.0055863857269287 - 20
+error:No sku info found for record #859
+itime:860 - 2.5879108905792 - 0.00067305564880371
+dbtime:2461 - 0.78404498100281 - 0 - 0
+error:No sku info found for record #860
+itime:861 - 2.5886650085449 - 0.00066113471984863
+dbtime:2461 - 0.78404498100281 - 0 - 0
+error:No sku info found for record #861
+itime:862 - 2.5894088745117 - 0.00064992904663086
+dbtime:2461 - 0.78404498100281 - 0 - 0
+error:No sku info found for record #862
+itime:863 - 2.5901579856873 - 0.00065803527832031
+dbtime:2461 - 0.78404498100281 - 0 - 0
+error:No sku info found for record #863
+itime:864 - 2.5909118652344 - 0.00066184997558594
+dbtime:2461 - 0.78404498100281 - 0 - 0
+error:No sku info found for record #864
+itime:865 - 2.5917339324951 - 0.00073003768920898
+dbtime:2461 - 0.78404498100281 - 0 - 0
+itime:866 - 2.6074349880219 - 0.015607118606567
+dbtime:2481 - 0.78958368301392 - 0.0055387020111084 - 20
+error:No sku info found for record #866
+itime:867 - 2.6082139015198 - 0.00066995620727539
+dbtime:2481 - 0.78958368301392 - 0 - 0
+error:No sku info found for record #867
+itime:868 - 2.6089727878571 - 0.00066590309143066
+dbtime:2481 - 0.78958368301392 - 0 - 0
+error:No sku info found for record #868
+itime:869 - 2.6097178459167 - 0.00065302848815918
+dbtime:2481 - 0.78958368301392 - 0 - 0
+error:No sku info found for record #869
+itime:870 - 2.6104638576508 - 0.00065088272094727
+dbtime:2481 - 0.78958368301392 - 0 - 0
+error:No sku info found for record #870
+itime:871 - 2.6112039089203 - 0.00064802169799805
+dbtime:2481 - 0.78958368301392 - 0 - 0
+error:No sku info found for record #871
+itime:872 - 2.6120309829712 - 0.00072717666625977
+dbtime:2481 - 0.78958368301392 - 0 - 0
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+plugin;ImageAttributeItemProcessor;warning:Image attributes processor v1.0.25 - no_selection cannot be found in images path
+itime:873 - 2.6269438266754 - 0.01482081413269
+dbtime:2497 - 0.79416918754578 - 0.0045855045318604 - 16
+error:No sku info found for record #873
+itime:874 - 2.6277208328247 - 0.00066900253295898
+dbtime:2497 - 0.79416918754578 - 0 - 0
+error:No sku info found for record #874
+itime:875 - 2.6284708976746 - 0.0006558895111084
+dbtime:2497 - 0.79416918754578 - 0 - 0
+error:No sku info found for record #875
+itime:876 - 2.6292288303375 - 0.00066590309143066
+dbtime:2497 - 0.79416918754578 - 0 - 0
+error:No sku info found for record #876
+itime:877 - 2.6299958229065 - 0.00067400932312012
+dbtime:2497 - 0.79416918754578 - 0 - 0
+error:No sku info found for record #877
+itime:878 - 2.6307489871979 - 0.00066113471984863
+dbtime:2497 - 0.79416918754578 - 0 - 0
+error:No sku info found for record #878
+itime:878 - 2.6320037841797 - 0.0011618137359619
+dbtime:2498 - 0.79461717605591 - 0.00044798851013184 - 1
+info:Skus imported OK:123/878
+warning:Skus imported KO:755/878
+end:Import Ended

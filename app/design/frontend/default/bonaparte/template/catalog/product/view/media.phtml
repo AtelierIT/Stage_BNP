@@ -1,0 +1,107 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_modern
+ * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/**
+ * Product media data template
+ *
+ * @see Mage_Catalog_Block_Product_View_Media
+ */
+?>
+<?php
+    $_product = $this->getProduct();
+    $_helper = $this->helper('catalog/output');
+?>
+<?php if ($_product->getImage() != 'no_selection' && $_product->getImage()): ?>
+
+<script type="text/javascript" src="http://localhost/bonaparte/js/jquery/cloud-zoom.1.0.2.js"></script>	
+
+<script type="text/javascript">
+jQuery.noConflict();
+</script>
+
+<p class="product-image">
+    
+	<a href="<?php echo $this->helper('catalog/image')->init($_product, 'image')->constrainOnly(FALSE)->keepAspectRatio(TRUE)->keepFrame(FALSE)->resize(null,900)->resize(900); ?>" width="900" height="900" class="cloud-zoom" id="zoom1" rel="position:'right', zoomWidth:'420', adjustX:15, adjustY:-6, showTitle:false, lensOpacity:0.5, smoothMove:3">
+	    
+        <?php
+
+          $_img = '<img class="zoom-image" src="'.$this->helper('catalog/image')->init($_product, 'image')->constrainOnly(FALSE)->keepAspectRatio(TRUE)->keepFrame(FALSE)->resize(620,440).'" width="620" height="440" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+          echo $_helper->productAttribute($_product, $_img, 'image');
+        ?>
+	</a>
+
+</p>
+
+<?php endif; ?>
+
+
+<div class="more-views">
+
+<?php if (count($this->getGalleryImages()) > 1): ?>
+<script type="text/javascript" src="http://localhost/bonaparte/js/jquery/jquery.flexslider.js"></script>
+<script type="text/javascript">
+   var $d = jQuery.noConflict();	
+   $d(function(){
+      SyntaxHighlighter.all();
+    });
+    $d(window).load(function(){
+      $d('.flexslider').flexslider({
+	   
+	touch: true,
+    animation: "slide",
+	slideshowSpeed: 7000,
+    smoothHeight: false,
+	move: 1,
+    directionNav: true,
+	slideshow: false,
+ 	controlNav: false,
+    itemWidth: 122,
+    itemMargin: 0,
+	
+    start: function(slider){
+    $d('body').removeClass('loading');
+        }
+      });
+    });
+</script>
+    
+	<div class="flexslider">
+    <ul class="slides">
+    <?php foreach ($this->getGalleryImages() as $_image): ?>
+        <li class="standard">
+		
+        <a href='<?php echo $this->helper('catalog/image')->init($product, 'image', $_image->getFile())->constrainOnly(FALSE)->keepAspectRatio(TRUE)->keepFrame(FALSE)->resize(null,830); ?>' class='cloud-zoom-gallery' title='<?php echo $this->htmlEscape($_image->getLabel()) ?>'
+        rel="useZoom: 'zoom1', smallImage:'<?php echo $this->helper('catalog/image')->init($product, 'image', $_image->getFile())->constrainOnly(FALSE)->keepAspectRatio(TRUE)->keepFrame(FALSE)->resize(null,398); ?>'  ">
+         <img src="<?php echo $this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->constrainOnly(FALSE)->keepAspectRatio(TRUE)->keepFrame(FALSE)->resize(115,75); ?>" width="115" height="75" alt="<?php echo $this->htmlEscape($_image->getLabel()) ?>" title="<?php echo $this->htmlEscape($_image->getLabel()) ?>" /> 
+        </a> 
+ 
+		</li>
+    <?php endforeach; ?>
+    </ul>
+	</div>
+	
+</div>
+<?php endif; ?>

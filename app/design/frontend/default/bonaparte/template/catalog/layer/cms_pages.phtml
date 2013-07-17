@@ -1,0 +1,124 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Category layered navigation
+ *
+ * @see Mage_Catalog_Block_Layer_View
+ */
+?>
+
+
+<div class="block subcategory block-layered-nav">
+   
+<div class="block block-category">
+
+   <div class="block-title">
+        <strong><span>Shop by product</span></strong>
+    </div>
+
+	<div class="block-content">
+<?php
+/*
+ * How to do questions answered for magento @Technooze.com
+ * Author: Damodar Bashyal @dbashyal
+ * Project:: Magento e-Commerce show sub categories.
+ *
+ * How to display sub categories instead of products in parent categories?
+ */
+ 
+/*
+ * Magento:: Get Current Category of the page you are in.
+ */
+ $category = $this->getCurrentCategory();
+ $id = $category->getId();
+ ?>
+
+<?php
+/*
+ * Magento:: Get Child Categories of the current category.
+ */
+ $_categories = $this->getCurrentChildCategories();
+ ?>
+
+<?php
+/*
+ * Loop through sub - categories
+ */
+foreach ($_categories as $_category): ?>
+    <div class="categorylisting">
+    
+        <?php
+        /*
+         * Check to see if the category is active
+         */
+        if ($_category->getIsActive()): ?>
+        
+        <?php
+        /*
+         * Load all magento data for the category selected with category ID.
+         */
+        $_category = $_category->load($_category->getId()); ?>
+        
+        <div class="product-image">
+            <a href="<?php echo $_category->getURL() ?>" title="<?php echo $this->htmlEscape($_category->getName()) ?>">
+                <img src="<?php echo $this->helper('timage')->init($_category->getImageUrl())->resize(null, 120) ?>" alt="<?php echo $this->htmlEscape($_category->getName()) ?>"/>
+            </a>
+        </div>
+        
+        <h2>
+            <a href="<?php echo $_category->getURL() ?>" title="<?php echo $this->htmlEscape($_category->getName()) ?>"><?php echo $this->htmlEscape($_category->getName()) ?></a>
+        </h2>
+
+        <?php
+        /*
+         * Display Category Description
+         */
+        echo $_category->getDescription() ?>
+        <?php endif; ?>
+    </div>
+<?php endforeach; ?> 
+</div>
+
+</div></div>
+
+
+<div class="block cms-block block-layered-nav last">
+   
+    <?php
+      $Block2 = Mage::getModel('cms/block')->load('category-block');
+    ?>	
+	
+   <div class="block-title">
+        <strong><span><?php echo $Block2->getTitle();  ?></span></strong>
+    </div>
+	
+	<div class="block-content">
+	    <?php echo $Block2->getContent(); ?>
+	</div>
+
+</div>

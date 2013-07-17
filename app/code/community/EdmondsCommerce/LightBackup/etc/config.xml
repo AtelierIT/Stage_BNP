@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * EdmondsCommerce
+ * www.edmondscommerce.co.uk
+ * info@edmondscommerce.co.uk
+ * +44 (0)844 357 0201
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * It is available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ *
+ * @category   EdmondsCommerce
+ * @package    EdmondsCommerce_LightBackup
+ * @copyright  Copyright (c) 2010 Edmonds Commerce (http://www.edmondscommerce.co.uk)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ -->
+
+<config>
+    <modules>
+        <EdmondsCommerce_LightBackup>
+                <version>0.1.3</version>
+        </EdmondsCommerce_LightBackup>
+    </modules>
+    <global>
+        <models>
+            <backup>
+                <rewrite>
+                    <db>EdmondsCommerce_LightBackup_Model_Db</db>
+                </rewrite>
+            </backup>
+        </models>
+    </global>
+</config>

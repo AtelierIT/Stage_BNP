@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+* @category Bonaparte
+* @package  Bonaparte_Catalog
+* @author   Atelier IT Team <office@atelierit.ro>
+-->
+<config>
+    <modules>
+        <Bonaparte_Catalog>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Catalog />
+            </depends>
+        </Bonaparte_Catalog>
+    </modules>
+</config>

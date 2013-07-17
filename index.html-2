@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name="description" content="The default index page for your new Nexcess hosting account." />
+<title>Nexcess</title>
+<style type="text/css">
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+html {
+	width:100%;
+	font-family:"Trebuchet MS", Verdana, Arial, sans-serif;
+}
+body {
+	color:#333;
+	line-height:1.0em;
+}
+ol, ul {
+	list-style:none;
+	margin:0 0 10px 0;
+}
+sup {
+	font-size:0.83em;
+	vertical-align:super;
+}
+:focus {
+	outline:0;
+}
+ins {
+	text-decoration:none;
+}
+del {
+	text-decoration:line-through;
+}
+.group:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+p, li, dd, dt, address, q {
+	font-size:0.875em;
+}
+h1, h2, h5 {
+	line-height:1.0em;
+	padding:0.4em 0;
+	font-weight:700;
+	background: none;
+	border: none;
+}
+h1 {
+	font-size:1.875em;
+}
+h2 {
+	font-size: 1.5em;
+	border-bottom:1px dotted #00aeef;
+	margin-bottom:0.4em;
+}
+h5 {
+	font-size:1.0em;
+}
+#header {
+	display:block;
+	height:60px;
+}
+#logo a {
+	float: left;
+	margin-top:14px;
+	position:absolute;
+	display:block;
+	height:40px;
+	width:229px;
+	background:url(http://lghttp.nex.nexcesscdn.net/803313/static/images/nexcess_logo-pp.png) no-repeat 0 0;
+	z-index:100;
+}
+img {
+	border: none;
+}
+a, a:visited {
+	color:#00aeef;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+#contentwrap {
+	position: relative;
+	background-color: #fff;
+	margin:16px auto 0 auto;
+	width:950px;
+	padding:0;
+	border-radius:10px;
+	border:3px solid #00aeef;
+	box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.25);
+}
+.content {
+	position:relative;
+	padding:0 15px 15px 15px;
+}
+.services {
+	margin:20px 0;
+}
+.services h5 {
+	margin-left:35px;
+}
+div.thirds {
+	width:296px;
+	margin-right:10px;
+	float:left;
+}
+div.thirds:last-child {
+	margin-right:0;
+}
+ul.social {
+	float:right;
+}
+ul.social li {
+	float:right;
+	margin:10px;
+}
+.twittericon a, .facebookicon a, .linkedinicon a {
+	display:block;
+	width:16px;
+	height:16px;
+}
+.twittericon a {
+	background:url(http://lghttp.nex.nexcesscdn.net/803313/static/images/social/twitter.png) no-repeat;
+}
+.facebookicon a {
+	background:url(http://lghttp.nex.nexcesscdn.net/803313/static/images/social/facebook.png) no-repeat;
+}
+.linkedinicon a {
+	background:url(http://lghttp.nex.nexcesscdn.net/803313/static/images/social/linkedin.png) no-repeat;
+}
+</style>
+</head>
+
+<body>
+<div id="contentwrap">
+  <div class="content group">
+    <div id="header">
+      <div id="logo"><a href="http://www.nexcess.net/"></a></div>
+      <ul class="social">
+        <li class="twittericon"><a href="http://twitter.com/nexcess"></a></li>
+        <li class="facebookicon"><a href="http://www.facebook.com/nexcess"></a></li>
+        <li class="linkedinicon"><a href="http://www.linkedin.com/companies/nexcess"></a></li>
+      </ul>
+    </div>
+    <h1>Welcome To Nexcess!</h1>
+    <p>This is the default homepage for your new Nexcess hosting account. To replace it with your own content just replace this index.php file with yours. If you have any problems or questions don't hesitate to contact <a href="http://www.nexcess.net/support">Nexcess support</a>.</p>
+    <h2>Available Services</h2>
+    <div class="services group">
+      <div class="thirds">
+        <h5><a href="http://www.nexcess.net/shared-hosting">Shared Hosting</a></h5>
+        <h5><a href="http://www.nexcess.net/magento-hosting">Magento E-Commerce Hosting</a></h5>
+        <h5><a href="http://www.nexcess.net/wordpress-hosting">WordPress Hosting</a></h5>
+        <h5><a href="http://www.nexcess.net/managed-server-clusters">Clustered Servers</a></h5>
+      </div>
+      <div class="thirds">
+        <h5><a href="http://www.nexcess.net/content-delivery-network">Content Delivery Network</a></h5>
+        <h5><a href="https://order.nexcess.net/order-domain/check">Domain Registration</a></h5>
+        <h5><a href="http://www.nexcess.net/reseller-hosting">Reseller Hosting</a></h5>
+        <h5><a href="http://www.nexcess.net/magento-enterprise-hosting">Magento Enterprise Hosting</a></h5>
+      </div>
+      <div class="thirds">
+        <h5><a href="http://www.nexcess.net/wordpress-enterprise-hosting">WordPress Enterprise Hosting</a></h5>
+        <h5><a href="http://www.nexcess.net/dedicated-hosting">Dedicated Servers</a></h5>
+        <h5><a href="http://www.nexcess.net/michigan-colocation">Michigan Colocation</a></h5>
+        <h5><a href="http://www.nexcess.net/ssl-certificates">SSL Certificates</a></h5>
+      </div>
+    </div>
+    <h2>Committed Support</h2>
+    <p>Sure, everyone boasts about how great their support is - and then out-source their support department. We have professional, in-house support technicians on duty 24 hours a day, 365 days a year - just yards from your server in our Michigan data centers. Our response time to tickets is measured in minutes &mdash; or less.</p>
+    <h2>Flexibility</h2>
+    <p>We've been in this business for over a decade and we host everything from small personal websites to complex, high-traffic household name sites. Our services can grow with your website and our support technicians have seen it all!</p>
+    <h2>Our Own Data Centers</h2>
+    <p>Most of our competitors rent their data center space from other companies&hellip; not us, we rent our secure data center space to other companies! Our modern, secure data centers have all the security and redundancy you expect.</p>
+  </div>
+</div>
+</body>
+</html>

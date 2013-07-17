@@ -1,0 +1,630 @@
+[Mon, 06 May 2013 09:16:15 -0400]Intializing
+[Mon, 06 May 2013 09:16:15 -0400]Connecting to database
+[Mon, 06 May 2013 09:16:15 -0400]Selecting database
+[Mon, 06 May 2013 09:16:15 -0400]Delete old temp files
+[Mon, 06 May 2013 09:16:15 -0400]Creating backup file
+[Mon, 06 May 2013 09:16:15 -0400]Selecting tables
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `admin_assert` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `admin_role` [4].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `admin_role` LIMIT 0, 129
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `admin_rule` [231].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `admin_rule` LIMIT 0, 2462
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `admin_user` [2].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `admin_user` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `adminnotification_inbox` [76].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `adminnotification_inbox` LIMIT 0, 609
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api2_acl_attribute` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api2_acl_role` [2].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `api2_acl_role` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api2_acl_rule` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api2_acl_user` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api_assert` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api_role` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api_rule` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api_session` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `api_user` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `bonaparte_importexport_example` [4].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `bonaparte_importexport_example` LIMIT 0, 129
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `bonaparte_importexport_external_relation_attribute_option` [3 238].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `bonaparte_importexport_external_relation_attribute_option` LIMIT 0, 7945
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `captcha_log` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_anc_categs_index_idx` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_anc_categs_index_tmp` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_anc_products_index_idx` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_anc_products_index_tmp` [0].
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_entity` [1 937].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `catalog_category_entity` LIMIT 0, 5141
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_entity_datetime` [82].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `catalog_category_entity_datetime` LIMIT 0, 2622
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_entity_decimal` [41].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `catalog_category_entity_decimal` LIMIT 0, 1312
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_entity_int` [6 091].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `catalog_category_entity_int` LIMIT 0, 11399
+[Mon, 06 May 2013 09:16:15 -0400]Handling table `catalog_category_entity_text` [6 718].
+[Mon, 06 May 2013 09:16:15 -0400]-SELECT * FROM `catalog_category_entity_text` LIMIT 0, 11917
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_entity_varchar` [9 678].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_entity_varchar` LIMIT 0, 3179
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM catalog_category_entity_varchar LIMIT 3179, 3179
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM catalog_category_entity_varchar LIMIT 6358, 3179
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_1` [2].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_1` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_2` [340].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_2` LIMIT 0, 2176
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_3` [346].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_3` LIMIT 0, 2213
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_4` [296].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_4` LIMIT 0, 1894
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_5` [385].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_5` LIMIT 0, 2462
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_6` [336].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_6` LIMIT 0, 2150
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_7` [266].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_7` LIMIT 0, 1418
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_8` [0].
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_flat_store_9` [2].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_flat_store_9` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_product` [11 786].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_product` LIMIT 0, 13444
+[Mon, 06 May 2013 09:16:16 -0400]Handling table `catalog_category_product_index` [117 744].
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM `catalog_category_product_index` LIMIT 0, 10487
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM catalog_category_product_index LIMIT 10487, 10487
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM catalog_category_product_index LIMIT 20974, 10487
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM catalog_category_product_index LIMIT 31461, 10487
+[Mon, 06 May 2013 09:16:16 -0400]-SELECT * FROM catalog_category_product_index LIMIT 41948, 10487
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_category_product_index LIMIT 52435, 10487
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_category_product_index LIMIT 62922, 10487
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_category_product_index LIMIT 73409, 10487
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_category_product_index LIMIT 83896, 10487
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_category_product_index LIMIT 94383, 10487
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_category_product_index LIMIT 104870, 10487
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_category_product_index LIMIT 115357, 10487
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_category_product_index_enbl_idx` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_category_product_index_enbl_tmp` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_category_product_index_idx` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_category_product_index_tmp` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_compare_item` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_eav_attribute` [133].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_eav_attribute` LIMIT 0, 4229
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_bundle_option` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_bundle_option_value` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_bundle_price_index` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_bundle_selection` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_bundle_selection_price` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_bundle_stock_index` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_enabled_index` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity` [1 020].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity` LIMIT 0, 5406
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_datetime` [1 301].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity_datetime` LIMIT 0, 10281
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_decimal` [2 145].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity_decimal` LIMIT 0, 9710
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_gallery` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_group_price` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_int` [7 610].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity_int` LIMIT 0, 10924
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_media_gallery` [22].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity_media_gallery` LIMIT 0, 705
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_media_gallery_value` [22].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity_media_gallery_value` LIMIT 0, 705
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_text` [2 127].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity_text` LIMIT 0, 4003
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_tier_price` [0].
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_entity_varchar` [10 700].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_entity_varchar` LIMIT 0, 3520
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_product_entity_varchar LIMIT 3520, 3520
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM catalog_product_entity_varchar LIMIT 7040, 3520
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_flat_1` [1 149].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_flat_1` LIMIT 0, 2451
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_flat_2` [1 142].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_flat_2` LIMIT 0, 2428
+[Mon, 06 May 2013 09:16:17 -0400]Handling table `catalog_product_flat_3` [1 016].
+[Mon, 06 May 2013 09:16:17 -0400]-SELECT * FROM `catalog_product_flat_3` LIMIT 0, 2167
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_flat_4` [1 135].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_flat_4` LIMIT 0, 2417
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_flat_5` [1 072].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_flat_5` LIMIT 0, 2281
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_flat_6` [1 240].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_flat_6` LIMIT 0, 2636
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_flat_7` [1 124].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_flat_7` LIMIT 0, 2395
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_flat_8` [0].
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_flat_9` [998].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_flat_9` LIMIT 0, 2124
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_eav` [561].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_index_eav` LIMIT 0, 3568
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_eav_decimal` [0].
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_eav_decimal_idx` [0].
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_eav_decimal_tmp` [0].
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_eav_idx` [913].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_index_eav_idx` LIMIT 0, 9710
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_eav_tmp` [0].
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_group_price` [0].
+[Mon, 06 May 2013 09:16:18 -0400]Handling table `catalog_product_index_price` [31 715].
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM `catalog_product_index_price` LIMIT 0, 6243
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM catalog_product_index_price LIMIT 6243, 6243
+[Mon, 06 May 2013 09:16:18 -0400]-SELECT * FROM catalog_product_index_price LIMIT 12486, 6243
+[Mon, 06 May 2013 09:16:19 -0400]-SELECT * FROM catalog_product_index_price LIMIT 18729, 6243
+[Mon, 06 May 2013 09:16:19 -0400]-SELECT * FROM catalog_product_index_price LIMIT 24972, 6243
+[Mon, 06 May 2013 09:16:19 -0400]-SELECT * FROM catalog_product_index_price LIMIT 31215, 6243
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_bundle_idx` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_bundle_opt_idx` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_bundle_opt_tmp` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_bundle_sel_idx` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_bundle_sel_tmp` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_bundle_tmp` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_cfg_opt_agr_idx` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_cfg_opt_agr_tmp` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_cfg_opt_idx` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_cfg_opt_tmp` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_downlod_idx` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_downlod_tmp` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_final_idx` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_final_tmp` [0].
+[Mon, 06 May 2013 09:16:19 -0400]Handling table `catalog_product_index_price_idx` [35 218].
+[Mon, 06 May 2013 09:16:19 -0400]-SELECT * FROM `catalog_product_index_price_idx` LIMIT 0, 6992
+[Mon, 06 May 2013 09:16:19 -0400]-SELECT * FROM catalog_product_index_price_idx LIMIT 6992, 6992
+[Mon, 06 May 2013 09:16:19 -0400]-SELECT * FROM catalog_product_index_price_idx LIMIT 13984, 6992
+[Mon, 06 May 2013 09:16:19 -0400]-SELECT * FROM catalog_product_index_price_idx LIMIT 20976, 6992
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM catalog_product_index_price_idx LIMIT 27968, 6992
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_index_price_opt_agr_idx` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_index_price_opt_agr_tmp` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_index_price_opt_idx` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_index_price_opt_tmp` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_index_price_tmp` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_index_tier_price` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_index_website` [8].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_index_website` LIMIT 0, 257
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_link` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_link_attribute` [5].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_link_attribute` LIMIT 0, 161
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_link_attribute_decimal` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_link_attribute_int` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_link_attribute_varchar` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_link_type` [4].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_link_type` LIMIT 0, 129
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_option` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_option_price` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_option_title` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_option_type_price` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_option_type_title` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_option_type_value` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_relation` [808].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_relation` LIMIT 0, 6395
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_super_attribute` [120].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_super_attribute` LIMIT 0, 3828
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_super_attribute_label` [120].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_super_attribute_label` LIMIT 0, 3828
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_super_attribute_pricing` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_super_link` [1 498].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_super_link` LIMIT 0, 11917
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalog_product_website` [8 666].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalog_product_website` LIMIT 0, 14981
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cataloginventory_stock` [1].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cataloginventory_stock` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cataloginventory_stock_item` [1 149].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cataloginventory_stock_item` LIMIT 0, 4560
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cataloginventory_stock_status` [9 262].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cataloginventory_stock_status` LIMIT 0, 13444
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cataloginventory_stock_status_idx` [8 401].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cataloginventory_stock_status_idx` LIMIT 0, 12194
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cataloginventory_stock_status_tmp` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogrule` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogrule_affected_product` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogrule_customer_group` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogrule_group_website` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogrule_product` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogrule_product_price` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogrule_website` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogsearch_fulltext` [960].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalogsearch_fulltext` LIMIT 0, 350
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM catalogsearch_fulltext LIMIT 350, 350
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM catalogsearch_fulltext LIMIT 700, 350
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogsearch_query` [38].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `catalogsearch_query` LIMIT 0, 1215
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `catalogsearch_result` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `checkout_agreement` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `checkout_agreement_store` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cms_block` [3].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cms_block` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cms_block_store` [3].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cms_block_store` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cms_page` [41].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cms_page` LIMIT 0, 220
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `cms_page_store` [31].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `cms_page_store` LIMIT 0, 992
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_cache` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_cache_option` [8].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_cache_option` LIMIT 0, 257
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_cache_tag` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_config_data` [873].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_config_data` LIMIT 0, 3973
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_email_template` [1].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_email_template` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_flag` [9].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_flag` LIMIT 0, 289
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_layout_link` [1].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_layout_link` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_layout_update` [1].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_layout_update` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_resource` [58].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_resource` LIMIT 0, 1854
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_session` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_store` [9].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_store` LIMIT 0, 289
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_store_group` [9].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_store_group` LIMIT 0, 289
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_translate` [0].
+[Mon, 06 May 2013 09:16:20 -0400]Handling table `core_url_rewrite` [42 826].
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM `core_url_rewrite` LIMIT 0, 3856
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM core_url_rewrite LIMIT 3856, 3856
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM core_url_rewrite LIMIT 7712, 3856
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM core_url_rewrite LIMIT 11568, 3856
+[Mon, 06 May 2013 09:16:20 -0400]-SELECT * FROM core_url_rewrite LIMIT 15424, 3856
+[Mon, 06 May 2013 09:16:21 -0400]-SELECT * FROM core_url_rewrite LIMIT 19280, 3856
+[Mon, 06 May 2013 09:16:21 -0400]-SELECT * FROM core_url_rewrite LIMIT 23136, 3856
+[Mon, 06 May 2013 09:16:21 -0400]-SELECT * FROM core_url_rewrite LIMIT 26992, 3856
+[Mon, 06 May 2013 09:16:21 -0400]-SELECT * FROM core_url_rewrite LIMIT 30848, 3856
+[Mon, 06 May 2013 09:16:21 -0400]-SELECT * FROM core_url_rewrite LIMIT 34704, 3856
+[Mon, 06 May 2013 09:16:21 -0400]-SELECT * FROM core_url_rewrite LIMIT 38560, 3856
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM core_url_rewrite LIMIT 42416, 3856
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `core_variable` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `core_variable_value` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `core_website` [9].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `core_website` LIMIT 0, 289
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `coupon_aggregated` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `coupon_aggregated_order` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `coupon_aggregated_updated` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `cron_schedule` [41].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `cron_schedule` LIMIT 0, 1312
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_address_entity` [3].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_address_entity` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_address_entity_datetime` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_address_entity_decimal` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_address_entity_int` [3].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_address_entity_int` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_address_entity_text` [3].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_address_entity_text` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_address_entity_varchar` [26].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_address_entity_varchar` LIMIT 0, 832
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_eav_attribute` [42].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_eav_attribute` LIMIT 0, 1342
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_eav_attribute_website` [3].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_eav_attribute_website` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_entity` [5].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_entity` LIMIT 0, 161
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_entity_datetime` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_entity_decimal` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_entity_int` [6].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_entity_int` LIMIT 0, 193
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_entity_text` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_entity_varchar` [25].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_entity_varchar` LIMIT 0, 800
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_form_attribute` [94].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_form_attribute` LIMIT 0, 2997
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `customer_group` [4].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `customer_group` LIMIT 0, 129
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `design_change` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `directory_country` [246].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `directory_country` LIMIT 0, 7826
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `directory_country_format` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `directory_country_region` [367].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `directory_country_region` LIMIT 0, 3914
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `directory_country_region_name` [589].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `directory_country_region_name` LIMIT 0, 6243
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `directory_currency_rate` [4].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `directory_currency_rate` LIMIT 0, 129
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `downloadable_link` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `downloadable_link_price` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `downloadable_link_purchased` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `downloadable_link_purchased_item` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `downloadable_link_title` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `downloadable_sample` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `downloadable_sample_title` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_attribute` [159].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_attribute` LIMIT 0, 1692
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_attribute_group` [24].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_attribute_group` LIMIT 0, 769
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_attribute_label` [10].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_attribute_label` LIMIT 0, 321
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_attribute_option` [3 333].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_attribute_option` LIMIT 0, 13108
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_attribute_option_value` [24 629].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_attribute_option_value` LIMIT 0, 8067
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM eav_attribute_option_value LIMIT 8067, 8067
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM eav_attribute_option_value LIMIT 16134, 8067
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM eav_attribute_option_value LIMIT 24201, 8067
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_attribute_set` [9].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_attribute_set` LIMIT 0, 289
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_attribute` [237].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_entity_attribute` LIMIT 0, 7491
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_datetime` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_decimal` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_int` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_store` [3].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_entity_store` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_text` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_type` [8].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_entity_type` LIMIT 0, 257
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_entity_varchar` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_form_element` [52].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_form_element` LIMIT 0, 1660
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_form_fieldset` [2].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_form_fieldset` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_form_fieldset_label` [2].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_form_fieldset_label` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_form_type` [5].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_form_type` LIMIT 0, 161
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `eav_form_type_entity` [8].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `eav_form_type_entity` LIMIT 0, 257
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `geoip` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `geoip_country` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `geoip_countrylist` [247].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `geoip_countrylist` LIMIT 0, 7826
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `gift_message` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `googlecheckout_notification` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `importexport_importdata` [0].
+[Mon, 06 May 2013 09:16:22 -0400]Handling table `index_event` [37 993].
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM `index_event` LIMIT 0, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 550, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 1100, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 1650, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 2200, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 2750, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 3300, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 3850, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 4400, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 4950, 550
+[Mon, 06 May 2013 09:16:22 -0400]-SELECT * FROM index_event LIMIT 5500, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 6050, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 6600, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 7150, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 7700, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 8250, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 8800, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 9350, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 9900, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 10450, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 11000, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 11550, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 12100, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 12650, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 13200, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 13750, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 14300, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 14850, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 15400, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 15950, 550
+[Mon, 06 May 2013 09:16:23 -0400]-SELECT * FROM index_event LIMIT 16500, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 17050, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 17600, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 18150, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 18700, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 19250, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 19800, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 20350, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 20900, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 21450, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 22000, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 22550, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 23100, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 23650, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 24200, 550
+[Mon, 06 May 2013 09:16:24 -0400]-SELECT * FROM index_event LIMIT 24750, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 25300, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 25850, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 26400, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 26950, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 27500, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 28050, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 28600, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 29150, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 29700, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 30250, 550
+[Mon, 06 May 2013 09:16:25 -0400]-SELECT * FROM index_event LIMIT 30800, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 31350, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 31900, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 32450, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 33000, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 33550, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 34100, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 34650, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 35200, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 35750, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 36300, 550
+[Mon, 06 May 2013 09:16:26 -0400]-SELECT * FROM index_event LIMIT 36850, 550
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_event LIMIT 37400, 550
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_event LIMIT 37950, 550
+[Mon, 06 May 2013 09:16:27 -0400]Handling table `index_process` [9].
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM `index_process` LIMIT 0, 289
+[Mon, 06 May 2013 09:16:27 -0400]Handling table `index_process_event` [133 112].
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM `index_process_event` LIMIT 0, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 10083, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 20166, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 30249, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 40332, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 50415, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 60498, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 70581, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 80664, 10083
+[Mon, 06 May 2013 09:16:27 -0400]-SELECT * FROM index_process_event LIMIT 90747, 10083
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM index_process_event LIMIT 100830, 10083
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM index_process_event LIMIT 110913, 10083
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM index_process_event LIMIT 120996, 10083
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM index_process_event LIMIT 131079, 10083
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `magenotification` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `magenotification_extension_feedback` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `magenotification_extension_feedbackmessage` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `magenotification_license` [3].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `magenotification_license` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `magenotification_log` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `magenotification_log` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `magiczoomplus` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `magiczoomplus` LIMIT 0, 17
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `newsletter_problem` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `newsletter_queue` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `newsletter_queue_link` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `newsletter_queue_store_link` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `newsletter_subscriber` [6].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `newsletter_subscriber` LIMIT 0, 193
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `newsletter_template` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `oauth_consumer` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `oauth_nonce` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `oauth_token` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `onestepcheckout_admin` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `onestepcheckout_survey` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `paymentoperator_action` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `paymentoperator_transaction` [12].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `paymentoperator_transaction` LIMIT 0, 385
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `paypal_cert` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `paypal_payment_transaction` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `paypal_settlement_report` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `paypal_settlement_report_row` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `persistent_session` [3].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `persistent_session` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `poll` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `poll` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `poll_answer` [4].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `poll_answer` LIMIT 0, 129
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `poll_store` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `poll_store` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `poll_vote` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `poll_vote` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `product_alert_price` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `product_alert_stock` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `rating` [3].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `rating` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `rating_entity` [3].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `rating_entity` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `rating_option` [15].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `rating_option` LIMIT 0, 481
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `rating_option_vote` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `rating_option_vote_aggregated` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `rating_store` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `rating_title` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `report_compared_product_index` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `report_event` [36].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `report_event` LIMIT 0, 1151
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `report_event_types` [6].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `report_event_types` LIMIT 0, 193
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `report_viewed_product_aggregated_daily` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `report_viewed_product_aggregated_monthly` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `report_viewed_product_aggregated_yearly` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `report_viewed_product_index` [12].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `report_viewed_product_index` LIMIT 0, 385
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `review` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `review_detail` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `review_entity` [3].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `review_entity` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `review_entity_summary` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `review_status` [3].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `review_status` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `review_store` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_bestsellers_aggregated_daily` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_bestsellers_aggregated_monthly` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_bestsellers_aggregated_yearly` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_billing_agreement` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_billing_agreement_order` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_creditmemo` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_creditmemo_comment` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_creditmemo_grid` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_creditmemo_item` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_invoice` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_invoice_comment` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_invoice_grid` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_invoice_item` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_order` [15].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_order` LIMIT 0, 481
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_order_address` [30].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_order_address` LIMIT 0, 959
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_order_grid` [15].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_order_grid` LIMIT 0, 481
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_order_item` [16].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_order_item` LIMIT 0, 513
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_order_payment` [15].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_order_payment` LIMIT 0, 481
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_order_status_history` [15].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_order_status_history` LIMIT 0, 481
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_quote` [48].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_quote` LIMIT 0, 1534
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_quote_address` [131].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_quote_address` LIMIT 0, 1395
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_quote_address_item` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_quote_item` [4].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_quote_item` LIMIT 0, 129
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_quote_item_option` [12].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_quote_item_option` LIMIT 0, 385
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_quote_payment` [37].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_quote_payment` LIMIT 0, 1184
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_quote_shipping_rate` [47].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_flat_quote_shipping_rate` LIMIT 0, 1503
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_shipment` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_shipment_comment` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_shipment_grid` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_shipment_item` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_flat_shipment_track` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_invoiced_aggregated` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_invoiced_aggregated_order` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_order_aggregated_created` [10].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_order_aggregated_created` LIMIT 0, 321
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_order_aggregated_updated` [10].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_order_aggregated_updated` LIMIT 0, 321
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_order_status` [17].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_order_status` LIMIT 0, 545
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_order_status_label` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_order_status_state` [9].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_order_status_state` LIMIT 0, 289
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_order_tax` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_order_tax_item` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_payment_transaction` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_recurring_profile` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_recurring_profile_order` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_refunded_aggregated` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_refunded_aggregated_order` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_shipping_aggregated` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sales_shipping_aggregated_order` [14].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `sales_shipping_aggregated_order` LIMIT 0, 449
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule_coupon` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule_coupon_usage` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule_customer` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule_customer_group` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule_label` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule_product_attribute` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `salesrule_website` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sendfriend_log` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `shipping_tablerate` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `sitemap` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tag` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tag_properties` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tag_relation` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tag_summary` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tax_calculation` [2].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `tax_calculation` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tax_calculation_rate` [2].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `tax_calculation_rate` LIMIT 0, 65
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tax_calculation_rate_title` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tax_calculation_rule` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `tax_calculation_rule` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tax_class` [3].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `tax_class` LIMIT 0, 97
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tax_order_aggregated_created` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `tax_order_aggregated_updated` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `weee_discount` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `weee_tax` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `widget` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `widget_instance` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `widget_instance` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `widget_instance_page` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `widget_instance_page` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `widget_instance_page_layout` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `widget_instance_page_layout` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `wishlist` [1].
+[Mon, 06 May 2013 09:16:28 -0400]-SELECT * FROM `wishlist` LIMIT 0, 33
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `wishlist_item` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `wishlist_item_option` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `xmlconnect_application` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `xmlconnect_config_data` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `xmlconnect_history` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `xmlconnect_notification_template` [0].
+[Mon, 06 May 2013 09:16:28 -0400]Handling table `xmlconnect_queue` [0].

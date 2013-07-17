@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bonaparte_Catalog>
+            <version>0.1.0</version>
+        </Bonaparte_Catalog>
+    </modules>
+    <global>
+        <helpers>
+            <Bonaparte_Catalog>
+                <class>Bonaparte_Catalog_Helper</class>
+            </Bonaparte_Catalog>
+        </helpers>
+
+        <models>
+            <Bonaparte_Catalog>
+                <class>Bonaparte_Catalog_Model</class>
+            </Bonaparte_Catalog>
+            <catalog>
+                <rewrite>
+                    <product_type_configurable_price>Bonaparte_Catalog_Model_Product_Type_Configurable_Price</product_type_configurable_price>
+                </rewrite>
+				<rewrite>
+                    <layer_filter_attribute>Bonaparte_Catalog_Model_Layer_Filter_Attribute</layer_filter_attribute>
+                    <layer_filter_item>Bonaparte_Catalog_Model_Layer_Filter_Item</layer_filter_item>
+                </rewrite>
+            </catalog>
+        </models>
+
+        <blocks>
+            <Bonaparte_Catalog>
+                <class>Bonaparte_Catalog_Block</class>
+            </Bonaparte_Catalog>
+            <catalog>
+               <!-- <rewrite>
+                    <layer>Bonaparte_Catalog_Model_Layer</layer>
+                    <layer_filter_attribute>Bonaparte_Catalog_Block_Layer_Filter_Attribute</layer_filter_attribute>
+                </rewrite> -->
+                <rewrite>
+                    <product_view>Bonaparte_Catalog_Block_Product_View</product_view>
+                    <product_view_type_configurable>Bonaparte_Catalog_Block_Product_View_Type_Configurable</product_view_type_configurable>
+                </rewrite>
+            </catalog>
+        </blocks>
+    </global>
+</config>

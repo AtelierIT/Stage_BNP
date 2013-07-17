@@ -1,0 +1,170 @@
+/* Retina CSS file - author Marijan Sostaric; marijan.sostaric@twice-themes.com */ 
+
+/* Retina display settings */
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5)
+
+
+{
+
+.footer-down-inner ul.flags li a.ch { background-image:url(../images/ico-ch@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:28px 19px;
+-moz-background-size:28px 19px;
+-o-background-size:28px 19px;
+-ms-background-size:28px 196px;
+background-size:28px 19px 
+}
+
+.footer-down-inner ul.flags li a.ge { background-image:url(../images/ico-de@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:28px 19px;
+-moz-background-size:28px 19px;
+-o-background-size:28px 19px;
+-ms-background-size:28px 196px;
+background-size:28px 19px 
+}
+
+.footer-down-inner ul.flags li a.dk { background-image:url(../images/ico-dk@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:28px 19px;
+-moz-background-size:28px 19px;
+-o-background-size:28px 19px;
+-ms-background-size:28px 196px;
+background-size:28px 19px 
+}
+
+.footer-down-inner ul.flags li a.ne { background-image:url(../images/ico-ne@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:28px 19px;
+-moz-background-size:28px 19px;
+-o-background-size:28px 19px;
+-ms-background-size:28px 196px;
+background-size:28px 19px 
+}
+
+.footer-down-inner ul.flags li a.uk { background-image:url(../images/ico-uk@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:28px 19px;
+-moz-background-size:28px 19px;
+-o-background-size:28px 19px;
+-ms-background-size:28px 196px;
+background-size:28px 19px 
+}
+
+.footer-down-inner ul.flags li a.sw { background-image:url(../images/ico-sw@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:28px 19px;
+-moz-background-size:28px 19px;
+-o-background-size:28px 19px;
+-ms-background-size:28px 196px;
+background-size:28px 19px 
+}
+
+.add-to button.btn-cart, .add-to button.btn-cart { background-image:url(../images/btn-add-to@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:220px 32px;
+-moz-background-size:220px 32px;
+-o-background-size:220x 32px;
+-ms-background-size:220px 32px;
+background-size:220px 32px 
+}
+
+.cart .totals .checkout-types li button.button { background-image:url(../images/btn-cart-page@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:220px 32px;
+-moz-background-size:220px 32px;
+-o-background-size:220x 32px;
+-ms-background-size:220px 32px;
+background-size:220px 32px 
+}
+
+.button-onestepcheckout button#onestepcheckout-button-place-order { background-image:url(../images/btn-order@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:220px 32px;
+-moz-background-size:220px 32px;
+-o-background-size:220x 32px;
+-ms-background-size:220px 32px;
+background-size:220px 32px 
+}
+
+.right-second { background-image:url(../images/shop-bag@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:27px 37px;
+-moz-background-size:27px 37px;
+-o-background-size:27x 37px;
+-ms-background-size:27px 37px;
+background-size:27px 37px 
+}
+
+.footer-links .footer-list li a.facebook { background-image:url(../images/ico-fb@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:25px 23px;
+-moz-background-size:25px 23px;
+-o-background-size:25x 23px;
+-ms-background-size:25px 23px;
+background-size:25px 23px 
+}
+
+.footer-links .footer-list li a.google { background-image:url(../images/ico-go@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:25px 23px;
+-moz-background-size:25px 23px;
+-o-background-size:25x 23px;
+-ms-background-size:25px 23px;
+background-size:25px 23px 
+}
+
+.footer-links .footer-list li a.youtube { background-image:url(../images/ico-yt@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:45px 30px;
+-moz-background-size:45px 30px;
+-o-background-size:45x 30px;
+-ms-background-size:45px 30px;
+background-size:45px 30px 
+}
+
+.footer-links .footer-list li a.royal { background-image:url(../images/royal-mail@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:68px 51px;
+-moz-background-size:68px 51px;
+-o-background-size:68px 51px;
+-ms-background-size:68px 51px;
+background-size:68px 51px 
+}
+
+.footer-links .footer-list li#payment { background-image:url(../images/payment@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:186px 22px;
+-moz-background-size:186px 22px;
+-o-background-size:186px 22px;
+-ms-background-size:186px 22px;
+background-size:186px 22px 
+}
+
+.search-box button.button { background-image:url(../images/ico-search@2x.png); background-repeat:no-repeat;
+-webkit-background-size:15px 17px;
+-moz-background-size:15px 17px;
+-o-background-size:15px 17px;
+-ms-background-size:15px 17px;
+background-size:15px 17px;
+}
+
+.product-tabs li a { background:url(../images/tab-bg@2x.png); background-repeat:no-repeat; 
+-webkit-background-size:4px 28px;
+-moz-background-size:4px 28px;
+-o-background-size:4px 28px;
+-ms-background-size:4px 28px;
+background-size:4px 28px;
+}
+
+.right-second { background-size:27px 37px; }
+
+.button-onestepcheckout button#onestepcheckout-button-place-order { background-size:220px 32px; }
+.cart .totals .checkout-types li button.button { background-size:220px 32px; }
+.add-to button.btn-cart, .add-to button.btn-cart { background-size:220px 32px; }
+
+.footer-down-inner ul.flags li a.ch, .footer-down-inner ul.flags li a.ge, .footer-down-inner ul.flags li a.dk, .footer-down-inner ul.flags li a.ne,
+.footer-down-inner ul.flags li a.uk, .footer-down-inner ul.flags li a.sw { background-size:21px 19px }
+ 
+.search-box button.button { background-size:15px 17px; }
+
+.footer-links .footer-list li a.facebook, .footer-links .footer-list li a.google { background-size:25px 23px; }  
+.footer-links .footer-list li a.youtube { background-size:45px 30px; } 
+.footer-links .footer-list li a.royal { background-size:68px 51px; }
+.footer-links .footer-list li#payment { background-size:186px 22px; }
+
+.footer-right ul#social li#fb a { background-size:24px 24px; } 
+.footer-right ul#social li#tw a { background-size:24px 24px; } 
+.footer-right ul#social li#go a { background-size:24px 24px; } 
+.footer-right ul#social li#fe a { background-size:24px 24px; } 
+
+

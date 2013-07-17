@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Clearandfizzy
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ *
+ * @category    Clearandfizzy
+ * @package     Clearandfizzy_EnhancedCMS
+ * @copyright   Copyright (c) 2012 Clearandfizzy ltd. (http://www.clearandfizzy.com/)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ * @description This file configures the Clearandfizzy tab and any default menus in the magento admin
+ */
+-->
+<config>     
+ 
+	<modules>
+		<Clearandfizzy_EnhancedCMS>
+			<version>1.0.0</version>
+		</Clearandfizzy_EnhancedCMS>
+	</modules>
+ 
+    <global>
+        <blocks>
+            <adminhtml>
+
+                <rewrite>
+                    <cms_page>Clearandfizzy_EnhancedCMS_Block_Adminhtml_Cms_Page</cms_page>                   
+                    <cms_page_grid>Clearandfizzy_EnhancedCMS_Block_Adminhtml_Cms_Page_Grid</cms_page_grid>                   
+                    <cms_block>Clearandfizzy_EnhancedCMS_Block_Adminhtml_Cms_Block</cms_block>                   
+                    <cms_block_grid>Clearandfizzy_EnhancedCMS_Block_Adminhtml_Cms_Block_Grid</cms_block_grid>                   
+                </rewrite>
+
+            </adminhtml>
+
+			<clearandfizzy_enhancedcms>
+                <class>Clearandfizzy_EnhancedCMS_Block_Adminhtml</class>
+             </clearandfizzy_enhancedcms>
+             
+        </blocks>
+
+		<helpers>
+			<clearandfizzy_enhancedcms>
+                <class>Clearandfizzy_EnhancedCMS_Helper</class>
+             </clearandfizzy_enhancedcms>
+		</helpers>
+		
+		<models>
+			<clearandfizzy_enhancedcms>
+                <class>Clearandfizzy_EnhancedCMS_Model</class>
+             </clearandfizzy_enhancedcms>
+		</models>
+
+     </global> 
+     
+     <adminhtml>
+
+		<layout>
+			<updates>
+				<clearandfizzy_enhancedcms>
+					<file>clearandfizzy/enhancedcms/enhancedcms.xml</file>	
+				</clearandfizzy_enhancedcms>
+			</updates>
+		</layout>     
+
+     </adminhtml>       
+
+	<admin>
+		<routers>
+			<adminhtml>
+		    	<args>
+		        	<modules>
+		            	<clearandfizzy_enhancedcms before="Mage_Adminhtml">Clearandfizzy_EnhancedCMS_Adminhtml</clearandfizzy_enhancedcms>
+					</modules>
+				</args>
+			</adminhtml>
+		</routers>
+
+	</admin>
+	 
+</config>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <paymentoperator_iframe_show>
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        <remove name="checkout.cart" />
+		<remove name="top.search" />
+		</reference>
+		
+     <!--   <reference name="header">
+            <action method="setTemplate"><name>paymentoperator/checkout/iframe/header.phtml</name></action>
+          <remove name="top.search" />
+            <remove name="top.links" />
+            <remove name="store_language" />
+            <remove name="top.container" />
+            <remove name="top.menu" />
+        </reference> -->
+        <reference name="content">
+            <block type="paymentoperator/checkout_iframe" name="checkout_iframe" template="paymentoperator/checkout/iframe.phtml"/>
+        </reference>
+    </paymentoperator_iframe_show>
+
+    <checkout_cart_index>
+        <reference name="checkout.cart.top_methods">
+            <block type="paymentoperator/checkout_paypal_shortcut" name="paymentoperator.checkout.cart.methods.paypal_express" template="paymentoperator/checkout/paypal/shortcut.phtml"/>
+        </reference>
+
+        <reference name="checkout.cart.methods">
+            <block type="paymentoperator/checkout_paypal_shortcut" name="paymentoperator.checkout.cart.methods.paypal_express" template="paymentoperator/checkout/paypal/shortcut.phtml"/>
+        </reference>
+    </checkout_cart_index>
+
+    <checkout_onepage_index>
+        <!-- Add the new agreement sync js -->
+        <reference name="head">
+            <action method="addJs"><script>dotsource/agreement.js</script></action>
+            <action method="addJs"><script>dotsource/opcheckout/riskstep.js</script></action>
+            <action method="addJs"><script>dotsource/depends.js</script></action>
+            <action method="addCss"><stylesheet>css/paymentoperator.css</stylesheet></action>
+        </reference>
+
+        <!-- Replace billing template for address check feature -->
+        <reference name="checkout.onepage.billing">
+            <action method="setTemplate"><name>paymentoperator/checkout/onepage/billing.phtml</name></action>
+        </reference>
+
+        <!-- Replace shipping template for address check feature -->
+        <reference name="checkout.onepage.shipping">
+            <action method="setTemplate"><name>paymentoperator/checkout/onepage/shipping.phtml</name></action>
+        </reference>
+
+        <!-- Use the new logo visualisation -->
+        <reference name="checkout.payment.methods">
+            <action method="setTemplate"><template>paymentoperator/checkout/onepage/payment/methods.phtml</template></action>
+        </reference>
+
+        <!-- Replace the template to add the sync classes -->
+        <reference name="checkout.onepage.agreements">
+            <action method="setTemplate"><template>paymentoperator/checkout/onepage/agreement.phtml</template></action>
+        </reference>
+
+        <!-- Add translations to the checkout -->
+        <reference name="before_body_end">
+            <block type="paymentoperator/Translate" name="paymentoperator.translation" template="paymentoperator/translate.phtml" />
+        </reference>
+    </checkout_onepage_index>
+
+    <!-- Return the billing address block -->
+    <paymentoperator_checkout_onepage_billing_refresh>
+        <block type="checkout/onepage_billing" name="root" output="toHtml" template="paymentoperator/checkout/onepage/billing.phtml" />
+    </paymentoperator_checkout_onepage_billing_refresh>
+
+    <!-- Return the shipping address block -->
+    <paymentoperator_checkout_onepage_shipping_refresh>
+        <block type="checkout/onepage_shipping" name="root" output="toHtml" template="checkout/onepage/shipping.phtml" />
+    </paymentoperator_checkout_onepage_shipping_refresh>
+
+    <checkout_onepage_paymentmethod>
+        <reference name="root">
+            <!-- Use the new logo visualisation -->
+            <action method="setTemplate"><template>paymentoperator/checkout/onepage/payment/methods.phtml</template></action>
+
+            <!-- Set a additional values to the root block to create risk agreement html -->
+            <action method="setRiskAgreementBlock">
+                <block>checkout/agreements</block>
+                <template>paymentoperator/checkout/onepage/payment/agreements.phtml</template>
+            </action>
+            <block type="core/template" name="scripts" as="scripts">
+                <block type="core/template" name="paymentoperator.paymentmethods.showbuttonset" template="paymentoperator/checkout/onepage/payment/scripts/showpaymentbuttonset.phtml" />
+            </block>
+        </reference>
+    </checkout_onepage_paymentmethod>
+
+    <paymentoperator_callback_paypalexpress_review translate="label">
+        <label>PayPal Express Order Review Form</label>
+        <remove name="right"/>
+        <remove name="left"/>
+
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="paymentoperator/checkout_paypal_review" name="paymentoperator.checkout.paypal.review" template="paymentoperator/checkout/paypal/review.phtml">
+                <block type="paymentoperator/checkout_paypal_review_details" name="paymentoperator.checkout.paypal.review.details" as="details" template="paymentoperator/checkout/paypal/review/details.phtml">
+                    <action method="addItemRender"><type>default</type><block>checkout/cart_item_renderer</block><template>checkout/onepage/review/item.phtml</template></action>
+                    <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/onepage/review/item.phtml</template></action>
+                    <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/onepage/review/item.phtml</template></action>
+                    <block type="checkout/cart_totals" name="paymentoperator.paypalexpress.review.details.totals" as="totals" template="checkout/onepage/review/totals.phtml"/>
+                </block>
+            </block>
+        </reference>
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><name>js/checkout/review.js</name></action>
+        </reference>
+    </paymentoperator_callback_paypalexpress_review>
+
+    <!-- this is called out of the callback_paypalexpress controllers saveShippingMethodAction() -->
+    <paymentoperator_callback_paypalexpress_details>
+        <block type="paymentoperator/checkout_paypal_review_details" name="root" output="toHtml" template="paymentoperator/checkout/paypal/review/details.phtml">
+            <action method="addItemRender"><type>default</type><block>checkout/cart_item_renderer</block><template>checkout/onepage/review/item.phtml</template></action>
+            <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/onepage/review/item.phtml</template></action>
+            <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/onepage/review/item.phtml</template></action>
+            <block type="checkout/cart_totals" name="paymentoperator.paypalexpress.review.details.totals" as="totals" template="checkout/onepage/review/totals.phtml"/>
+        </block>
+    </paymentoperator_callback_paypalexpress_details>
+</layout>

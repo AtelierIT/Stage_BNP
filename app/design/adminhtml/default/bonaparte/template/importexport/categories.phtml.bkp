@@ -1,0 +1,33 @@
+
+
+<!--<form action="--><?php //echo $this->getUrl('*/*/generateCategoryRelations') ?><!--" method="post">-->
+<!--    <input name="form_key" type="hidden" value="--><?php //echo $this->getFormKey() ?><!--" />-->
+<!--    <button class="scalable" type="submit"><span>Generate category relations</span></button>-->
+<!--</form>-->
+
+
+
+<form action="<?php echo $this->getUrl('*/*/importCategories') ?>" method="post">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+    <button class="scalable" type="submit"><span>Import categories</span></button>
+</form>
+
+<form action="<?php echo $this->getUrl('*/*/importAttributes') ?>" method="post">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+    <button class="scalable" type="submit"><span>Import attributes</span></button>
+</form>
+
+<form action="<?php echo $this->getUrl('*/*/importProducts') ?>" method="post">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+    <button class="scalable" type="submit"><span>Import products</span></button>
+</form>
+
+<form action="<?php echo $this->getUrl('*/*/importStock') ?>" method="post">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+    <button class="scalable" type="submit"><span>Import stock</span></button>
+</form>
+
+<form action="<?php echo $this->getUrl('*/*/importStockincr') ?>" method="post">
+    <input name="form_key" type="hidden" value="<?php echo $this->getFormKey() ?>" />
+    <button class="scalable" type="submit"><span>Import stock incremental</span></button>
+</form>

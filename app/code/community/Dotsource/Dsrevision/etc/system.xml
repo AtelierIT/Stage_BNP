@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+**************************************************************************
+*
+* XML erstellt von / created by:
+*
+* dotSource GmbH
+* http://www.dotsource.de
+*
+**************************************************************************
+-->
+<config>
+    <sections>
+        <system>
+            <groups>
+                <revision translate="label">
+                    <label>Revision</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>300</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>0</show_in_website>
+                    <show_in_store>0</show_in_store>
+                    <fields>
+                        <current_revision translate="label">
+                            <label>Current Revision</label>
+                            <frontend_type>label</frontend_type>
+                            <frontend_model>dsrevision/adminhtml_system_revision</frontend_model>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </current_revision>
+                    </fields>
+                </revision>
+            </groups>
+        </system>
+    </sections>
+</config>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+**************************************************************************
+*
+* XML erstellt von / created by:
+*
+* dotSource GmbH
+* http://www.dotsource.de
+*
+**************************************************************************
+-->
+<config>
+    <modules>
+        <Dotsource_Dsrevision>
+            <version>1.0.0</version>
+        </Dotsource_Dsrevision>
+    </modules>
+    <global>
+        <blocks>
+            <dsrevision>
+                <class>Dotsource_Dsrevision_Block</class>
+            </dsrevision>
+        </blocks>
+        <models>
+            <dsrevision>
+                <class>Dotsource_Dsrevision_Model</class>
+            </dsrevision>
+        </models>
+    </global>
+</config>

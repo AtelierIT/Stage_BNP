@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+	<acl>
+	    <resources>
+	        <admin>
+	            <children>
+	                <system>
+	                    <children>
+	                        <config>
+	                            <children>
+	                                <paymentoperator_account translate="title" module="paymentoperator">
+	                                    <title translate="label">PaymentOperator Account Section</title>
+	                                    <sort_order>701</sort_order>
+	                                </paymentoperator_account>
+                                    <paymentoperator_risk translate="title" module="paymentoperator">
+                                        <title translate="label">PaymentOperator Riskmanagement</title>
+                                        <sort_order>702</sort_order>
+                                    </paymentoperator_risk>
+	                            </children>
+	                        </config>
+	                    </children>
+	                </system>
+	            </children>
+	        </admin>
+	    </resources>
+	</acl>
+</config>

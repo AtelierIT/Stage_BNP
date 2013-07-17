@@ -1,0 +1,19 @@
+<layout>
+    <adminhtml_custom_attributes>
+        <reference name="content">
+            <block type="core/template" name="bonaparte_importexport_attributes" template="importexport/attributes.phtml"></block>
+            <block type="Bonaparte_ImportExport/adminhtml_attributes" name="bonaparte_importexport_attributes" />
+        </reference>
+    </adminhtml_custom_attributes>
+    <adminhtml_custom_categories>
+        <reference name="content">
+            <block type="adminhtml/template" name="bonaparte_importexport_categories" template="importexport/categories.phtml"></block>
+        </reference>
+    </adminhtml_custom_categories>
+    <adminhtml_custom_products>
+        <reference name="content">
+            <block type="core/template" name="bonaparte_importexport_products" template="importexport/products.phtml"></block>
+            <block type="Bonaparte_ImportExport/adminhtml_catalogue" name="bonaparte_importexport_catalogue" />
+        </reference>
+    </adminhtml_custom_products>
+</layout>

@@ -1,0 +1,36 @@
+
+[19-06-2013 03:44:08] Reading configuration files
+[19-06-2013 03:44:16] Started importing prices
+
+[19-06-2013 03:45:04] Finished insert temp
+Done insert temp 
+
+[19-06-2013 03:45:08] UPDATE bonaparte_tmp_import_prices bt SET entity_id = (SELECT entity_id FROM catalog_product_entity WHERE sku = bt.sku), entity_id_c = (SELECT entity_id FROM catalog_product_entity WHERE sku = bt.skuc)
+
+[19-06-2013 03:45:14] UPDATE catalog_product_entity_decimal e SET value = (SELECT price FROM bonaparte_tmp_import_prices WHERE entity_id = e.entity_id AND store_id = e.store_id) WHERE (attribute_id, store_id, entity_id) IN (SELECT 75, store_id, entity_id FROM bonaparte_tmp_import_prices) 
+
+[19-06-2013 03:45:18] UPDATE catalog_product_entity_decimal e SET value = (SELECT special_price FROM bonaparte_tmp_import_prices WHERE entity_id = e.entity_id AND store_id = e.store_id) WHERE (attribute_id, store_id, entity_id) IN (SELECT 76, store_id, entity_id_c FROM bonaparte_tmp_import_prices) 
+
+[19-06-2013 03:45:20] UPDATE catalog_product_entity_datetime e SET value = (SELECT special_from_date FROM bonaparte_tmp_import_prices WHERE entity_id = e.entity_id AND store_id = e.store_id) WHERE (attribute_id, store_id, entity_id) IN (SELECT 77, store_id, entity_id FROM bonaparte_tmp_import_prices) 
+
+[19-06-2013 03:45:22] UPDATE catalog_product_entity_datetime e SET value = (SELECT special_to_date FROM bonaparte_tmp_import_prices WHERE entity_id = e.entity_id AND store_id = e.store_id) WHERE (attribute_id, store_id, entity_id) IN (SELECT 78, store_id, entity_id FROM bonaparte_tmp_import_prices) 
+
+[19-06-2013 03:45:22] INSERT INTO catalog_product_entity_decimal (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 75, store_id, entity_id_c, special_price FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL ON DUPLICATE KEY UPDATE value = b.price
+
+[19-06-2013 03:45:29] INSERT INTO catalog_product_entity_decimal (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 76, store_id, entity_id_c, special_price FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price <> special_price ON DUPLICATE KEY UPDATE value = b.special_price
+
+[19-06-2013 03:45:34] DELETE FROM catalog_product_entity_decimal WHERE entity_type_id = 4 AND attribute_id = 76 AND (store_id, entity_id) IN (SELECT store_id, entity_id_c FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price = special_price)
+
+[19-06-2013 03:45:35] INSERT INTO catalog_product_entity_datetime (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 77, store_id, entity_id_c, special_from_date FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price <> special_price ON DUPLICATE KEY UPDATE value = b.special_from_date
+
+[19-06-2013 03:45:39] DELETE FROM catalog_product_entity_datetime WHERE entity_type_id = 4 AND attribute_id = 77 AND (store_id, entity_id) IN (SELECT store_id, entity_id_c FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price = special_price)
+
+[19-06-2013 03:45:40] INSERT INTO catalog_product_entity_datetime (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 78, store_id, entity_id_c, special_from_date FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price <> special_price ON DUPLICATE KEY UPDATE value = b.special_to_date
+
+[19-06-2013 03:45:44] DELETE FROM catalog_product_entity_datetime WHERE entity_type_id = 4 AND attribute_id = 78 AND (store_id, entity_id) IN (SELECT store_id, entity_id_c FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price = special_price)
+
+[19-06-2013 03:45:45] UPDATE catalog_product_entity_int e SET value = 1 WHERE attribute_id = 96 AND store_id = 0 AND  entity_id IN (SELECT entity_id_c FROM bonaparte_tmp_import_prices) AND EXISTS (SELECT 1 FROM catalog_product_entity e1 WHERE e1.entity_id = e.entity_id AND e1.sku LIKE '%c')
+
+[19-06-2013 03:45:47] UPDATE catalog_product_entity_int e SET value = 2 WHERE attribute_id = 96 AND store_id = 0 AND NOT EXISTS (SELECT 1 FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c = e.entity_id) AND EXISTS (SELECT 1 FROM catalog_product_entity e1 WHERE e1.entity_id = e.entity_id AND e1.sku LIKE '%c')
+
+[19-06-2013 03:45:48] Finished importing prices

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errorhandling>
+    <default>
+	    <frontend>
+	        <error code="0053" />
+	        <error code="0023">Please check your account owner.</error>
+	        <error callback="paymentoperator/error_observer::checkoutPaymentRedirect" code="0500 0501 0502">Please check your bank account number and bank code number.</error>
+		    <error callback="paymentoperator/error_observer::destroyQuote" code="0073 0105 0111 0161 0162 0163 0164 0165 0190 0191 0192 0331 0703"></error>
+		    <error callback="paymentoperator/error_observer::clearQuotePayment" code="0094 0100 0102 0103 0110 0120 0302 0304 0305 0313 0314 0333 0334 0343 0351 0356 0359 0362 0385 0105 0190 0191 0192 0703">The current used credit card can not use for the checkout. Please use another credit card or another payment method.</error>
+		    <error code="0029">Please check telephone number</error>
+		    <error callback="paymentoperator/error_observer::disablePaymentMethod" code="fallback-error-msg">Your are not allowed to use the current payment method. Please use another payment method.</error>
+	    </frontend>
+		<backend>
+		    <error code="0000">Nicht spezifizierbares Problem, das manuell analysiert werden muss.</error>
+		    <error code="0001">Der Parameter PayID verursacht das Problem.</error>
+		    <error code="0002">Der Parameter TransID verursacht das Problem.</error>
+		    <error code="0003">Der Parameter MerchantID verursacht das Problem.</error>
+		    <error code="0004">Der Parameter ReqID verursacht das Problem.</error>
+		    <error code="0005">Der Parameter Amount verursacht das Problem.</error>
+		    <error code="0006">Der Parameter Currency verursacht das Problem.</error>
+		    <error code="0007">Der Parameter Data verursacht das Problem.</error>
+		    <error code="0008">Der Parameter Len verursacht das Problem.</error>
+		    <error code="0009">Der Parameter Capture verursacht das Problem.</error>
+		    <error code="0010">Der Parameter Response verursacht das Problem.</error>
+		    <error code="0011">Der Parameter OrderDesc verursacht das Problem.</error>
+		    <error code="0012">Der Parameter OrderDesc2 verursacht das Problem.</error>
+		    <error code="0013">Der Parameter UserData verursacht das Problem.</error>
+		    <error code="0014">Der Parameter UserData verursacht das Problem.</error>
+		    <error code="0015">Der Parameter CCNr verursacht das Problem.</error>
+		    <error code="0016">Der Parameter CCNr verursacht das Problem.</error>
+		    <error code="0017">Der Parameter CCExpiry verursacht das Problem.</error>
+		    <error code="0018">Der Parameter CCBrand verursacht das Problem.</error>
+		    <error code="0019">Der Parameter CCCVC verursacht das Problem.</error>
+		    <error code="0020">Der Parameter URLSuccess verursacht das Problem.</error>
+		    <error code="0021">Der Parameter URLFailure verursacht das Problem.</error>
+		    <error code="0022">Der Parameter URLNotify verursacht das Problem.</error>
+		    <error code="0023">Der Parameter AccOwner verursacht das Problem.</error>
+		    <error code="0024">Der Parameter AccNr verursacht das Problem.</error>
+		    <error code="0025">Der Parameter AccBank verursacht das Problem.</error>
+		    <error code="0026">Der Parameter AccIBAN verursacht das Problem.</error>
+		    <error code="0027">Der Parameter AccIBANList verursacht das Problem.</error>
+		    <error code="0028">Der Parameter PARes verursacht das Problem.</error>
+		    <error code="0029">Der Parameter MobileNo verursacht das Problem.</error>
+		    <error code="0030">Der Parameter MobileNet verursacht das Problem.</error>
+		    <error code="0031">Der Parameter Status verursacht das Problem.</error>
+		    <error code="0032">Der Parameter RefNr verusacht das Problem.</error>
+		    <error code="0033">Der Parameter Zone verursacht das Problem.</error>
+		    <error code="0034">Der Parameter TransURL verursacht das Problem.</error>
+		    <error code="0035">Der Parameter Textfeld1 verursacht das Problem (OTF).</error>
+		    <error code="0036">Der Parameter Textfeld2 verursacht das Problem (OTF).</error>
+		    <error code="003D">Die IP-Adresse ist ungültig.</error>
+		    <error code="0040">Nachgelagerte Systeme reagieren nicht z.B. im Bankrechenzentrum.</error>
+		    <error code="040A">Die Aufladung war nicht erfolgreich. Die Kreditkarte wurde nicht belastet.</error>
+		    <error code="040B">Die Aufladung war nicht erfolgreich. Die Kreditkarte wurde nicht belastet.</error>
+		    <error code="0045">berlastung des Kassensystems.</error>
+		    <error code="0046">Es ist keine weitere TerminalID für die Transaktion verfügbar.</error>
+		    <error code="0047">Die notwendige TerminalID fehlt.</error>
+		    <error code="0048">Die Vertragsunternehmensnummer des Akzeptanzvertrages fehlt.</error>
+		    <error code="0050">Das PaymentGate oder nachgelagerte Server meldet einen Systemfehler.</error>
+		    <error code="0051">Transaktionsfehler durch eine Zeitüberschreitung.</error>
+		    <error code="0052">Störung durch einen Kommunikationsfehler.</error>
+		    <error code="0053">Abbruch durch den Benutzer.</error>
+		    <error code="0054">Die Stornierung einer Transaktion verursacht ein Problem.</error>
+		    <error code="0055">Unbekannte Fehlerursache, die manuell analysiert werden muss.</error>
+		    <error code="0056">Das individuell vereinbarte Timeout wurde überschritten (NVAG)</error>
+		    <error code="0060">Der Transaktionstyp ist in der Konfiguration derzeit nicht aktiviert.</error>
+		    <error code="0061">Die Zahlung wird aufgrund einer falschen PayID nicht gefunden.</error>
+		    <error code="0062">Eine andere Transaktion (z.B. Buchung) behindert die Verarbeitung.</error>
+		    <error code="0063">Die Transaktion ist nicht zulässig.</error>
+		    <error code="0068">Die Verified- oder SecureCode-Zahlung wurde schon autorisiert.</error>
+		    <error code="0069">Die Gutschrift ist gescheitert, da keine Buchung voran gegangen ist</error>
+		    <error code="0070">Keine Buchung, weil der Mindestbetrag unterschritten ist.</error>
+		    <error code="0071">Diese Funktion ist deaktivert, z.B. Buchungen in der Testphase.</error>
+		    <error code="0072">Die Buchung ist bereits erfolgt und kann nicht wiederholt werden.</error>
+		    <error code="0073">Die Transaktion wurde abgebrochen.</error>
+		    <error code="0074">Der Buchungsbetrag ist höher als der Betrag der zugrunde liegenden Autorisierung.</error>
+		    <error code="0075">Es fehlt eine Autorisierung, die der Transaktion vorausgehen muss.</error>
+		    <error code="0076">Die Buchung wird verarbeitet (Capture_Request, Capture_Waiting) und kann daher nicht abgebrochen werden.</error>
+		    <error code="0077">Die gewünschte Zahlungsart ist für diese HändlerID nicht konfiguriert.</error>
+		    <error code="0078">Die Zahlungsmethode ist mit diesem PayType nicht zulässig.</error>
+		    <error code="0080">Die Zahlungsmethode wird mit diesem PayType nicht unterstützt.</error>
+		    <error code="0081">Die Zahlungsmethode unterstützt diesen Transaktionstype nicht, z.B. Buchung bei GeldKarte-Zahlungen.</error>
+		    <error code="0082">Der angegebene Mobilfunkbetreiber wird nicht unterstützt.</error>
+		    <error code="0083">Die angegebene Mobilfunknummer ist zu lang.</error>
+		    <error code="0084">Die angegebene Mobilfunknummer ist ungültig.</error>
+		    <error code="0090">Die Initialisierung des Merchant Plugin für Verified by Visa und MasterCard SecureCode ist gescheitert.</error>
+		    <error code="0091">Die Kreditkarte des Kunden ist noch nicht für Verified by Visa oder MasterCard SecureCode registriert.</error>
+		    <error code="0092">Der Parameter PAResponse wurde nicht an die Direct3D.aspx übergeben.</error>
+		    <error code="0093">Der Browser des Kunden unterstützt kein JavaScript, das zum Beispiel für Verified by Visa und SecureCode benötigt wird.</error>
+		    <error code="0094">Das Ablaufdatum der Karte ist überschritten.</error>
+		    <error code="0100">Die Karten ausgebende Bank hat die Transaktion regulär abgelehnt.</error>
+		    <error code="0101">Der Transaktionstyp ist deaktiviert und wurde nicht ausgeführt.</error>
+		    <error code="0102">Die angegebene Kartennummer ist ungültig.</error>
+		    <error code="0103">Die Karten ausgebende Bank bittet um Rückruf.</error>
+		    <error code="0105">Keine Übereinstimmung der American Express Adressverifikation</error>
+		    <error code="0110">Das Ablaufdatum der Kreditkarte ist überschritten.</error>
+		    <error code="0111">Die angegebene Kartenmarke ist ungültig.</error>
+		    <error code="011A">Die Zahlung wurde aufgrund der Einstellungen des IP-Checks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Tag). </error>
+		    <error code="011B">Die Zahlung wurde aufgrund der Einstellungen des Kartenchecks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Tag). </error>
+		    <error code="011C">Die Zahlung wurde aufgrund der Einstellungen des Betrags-Checks in Kombination mit dem IP-Check innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Tag). </error>
+		    <error code="011D">Die Zahlung wurde aufgrund der Einstellungen des Betragschecks in Kombination mit dem Kartencheck innerhalb der Betrugsprävention abgelehnt (Limit pro Tag).</error>
+		    <error code="011E">Die Zahlung wurde aufgrund der Einstellungen des Parameter-Checks (gleiche Referenznummer und/oder TransID) innerhalb der Betrugsprävention SecurePay abgelehnt (Limit pro Tag). </error>
+		    <error code="011F">Die Zahlung wurde aufgrund der Einstellungen des Karten/IP-Checks innerhalb der Betrugsprävention von Securepay abgelehnt (Limit pro Tag). </error>
+		    <error code="012A">Die Zahlung wurde aufgrund der Einstellungen des IP-Checks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Woche). </error>
+		    <error code="012B">Die Zahlung wurde aufgrund der Einstellungen des Kartenchecks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Woche). </error>
+		    <error code="012C">Die Zahlung wurde aufgrund der Einstellungen des Betrags-Checks in Kombination mit dem IP-Check innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Woche). </error>
+		    <error code="012D">Die Zahlung wurde aufgrund der Einstellungen des Betragschecks in Kombination mit dem Kartencheck innerhalb der Betrugsprävention abgelehnt (Limit pro Woche).</error>
+		    <error code="012E">Die Zahlung wurde aufgrund der Einstellungen des Parameter-Checks (gleiche Referenznummer und/oder TransID) innerhalb der Betrugsprävention SecurePay abgelehnt (Limit pro Woche). </error>
+		    <error code="012F">Die Zahlung wurde aufgrund der Einstellungen des Karten/IP-Checks innerhalb der Betrugsprävention von Securepay abgelehnt (Limit pro Woche). </error>
+		    <error code="013A">Die Zahlung wurde aufgrund der Einstellungen des IP-Checks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Monat). </error>
+		    <error code="013B">Die Zahlung wurde aufgrund der Einstellungen des Kartenchecks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Monat). </error>
+		    <error code="013C">Die Zahlung wurde aufgrund der Einstellungen des Betrags-Checks in Kombination mit dem IP-Check innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Monat). </error>
+		    <error code="013D">Die Zahlung wurde aufgrund der Einstellungen des Betragschecks in Kombination mit dem Kartencheck innerhalb der Betrugsprävention abgelehnt (Limit pro Monat).</error>
+		    <error code="013E">Die Zahlung wurde aufgrund der Einstellungen des Parameter-Checks (gleiche Referenznummer und/oder TransID) innerhalb der Betrugsprävention SecurePay abgelehnt (Limit pro Monat). </error>
+		    <error code="013F">Die Zahlung wurde aufgrund der Einstellungen des Karten/IP-Checks innerhalb der Betrugsprävention von Securepay abgelehnt (Limit pro Monat). </error>
+		    <error code="014A">Die Zahlung wurde abgelehnt, da die IP-Adresse aufgrund der Securepay-Einstellungen temporär gesperrt ist. Sie können die Sperre in den Securepay-Einstellungen der Payshow aufheben.</error>
+		    <error code="014B">Die Zahlung wurde abgelehnt, da die Kartennummer aufgrund der Securepay-Einstellungen temporär gesperrt ist. Sie können die Sperre in den Securepay-Einstellungen der Payshow aufheben.</error>
+		    <error code="014C">Die Zahlung wurde abgelehnt, da die IP-Adresse aufgrund der Securepay-Einstellungen (Umsatzlimit erreicht) temporär gesperrt ist. Sie können die Sperre in den Securepay-Einstellungen der Payshow aufheben.</error>
+		    <error code="014D">Die Zahlung wurde abgelehnt, da die Karte aufgrund der Securepay-Einstellungen (Umsatzlimit erreicht) temporär gesperrt ist. Sie können die Sperre in den Securepay-Einstellungen der Payshow aufheben.</error>
+		    <error code="014E">Die Zahlung wurde abgelehnt, da der Parameter-Wert aufgrund der Securepay-Einstellungen (Limit erreicht) temporär gesperrt ist. Sie können die Sperre in den Securepay-Einstellungen der Payshow aufheben.</error>
+		    <error code="014F">Die Zahlung wurde abgelehnt, da die IP aufgrund der Securepay-Einstellungen (max. Anzahl unterschiedlicher Karten über betreffende IP-Adresse) temporär gesperrt ist. Sie können die Sperre in den Securepay-Einstellungen der Payshow aufheben.</error>
+		    <error code="0120">Aufforderung zum Einziehen einer ungültigen Karte (stationär).</error>
+		    <error code="0121">Die Karten ausgebende Bank ist temporär nicht erreichbar.</error>
+		    <error code="0130">Die Pseudo-Kartennummer (PKN) ist nicht gültig</error>
+		    <error code="0150">Die XISO-Schnittstelle meldet ein Timeout, Formatfehler oder technischen Probleme im Bankrechenzentrum.</error>
+		    <error code="0151">Die XISO-Schnittstelle konnte keine Antwort senden.</error>
+		    <error code="0161">Die Zahlung wurde aufgrund der Einstellungen des IP-Checks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Stunde). </error>
+		    <error code="0162">Die Zahlung wurde aufgrund der Einstellungen des Kartenchecks innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Stunde). </error>
+		    <error code="0163">Die Zahlung wurde aufgrund der Einstellungen des Betrags-Checks in Kombination mit dem IP-Check innerhalb der Betrugsprävention abgelehnt (max. Anzahl pro Stunde). </error>
+		    <error code="0164">Die Zahlung wurde aufgrund der Einstellungen des Betragschecks in Kombination mit dem Kartencheck innerhalb der Betrugsprävention abgelehnt (Limit pro Stunde).</error>
+		    <error code="0165">Die Zahlung wurde aufgrund der Einstellungen des Parameter-Checks (gleiche Referenznummer und/oder TransID) innerhalb der Betrugsprävention SecurePay abgelehnt (Limit pro Stunde). </error>
+		    <error code="0166">Die Zahlung wurde aufgrund der Einstellungen des Karten/IP-Checks innerhalb der Betrugsprävention von Securepay abgelehnt (Limit pro Stunde). </error>
+		    <error code="0190">Das angegebene Lieferland stimmt nicht mit dem Herkunftsland der Kreditkarte überein.</error>
+		    <error code="0191">Der Kunde nutzt eine IP-Adresse aus einem Land, das nicht auf Ihrer Länderliste enthalten ist.</error>
+		    <error code="0192">Der Kunde nutzt eine IP-Adresse aus einem Land, das nicht mit dem Herkunftsland der Kreditkarte übereinstimmt.</error>
+		    <error code="0193">Bei der Analyse der IP-Adresse des Kunden ist ein Fehler aufgetreten.</error>
+		    <error code="0200">Die Authentisierung mit Verified by Visa und MasterCard SecureCode ist fehlgeschlagen.</error>
+		    <error code="0301">Die Antwort vom Bankrechenzentrum ist unvollständig.</error>
+		    <error code="0302">Die Zahlung wurde abgelehnt.</error>
+		    <error code="0303">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0304">Die verwendete Karte ist nicht zulässig.</error>
+		    <error code="0305">Die Anfrage wurde vom Autorisierungssystem abgelehnt. Den Grund dafür kennt nur die Bank des Kunden. Die Information fällt unter Datenschutz.</error>
+		    <error code="0306">Reserviert.</error>
+		    <error code="0312">Die Transaktion ist ungültig, z.B. Währung ist nicht zulässig.</error>
+		    <error code="0313">Der verfügbare Betrag wurde überschritten</error>
+		    <error code="0314">Die verwendete Karte ist ungültig.</error>
+		    <error code="0321">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0330">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0331">Der Kartenherausgeber ist nicht zulässig.</error>
+		    <error code="0333">Das Verfalldatum der Karte ist überschritten</error>
+		    <error code="0334">Es liegt Verdacht auf Manipulation oder Betrug vor.</error>
+		    <error code="0340">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0343">Die wurde Karte gestohlen, bitte einziehen.</error>
+		    <error code="0350">Es wurde eine doppelte Autorisierung veranlasst.</error>
+		    <error code="0351">Das Kartenlimit wurde überschritten.</error>
+		    <error code="0354">Die verwendete Chipkarte ist abgelaufen.</error>
+		    <error code="0355">Die angegebene Geheimzahl ist falsch.</error>
+		    <error code="0356">Die verwendete Karte ist ungültig.</error>
+		    <error code="0357">Die verwendete Karte stimmt nicht mit der Ursprungtransaktion überein.</error>
+		    <error code="0358">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0359">Es liegt Verdacht auf Manipulation oder Betrug vor.</error>
+		    <error code="0361">Die Karte ist in lokaler Sperrliste gesperrt.</error>
+		    <error code="0362">Die Karte ist gesperrt.</error>
+		    <error code="0376">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0383">Ein PIN-Pad-Wechsel ist nicht möglich.</error>
+		    <error code="0385">Die Transaktion wurde vom Kreditkarteninstitut abgelehnt.</error>
+		    <error code="0386">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0387">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0391">Der Kartenherausgeber oder das Banknetzwerk sind im Moment nicht verfügbar.</error>
+		    <error code="0392">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0396">Eine Verarbeitung ist derzeit nicht möglich.</error>
+		    <error code="0397">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0398">Systemfehler im Bankrechenzentrum: Entweder sind die Datum/Zeit-Angaben falsch oder die Trace-Nr. ist nicht aufsteigend.</error>
+		    <error code="0399">Es ist ein Systemfehler im Bankrechenzentrum aufgetreten.</error>
+		    <error code="0400">Die eingegebene Rufnummer ist keine gültige Prepaid-Rufnummer.</error>
+		    <error code="0401">Die Aufladung der Prepaid-Karte ist derzeit nicht möglich.</error>
+		    <error code="0402">Die Aufladung der Prepaid-Karte ist derzeit nicht möglich.</error>
+		    <error code="0403">Der maximale Aufladebetrag der Prepaid-Karte wurde erreicht.</error>
+		    <error code="0404">Die Auflademöglichkeit ist gesperrt. Die Kreditkarte wurde nicht belastet.</error>
+		    <error code="0405">Die Aufladung war nicht erfolgreich. Die Kreditkarte wurde nicht belastet.</error>
+		    <error code="0406">Die Aufladung war nicht erfolgreich. Die Kreditkarte wurde nicht belastet.</error>
+		    <error code="0407">Die Aufladung war nicht erfolgreich. Die Kreditkarte wurde nicht belastet.</error>
+		    <error code="0408">Die eingegebene Rufnummer ist keine gültige Prepaid-Rufnummer.</error>
+		    <error code="0409">Die Aufladung war nicht erfolgreich. Die Kreditkarte wurde nicht belastet.</error>
+		    <error code="0410">Der angegebene Aufladebetrag ist nicht zulässig.</error>
+		    <error code="0411">Der Ausgang des Ladevorgangs ist unbekannt. Bitte bei T-Mobile nachfragen.</error>
+		    <error code="0412">Der Ausgang des Ladevorgangs ist unbekannt. Bitte bei Vodafone nachfragen.</error>
+		    <error code="0413">Ausgang des Aufladevorgangs ist unbekannt. Bitte bei der GZS-Hotline nachfragen.</error>
+		    <error code="0414">Die VU-Nummer Ihres Kreditkartenvertrages ist ungültig. Bitte melden Sie sich beim Paymentoperator Support.</error>
+		    <error code="0500">Die Kombination von Bankleitzahl und Kontonummer ist ungültig.</error>
+		    <error code="0501">Die Datei mit den Bankleitzahlen ist nicht verfügbar.</error>
+		    <error code="0502">Beim Überprüfen der Bankverbindung ist ein Systemfehler aufgetreten.</error>
+		    <error code="0600">Die Gutschrift bezieht sich auf eine unbekannte Zahlung.</error>
+		    <error code="0601">Die Durchführung der Gutschrift wurde abgelehnt.</error>
+		    <error code="0650">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0651">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0652">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0653">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0654">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0655">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0665">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0656">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0657">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0658">Die Konfiguration der Zahlungsmethode ist nicht vollständig.</error>
+		    <error code="0664">Online-Überweisung: Ungültige Kontoverbindung</error>
+		    <error code="0701">Die Antwort vom Bankrechenzentrum entspricht nicht der Anfrage.</error>
+		    <error code="0702">Die gestellte Zahlungsanfrage ist ungültig.</error>
+		    <error code="0703">Die Anfrage wurde durch den Benutzer abgebrochen.</error>
+		    <error code="0704">Die Autorisierung wurde ‘Offline’ durchgeführt.</error>
+		    <error code="0705">Der Ausgang der Zahlungsanfrage ist unbekannt.</error>
+		    <error code="0708">Die Anfrage konnte nicht durchgeführt werden.</error>
+		    <error code="0709">Die Anfrage ist noch nicht komplett verarbeitet.</error>
+		    <error code="0710">Der Antwortstatus im Bankrechenzentrum ist unbekannt.</error>
+		    <error code="0851">Keine zuverlässige Namensanalyse möglich: Daten ungültig bzw. mehrere Personen angegeben</error>
+		    <error code="0852">Die Adressdaten sind unvollständig</error>
+		    <error code="0853">-</error>
+		    <error code="0854">Datenfehler: Namen korrigieren</error>
+		    <error code="0855">Datenfehler: Adresse korrigieren</error>
+		    <error code="0856">Datenfehler: Ungültiger Datentyp in XML-Nachricht zu Universum</error>
+		    <error code="0857">-</error>
+		    <error code="0861">Schlechte Bonitätsbeurteilung oder weich negative Merkmale zur Person gespeichert</error>
+		    <error code="0862">Mittel- oder hart-negative Merkmale zur Person gespeichert oder Adresse ungültig bzw. unvollständig</error>
+		    <error code="0921">Das Financial Transaction Gateway der Banken wird gewartet.</error>
+		    <error code="0922">Das Kreditinstitut ist derzeit nicht erreichbar.</error>
+		    <error code="0923">Aufgrund der Fusion zweier Kreditinstitute ist die Bankleitzahl des Kunden nicht mehr verwendbar.</error>
+		    <error code="0924">Das Konto des Kunden ist wegen eines Sperrlisteneintrags nicht zugelassen.</error>
+		    <error code="0925">Das Konto des Kunden ist wegen fehlender Informationen nicht zugelassen.</error>
+		    <error code="0926">Interner Fehler im Bankennetz.</error>
+		    <error code="0927">Der Parameter MerchantTxId stimmt nicht mit der Paymentoperator PayID überein.</error>
+		    <error code="0928">Der Paramter TxID fehlt.</error>
+		    <error code="0929">Der Parameter RedirectURL fehlt.</error>
+		    <error code="0930">Nach Eingabe von PIN und TAN war das Kreditinstitut nicht mehr erreichbar.</error>
+		    <error code="0931">Zeitüberschreitung bei Eingabe von PIN oder TAN.</error>
+		    <error code="0932">Die Bank meldet, daß die angegebene Kontoverbindung kein Online-Banking zulässt.</error>
+		    <error code="0933">Die Transaktion konnte nicht autorisiert werden.</error>
+		    <error code="0934">Der Transaktionsstatus konnte nicht eindeutig ermittelt werden.</error>
+		    <error code="0950">Die Autorisierung ist gescheitert, kein detaillierter Fehler bekannt</error>
+		    <error code="0951">Die Buchungist gescheitert, kein detaillierter Fehler bekannt</error>
+		    <error code="0952">Die Gutschrift ist gescheitert, kein detaillierter Fehler bekannt</error>
+		    <error code="0961">Der Parameter TicketNr verursacht ein Problem.</error>
+		    <error code="0962">Der Parameter PassengerNr verursacht ein Problem.</error>
+		    <error code="0963">Der Parameter FlightDate verursacht ein Problem.</error>
+		    <error code="0964">Der Parameter Origin1 verursacht ein Problem.</error>
+		    <error code="0965">Der Parameter Destination1 verursacht ein Problem.</error>
+		    <error code="0966">Der Parameter Carrier1 verursacht ein Problem.</error>
+		    <error code="0971">Der Parameter AddrStreet verursacht ein Problem.</error>
+		    <error code="0972">Der Parameter AddrHouseNr verursacht ein Problem.</error>
+		    <error code="0973">Der Parameter AddrCountryCode verursacht ein Problem.</error>
+		    <error code="0974">Der Parameter AddrZipCode verursacht ein Problem.</error>
+		    <error code="0975">Der Parameter AddrCity verursacht ein Problem.</error>
+		    <error code="0976">Der Parameter LastName verursacht ein Problem.</error>
+		    <error code="0977">Der Parameter CompanyOrPerson verursacht ein Problem.</error>
+		    <error code="0991">Ablehnung durch Acquirer aufgrund des Betrugsrisikos</error>
+		    <error code="0992">Nicht unterstützte Funktion</error>
+		</backend>
+    </default>
+    <address_check>
+        <frontend>
+            <error code="002A 0854">Please check your first and last name.</error>
+            <error code="002B 0855">Please check your address street and address number.</error>
+            <error code="002C">Please check your email address.</error>
+            <error code="003B">Please check your post code.</error>
+            <error code="0851 0852 0853">Please check your address data.</error>
+            <error callback="paymentoperator/observer_address::processUndefinedError" code="fallback-error-msg">Please check your address data and try it again.</error>
+        </frontend>
+        <backend>
+            <error callback="paymentoperator/observer_address::processUndefinedError" code="fallback-error-msg">Please check your address data and try it again.</error>
+        </backend>
+    </address_check>
+    <paymentoperator_billpay_purchaseonaccount>
+        <frontend>
+            <error callback="paymentoperator/payment_observer_billpay_errormanager::setFrontendMessageFromResponse" category="152" code="fallback-error-msg">There was an undocumented error by processing your payment. Please try again or choose another payment method.</error>
+        </frontend>
+        <backend>
+            <error callback="paymentoperator/payment_observer_billpay_errormanager::setBackendMessageFromResponse" category="152" code="fallback-error-msg">There was an undocumented error by processing your payment. Please try again or choose another payment method.</error>
+        </backend>
+    </paymentoperator_billpay_purchaseonaccount>
+    <paymentoperator_billpay_directdebit>
+        <frontend>
+            <error callback="paymentoperator/payment_observer_billpay_errormanager::setFrontendMessageFromResponse" category="152" code="fallback-error-msg">There was an undocumented error by processing your payment. Please try again or choose another payment method.</error>
+        </frontend>
+        <backend>
+            <error callback="paymentoperator/payment_observer_billpay_errormanager::setBackendMessageFromResponse" category="152" code="fallback-error-msg">There was an undocumented error by processing your payment. Please try again or choose another payment method.</error>
+        </backend>
+    </paymentoperator_billpay_directdebit>
+    <paymentoperator_billpay_ratepay>
+        <frontend>
+            <error callback="paymentoperator/payment_observer_billpay_errormanager::setFrontendMessageFromResponse" category="152" code="fallback-error-msg">There was an undocumented error by processing your payment. Please try again or choose another payment method.</error>
+        </frontend>
+        <backend>
+            <error callback="paymentoperator/payment_observer_billpay_errormanager::setBackendMessageFromResponse" category="152" code="fallback-error-msg">There was an undocumented error by processing your payment. Please try again or choose another payment method.</error>
+        </backend>
+    </paymentoperator_billpay_ratepay>
+</errorhandling>

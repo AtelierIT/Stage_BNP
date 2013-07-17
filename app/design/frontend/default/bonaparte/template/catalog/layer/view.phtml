@@ -1,0 +1,242 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2010 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Category layered navigation
+ *
+ * @see Mage_Catalog_Block_Layer_View
+ */
+?>
+<?php if($this->canShowBlock()): ?>
+<div class="block filter block-layered-nav">
+
+        <script type="text/javascript" src="http://stage.bonaparteshop.com/js/jquery/jquery-1.4.3.min.js"></script>	
+        <script type="text/javascript" src="http://stage.bonaparteshop.com/js/jquery/jquery-ui-1.8.13.custom.min.js"></script>	
+	    <script type="text/javascript" src="http://stage.bonaparteshop.com/js/jquery/jquery.multi-open-accordion-1.5.3.min.js"></script>	 
+  
+
+        <?php echo $this->getStateHtml() ?>
+        <?php if($this->canShowOptions()): ?>
+            <div class="block-title"><strong><span><?php echo $this->__('Shopping Options') ?></span></strong></div>
+			
+            <div id="multiOpenAccordion">
+                <?php $_filters = $this->getFilters() ?>
+                <?php foreach ($_filters as $_filter): ?>
+                <?php if($_filter->getItemsCount()): ?>
+				
+				    <h3><a href="#"><?php echo $this->__($_filter->getName()) ?></a></h3>
+       
+                    <div>
+					<?php echo $_filter->getHtml() ?>
+					</div>	
+
+       	<script type="text/javascript">
+		var $ = jQuery.noConflict();
+		
+		$(function(){
+			$('#multiOpenAccordion').multiOpenAccordion({
+				active: [1, 2],
+				click: function(event, ui) {
+					//console.log('clicked')
+				},
+				init: function(event, ui) {
+					//console.log('whoooooha')
+				},
+				tabShown: function(event, ui) {
+					//console.log('shown')
+				},
+				tabHidden: function(event, ui) {
+					//console.log('hidden')
+				}
+				
+			});
+			
+			$('#multiOpenAccordion').multiOpenAccordion("option", "active", [0, 0]);
+		});
+	</script>					
+			
+					
+                <?php endif; ?>
+                <?php endforeach; ?>
+				
+				
+            </div>
+
+		   
+					
+			
+			
+        <?php endif; ?>
+		
+		
+		
+		
+		
+			
+
+		
+
+</div>
+<?php endif; ?>
+
+
+
+<div class="block block-layered-nav subcategory">
+   
+<div class="block block-category">
+
+   <div class="block-title">
+        <strong><span>Shop by product</span></strong>
+    </div>
+
+<div class="block-content">
+
+
+<?php 
+$currCat = Mage::registry('current_category');
+$parentname = $currCat->getName();
+$collection = Mage::getModel('catalog/category')->getCategories($currCat->getEntityId());
+$subcats = $currCat->getChildren();
+
+$_helper = $this->helper('catalog/output');
+
+?>
+
+<?php 
+$currCat = Mage::registry('current_category');
+$parentname = $currCat->getName();
+$collection = Mage::getModel('catalog/category')->getCategories($currCat->getEntityId());
+$subcats = $currCat->getChildren();
+
+$_helper = $this->helper('catalog/output');
+
+?>
+
+<!-- We list sub sub categories -->
+
+<ul class="colLeftSubCats">
+<?php
+foreach(explode(',',$subcats) as $subCatid)
+{
+$_category = Mage::getModel('catalog/category')->load($subCatid);
+if($_category->getIsActive()) {
+$sub_cat = Mage::getModel('catalog/category')->load($_category->getId());
+$sub_subcats = $sub_cat->getChildren();
+echo '<li class="show_hide subMainCat"><a href="'.$_category->getURL().'" title="Show products "'.$_category->getName().'" category">'.$_category->getName().'</a></li>';
+foreach(explode(',',$sub_subcats) as $sub_subCatid)
+{
+$_sub_category = Mage::getModel('catalog/category')->load($sub_subCatid);
+if($_sub_category->getIsActive()) {
+echo '<li class="slidingDiv subCat"><a href="'.$_sub_category->getURL().'" title="show products "'.$_sub_category->getName().'" category">- '.$_sub_category->getName().'</a></li>';
+}
+}
+}
+}
+?>
+</ul>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+jQuery.noConflict();
+jQuery(document).ready(function(){
+
+
+    jQuery(".slidingDiv").hide();
+	jQuery(".show_hide").show();
+	
+	jQuery('.show_hide').click(function(){
+	jQuery(".slidingDiv").slideToggle();
+	});
+
+});
+
+</script>
+
+</div>
+
+</div></div>
+
+
+<div class="block block-layered-nav product-subcategory">
+   
+<div class="block block-category">
+
+   <div class="block-title">
+        <strong><span>Shop by product</span></strong>
+    </div>
+
+<div class="block-content">
+
+ <?php
+    $currentCat = Mage::registry('current_category');
+
+    if ( $currentCat->getParentId() == Mage::app()->getStore()->getRootCategoryId() )
+    {
+        // current category is a toplevel category
+        $loadCategory = $currentCat;
+    }
+    else
+    {
+        // current category is a sub-(or subsub-, etc...)category of a toplevel category
+        // load the parent category of the current category
+        $loadCategory = Mage::getModel('catalog/category')->load($currentCat->getParentId());
+        // @TODO enhance for more nested category levels to display sub-categories
+    }    
+    $subCategories = explode(',', $loadCategory->getChildren());
+
+    foreach ( $subCategories as $subCategoryId )
+    {
+        $cat = Mage::getModel('catalog/category')->load($subCategoryId);
+
+        if($cat->getIsActive())
+        {
+            echo '<a class="sub-links" href="'.$cat->getURL().'">'.$cat->getName().'</a> ';
+        }
+    }
+?> 
+
+</div>
+
+</div></div>
+
+
+<div class="block cms-block block-layered-nav last">
+   
+    <?php
+      $Block2 = Mage::getModel('cms/block')->load('category-block');
+    ?>	
+	
+   <div class="block-title">
+        <strong><span><?php echo $Block2->getTitle();  ?></span></strong>
+    </div>
+	
+	<div class="block-content">
+	    <?php echo $Block2->getContent(); ?>
+	</div>
+
+</div>

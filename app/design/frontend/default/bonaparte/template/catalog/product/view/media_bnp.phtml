@@ -1,0 +1,100 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     default_modern
+ * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+
+/**
+ * Product media_bnp data template
+ *
+ * @see Mage_Catalog_Block_Product_View_Media
+ */
+?>
+
+<?php
+
+    function get_prd_url_for_image($image) {
+
+        $arr_image = explode('/',$image);
+        $image = $arr_image[count($arr_image)-1];
+
+        $conn = Mage::getSingleton('core/resource')->getConnection('core_read');
+
+        $sql = "SELECT * FROM bonaparte_resources WHERE picture_name = '".$image."' AND product_type = 1 AND flag_lead = 1";
+        $results = $conn->fetchAll($sql);
+
+        if ($results) {
+            $entity_id = $results[0]['entity_id'];
+
+            $product2 = Mage::getModel('catalog/product')->load($entity_id);
+            $product_path = $product2->getProductUrl();
+        }
+        else $product_path = "";
+
+        return $product_path;
+    }
+
+?>
+
+<?php
+    $_product = $this->getProduct();
+    $_helper = $this->helper('catalog/output');
+?>
+<?php if (count($this->getGalleryImages()) > 1): ?>
+<?php
+//build image array for bnp_gallery
+$arr_bnp_gallery = array();
+
+foreach ($this->getGalleryImages() as $_image) {
+
+    $path = (string)$this->helper('catalog/image')->init($this->getProduct(), 'thumbnail', $_image->getFile())->constrainOnly(FALSE)->keepAspectRatio(TRUE)->keepFrame(FALSE)->resize(115,75);
+
+    array_push($arr_bnp_gallery, array("id" => get_prd_url_for_image($path), "path" => $path));
+
+
+}
+
+//print_r($arr_bnp_gallery);
+
+//convert to json
+$json_bnp_gallery = json_encode($arr_bnp_gallery);
+
+?>
+
+
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/skin/frontend/default/bonaparte/css/bnp_gallery.css">
+    <script src="/js/jquery/bnp_gallery.js"></script>
+
+
+    <div id="d_test"></div>
+
+    <script>
+        jQuery('#d_test').bnpGallery(115,
+            150,
+            4,
+            '<?php echo $json_bnp_gallery ?>'
+        );
+    </script>
+<?php endif; ?>
+

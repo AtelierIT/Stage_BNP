@@ -1,0 +1,11 @@
+	.bnpGalUl {
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;
+		display: inline;
+	}
+	
+	.bnpGalUl li {float: left;
+				  margin-left: 10px;
+				 }
+	

@@ -39,6 +39,12 @@ app/Mage.php
 cron.php
 cron.sh
 downloader/
+dump_files/temp/ARTIKLAR.TXT
+dump_files/temp/ARTIKLAR.TXT_old
+dump_files/WBN240S
+dump_files/csv/ARTIKLAR.TXT
+dump_files/xml/size.csv
+dump_files/xml/product/
 errors/
 favicon.ico
 get.php

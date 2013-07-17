@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Dotsource_Paymentoperator>
+			<active>true</active>
+			<codePool>community</codePool>
+			<depends>
+				<Mage_Payment />
+				<Mage_Sales />
+				<Mage_Checkout />
+				<Mage_Customer />
+				<Mage_Adminhtml />
+			</depends>
+		</Dotsource_Paymentoperator>
+	</modules>
+</config>

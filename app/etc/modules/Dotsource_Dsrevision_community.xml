@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+**************************************************************************
+*
+* XML erstellt von / created by:
+*
+* dotSource GmbH
+* http://www.dotsource.de
+*
+**************************************************************************
+-->
+<config>
+    <modules>
+        <Dotsource_Dsrevision>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Dotsource_Dsrevision>
+    </modules>
+</config>

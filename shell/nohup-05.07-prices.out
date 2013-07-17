@@ -1,0 +1,58 @@
+
+[05-07-2013 06:26:08] Reading configuration files
+[05-07-2013 06:26:20] Started importing prices
+Array
+(
+    [ch] => 4
+    [de] => 3
+    [dk] => 2
+    [base] => 1
+    [newstore] => 9
+    [nl] => 5
+    [se] => 6
+    [uk] => 7
+)
+
+
+[05-07-2013 06:27:27] Finished insert temp
+Done insert temp 
+
+[05-07-2013 06:27:32] UPDATE bonaparte_tmp_import_prices bt SET entity_id = (SELECT entity_id FROM catalog_product_entity WHERE sku = bt.sku), entity_id_c = (SELECT entity_id FROM catalog_product_entity WHERE sku = bt.skuc)
+
+[05-07-2013 06:27:41] UPDATE bonaparte_tmp_import_prices bt SET entity_id = (SELECT DISTINCT simple_entity_id FROM bonaparte_styles bs WHERE uk_sku = bt.sku AND uk_sku <> '') WHERE IFNULL(entity_id,0) = 0 AND EXISTS (SELECT 1 FROM bonaparte_styles bs2 WHERE bs2.uk_sku <> '' AND bs2.uk_sku = bt.sku )
+
+[05-07-2013 06:27:42] INSERT INTO catalog_product_entity_decimal (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 75, store_id, entity_id, price FROM bonaparte_tmp_import_prices b WHERE IFNULL(b.entity_id,0) <> 0 ON DUPLICATE KEY UPDATE value = b.price
+
+[05-07-2013 06:27:53] INSERT INTO catalog_product_entity_decimal (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 76, store_id, entity_id, special_price FROM bonaparte_tmp_import_prices b WHERE IFNULL(b.entity_id,0) <> 0 ON DUPLICATE KEY UPDATE value = b.special_price
+
+[05-07-2013 06:28:01] INSERT INTO catalog_product_entity_datetime (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 77, store_id, entity_id, special_from_date FROM bonaparte_tmp_import_prices b  WHERE IFNULL(b.entity_id,0) <> 0 ON DUPLICATE KEY UPDATE value = b.special_from_date
+
+[05-07-2013 06:28:11] INSERT INTO catalog_product_entity_datetime (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 78, store_id, entity_id, special_to_date FROM bonaparte_tmp_import_prices b WHERE IFNULL(b.entity_id,0) <> 0  ON DUPLICATE KEY UPDATE value = b.special_to_date
+
+[05-07-2013 06:28:22] Sql bnp_trafficlight: INSERT INTO catalog_product_entity_int (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 519, store_id, entity_id, bnp_trafficlight FROM bonaparte_tmp_import_prices b WHERE IFNULL(b.entity_id,0) <> 0 ON DUPLICATE KEY UPDATE value = b.bnp_trafficlight
+
+[05-07-2013 06:28:29] Sql bnp_trafficlight: INSERT INTO catalog_product_entity_int (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 510, store_id, entity_id, bnp_adcodes FROM bonaparte_tmp_import_prices b WHERE IFNULL(b.entity_id,0) <> 0 ON DUPLICATE KEY UPDATE value = b.bnp_adcodes
+
+[05-07-2013 06:28:37] INSERT INTO catalog_product_entity_decimal (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 75, store_id, entity_id_c, special_price FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL ON DUPLICATE KEY UPDATE value = b.price
+
+[05-07-2013 06:28:46] INSERT INTO catalog_product_entity_decimal (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 76, store_id, entity_id_c, special_price FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL ON DUPLICATE KEY UPDATE value = b.special_price
+
+[05-07-2013 06:28:55] DELETE FROM catalog_product_entity_decimal WHERE entity_type_id = 4 AND attribute_id = 76 AND (store_id, entity_id) IN (SELECT store_id, entity_id_c FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price = special_price)
+
+[05-07-2013 06:28:57] INSERT INTO catalog_product_entity_datetime (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 77, store_id, entity_id_c, special_from_date FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price <> special_price ON DUPLICATE KEY UPDATE value = b.special_from_date
+
+[05-07-2013 06:29:04] DELETE FROM catalog_product_entity_datetime WHERE entity_type_id = 4 AND attribute_id = 77 AND (store_id, entity_id) IN (SELECT store_id, entity_id_c FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price = special_price)
+
+[05-07-2013 06:29:07] INSERT INTO catalog_product_entity_datetime (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 78, store_id, entity_id_c, special_from_date FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price <> special_price ON DUPLICATE KEY UPDATE value = b.special_to_date
+
+[05-07-2013 06:29:15] DELETE FROM catalog_product_entity_datetime WHERE entity_type_id = 4 AND attribute_id = 78 AND (store_id, entity_id) IN (SELECT store_id, entity_id_c FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c IS NOT NULL AND price = special_price)
+
+[05-07-2013 06:29:17] Sql bnp_trafficlight: INSERT INTO catalog_product_entity_int (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 519, store_id, entity_id_c, bnp_trafficlight FROM bonaparte_tmp_import_prices b WHERE IFNULL(b.entity_id_c,0) <> 0 ON DUPLICATE KEY UPDATE value = b.bnp_trafficlight
+
+[05-07-2013 06:29:26] Sql bnp_pricecat: INSERT INTO catalog_product_entity_int (entity_type_id, attribute_id, store_id, entity_id, value) SELECT 4, 518, store_id, entity_id_c, bnp_pricecat FROM bonaparte_tmp_import_prices b WHERE IFNULL(b.entity_id_c,0) <> 0 ON DUPLICATE KEY UPDATE value = b.bnp_pricecat
+
+[05-07-2013 06:29:35] UPDATE catalog_product_entity_int e SET value = 1 WHERE attribute_id = 96 AND store_id = 0 AND  entity_id IN (SELECT entity_id_c FROM bonaparte_tmp_import_prices) AND EXISTS (SELECT 1 FROM catalog_product_entity e1 WHERE e1.entity_id = e.entity_id AND e1.sku LIKE '%c')
+
+[05-07-2013 06:29:36] UPDATE catalog_product_entity_int e SET value = 2 WHERE attribute_id = 96 AND store_id = 0 AND NOT EXISTS (SELECT 1 FROM bonaparte_tmp_import_prices b WHERE b.entity_id_c = e.entity_id) AND EXISTS (SELECT 1 FROM catalog_product_entity e1 WHERE e1.entity_id = e.entity_id AND e1.sku LIKE '%c')
+
+[05-07-2013 06:29:37] Finished importing prices

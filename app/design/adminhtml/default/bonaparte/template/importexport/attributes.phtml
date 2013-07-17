@@ -1,0 +1,104 @@
+    <div id="page:main-container">
+        <div id="messages"></div>
+        <div class="content-header">
+            <table cellspacing="0">
+                <tr>
+                    <td style="width:50%;"><h3 class="icon-head head-catalog-product-attribute">CVL list of Attributes</h3></td>
+                    <td class="form-buttons"><button  id="id_c5fc9a5ca3f0271540c90e3d702d3447" title="Add New Attribute" type="button" class="scalable add" onclick="setLocation('http://bonaparte.local/index.php/admin/catalog_product_attribute/new/key/68fa06b629192bd2370c7e59d8118439/')" style=""><span><span><span>Add Selected Attributes</span></span></span></button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+    <p>
+        Please select the attributes you want to import to Magento!
+    </p>
+<!--    <form action="--><?php //echo Mage::getBaseUrl(); ?><!--admin/custom" method="post">-->
+<!--        <input type="hidden" name="key" value="-->
+<!--            --><?// echo  Mage::helper("adminhtml")->getUrl("admin/custom/attributes/",array("param1"=>1,"param2"=>2));; ?>
+<!--                                                " />-->
+<!--        <button class="scalable" type="submit"><span>Import test</span></button>-->
+<!--    </form>-->
+
+
+
+<?php
+$attributes = Mage::getModel('Bonaparte_ImportExport/custom')->getAttributesFromFile();
+
+
+//foreach($attributes as $attributeName => $values) {
+//    echo $attributeName . '--------------------------';
+//    var_dump($values);
+//    //echo $values;
+//
+//    echo '************************************';
+//}
+
+//var_dump ( array_keys($attributes)) ;
+//var_dump ($attributes['Color']) ;
+//var_dump ($attributes['Color']) ;
+
+?>
+
+    <div class="grid">
+        <div class="hor-scroll">
+            <table cellspacing="0" class="data" style="width: 650px;" id="custom_attribute_import_table">
+                <col  width="50" class="a-center" />
+                <col  width="200" />
+                <col  width="200" />
+                <col  width="200" />
+                <thead>
+                <tr class="headings">
+                    <th><span class="nobr">Select</span></th>
+                    <th class=" no-link"><span class="nobr">Attribute Code</span></th>
+                    <th class=" no-link"><span class="nobr">Attribute Label</span></th>
+                    <th class=" no-link last"><span class="nobr">Number of Optional Values</span></th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                <?php
+                    foreach($attributes as $attributeName => $values) {
+                ?>
+
+
+                <tr title="<? echo $attributeName;?>" >
+
+                    <td class="a-center ">
+                        <input type="checkbox" name="search" value="1" class="massaction-checkbox"/>                    </td>
+
+
+                    <td class="a-left ">
+                        <?
+                        echo 'bnp_'.strtolower($attributeName);
+                        ?>
+                    </td>
+
+                    <td class="a-left ">
+                        <?
+                        echo $attributeName;
+                        ?>
+                    </td>
+
+                    <td class="a-right ">
+                        <?
+                        echo count($attributes[$attributeName]);
+                        ?>
+                    </td>
+
+                </tr>
+
+                <?
+                    }
+                ?>
+
+
+
+
+                </tbody>
+
+            </table>
+        </div>
+    </div>

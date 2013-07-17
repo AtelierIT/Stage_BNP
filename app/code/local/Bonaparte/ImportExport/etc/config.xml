@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bonaparte_ImportExport>
+            <version>0.1.8</version>
+        </Bonaparte_ImportExport>
+    </modules>
+    <global>
+        <helpers>
+            <Bonaparte_ImportExport>
+                <class>Bonaparte_ImportExport_Helper</class>
+            </Bonaparte_ImportExport>
+        </helpers>
+        <blocks>
+            <Bonaparte_ImportExport>
+                <class>Bonaparte_ImportExport_Block</class>
+            </Bonaparte_ImportExport>
+        </blocks>
+        <models>
+            <Bonaparte_ImportExport>
+                <class>Bonaparte_ImportExport_Model</class>
+                <resourceModel>Bonaparte_ImportExport_Mysql4</resourceModel>
+            </Bonaparte_ImportExport>
+
+            <!-- declaring model vs db table relation -->
+            <Bonaparte_ImportExport_Mysql4>
+                <class>Bonaparte_ImportExport_Model_Mysql4</class>
+                <!-- declate table test -->
+                <entities>
+                    <Example>
+                        <table>bonaparte_importexport_example</table>
+                    </Example>
+                    <External_Relation_Attribute_Option>
+                        <table>bonaparte_importexport_external_relation_attribute_option</table>
+                    </External_Relation_Attribute_Option>
+                    <Catalogue>
+                        <table>bonaparte_importexport_catalogue</table>
+                    </Catalogue>
+                </entities>
+                <!-- -/- -->
+            </Bonaparte_ImportExport_Mysql4>
+            <!-- -/- -->
+
+        </models>
+
+        <!-- Setup db read & write connection for Mymod module -->
+        <resources>
+            <bonaparte_importexport_setup>
+                <setup>
+                    <module>Bonaparte_ImportExport</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </bonaparte_importexport_setup>
+            <!-- db write connection -->
+            <bonaparte_importexport_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </bonaparte_importexport_write>
+            <!-- db read connection -->
+            <bonaparte_importexport_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </bonaparte_importexport_read>
+        </resources>
+        <!-- -/- -->
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Bonaparte_ImportExport before="Mage_Adminhtml">Bonaparte_ImportExport_Adminhtml</Bonaparte_ImportExport>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <menu>
+            <system>
+                <children>
+                    <convert>
+                        <children>
+                            <bonaparte_importexport_section translate="title" module="Bonaparte_ImportExport">
+                                <title>Custom import</title>
+                                <children>
+                                    <bonaparte_importexport_attributes translate="title" module="Bonaparte_ImportExport">
+                                        <title>Attributes</title>
+                                        <action>adminhtml/custom/attributes</action>
+                                    </bonaparte_importexport_attributes>
+                                    <bonaparte_importexport_categories translate="title" module="Bonaparte_ImportExport">
+                                        <title>Categories</title>
+                                        <action>adminhtml/custom/categories</action>
+                                    </bonaparte_importexport_categories>
+                                    <bonaparte_importexport_products translate="title" module="Bonaparte_ImportExport">
+                                        <title>Products</title>
+                                        <action>adminhtml/custom/products</action>
+                                    </bonaparte_importexport_products>
+                                </children>
+                            </bonaparte_importexport_section>
+                        </children>
+                    </convert>
+                </children>
+            </system>
+        </menu>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <bonaparte_importexport_section>
+                                    <title>Custom import</title>
+                                </bonaparte_importexport_section>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+        <layout>
+            <updates>
+                <bonaparte_importexport>
+                    <file>bonaparte_importexport.xml</file>
+                </bonaparte_importexport>
+            </updates>
+        </layout>
+    </adminhtml>
+</config>

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+* @category Bonaparte
+* @package  Bonaparte_ImportExport
+* @author   Atelier IT Team <office@atelierit.ro>
+-->
+<config>
+    <modules>
+        <Bonaparte_ImportExport>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_ImportExport />
+            </depends>
+        </Bonaparte_ImportExport>
+    </modules>
+</config>

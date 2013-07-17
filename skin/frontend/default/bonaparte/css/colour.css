@@ -1,0 +1,163 @@
+/* Color CSS file - author Marijan Sostaric; marijan.sostaric@twice-themes.com */ 
+
+
+/* Main selection hover */
+::selection { background:#888; text-shadow:0 0 1px #777; color:#fff }
+::-moz-selection { background:#7f7f7f; text-shadow:0 0 1px #777; color:#fff !important }
+
+
+.cart-box div.product-number { 
+border-color: #d92536;
+background-color: #fa3f51;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fc8b96), color-stop(100%, #fa3f51));
+background-image: -webkit-linear-gradient(top, #fc8b96, #fa3f51);
+background-image: -moz-linear-gradient(top, #fc8b96, #fa3f51);
+background-image: -ms-linear-gradient(top, #fc8b96, #fa3f51);
+background-image: -o-linear-gradient(top, #fc8b96, #fa3f51);
+background-image: linear-gradient(top, #fc8b96, #fa3f51);
+color: #fff;
+text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+border-width: 1px;
+border-style: solid;
+border-radius: 12px;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), inset 0 1px rgba(255, 255, 255, 0.3);
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08), inset 0 1px rgba(255, 255, 255, 0.3);
+}
+
+/* Form buttons */
+.form-subscribe button.button, .buttons-set button.button, .multiple-down button.button, .cart .shipping .btn-ship, .discount-form .btn-coupon, button.button, .cart-table .btn-continue, .cart-table .btn-update, .add-button button.button, .form-add button.button, .cart .totals .checkout-types button.button  
+{ float:right; border:none; }
+
+.add-to button.btn-cart, .add-to button.btn-cart { display:block; width:218px; height:32px; padding:3px 0; background:url(../images/btn-add-to.png) no-repeat }
+.add-to button.btn-cart:hover { } 
+
+.add-to button.btn-cart span, .add-to button.btn-cart span { display:none !important } 
+
+.buttons-set button.button:hover, button.button:hover, .cart .totals .checkout-types button.button:hover  { border:none;
+
+
+-webkit-transition-property:background;
+-webkit-transition-duration:350ms, 350ms;
+-webkit-transition-timing-function: linear, ease-in;
+
+-moz-transition-property:background;
+-moz-transition-duration:500ms;
+-moz-transition-timing-function: linear, ease-in;
+
+-o-transition-property:background;
+-o-transition-duration:500ms;
+-o-transition-timing-function: linear, ease-in;
+ }
+
+.buttons-set button.button, button.button { border:none; 
+
+background-color: #5f5f5f;
+background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #848484), color-stop(100%, #5f5f5f));
+background-image:-webkit-linear-gradient(top, #848484, #5f5f5f);
+background-image:-moz-linear-gradient(top, #848484, #5f5f5f);
+background-image:-ms-linear-gradient(top, #848484, #5f5f5f);
+background-image:-o-linear-gradient(top, #848484, #5f5f5f);
+background-image:linear-gradient(top, #848484, #5f5f5f);
+color: #fff;
+text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+
+}
+  
+button.button > span, .cart .totals .checkout-types button.button > span { width:auto; }
+button.button > span > span, .cart .totals .checkout-types button.button > span > span {  color:#fff; }
+
+button.disabled span { color:transparent !important; }
+
+/* Responsive navigation */
+.respond-nav:hover, .mob-nav li a:hover { text-decoration:none; color:#fff !important; background:#acacac }
+.respond-nav:hover .left-ico span { background:#fff !important }
+.mob-nav li:hover div { color:#303030 }
+
+.mob-nav li ul li a, .mob-nav li ul li a span { text-transform:none }
+.mob-nav li ul li a { color:#707070; background:none !important; }
+
+.mob-nav li ul li a span { margin-left:10px; color:#808080 }
+.mob-nav li ul li ul li a span { margin-left:20px; color:#808080 }  
+
+.mob-nav li ul li div { top:7px }
+
+.mob-nav li ul li a:hover { background:#fff !important }
+.respond-nav:hover .respond-text, .mob-nav li a:hover span, .mob-nav li.active ul li a:hover span, .mob-nav li:hover > div { text-decoration:none; color:#fff }
+.mob-nav ul li a:hover div, .mob-nav li ul li:hover > div { color:#303030 }
+
+/* Related links, sliders and product page */
+.actions .add-to-links li:hover, .index-down .left-col .products-grid .actions li:hover { background:#ffc7cc; border:1px solid #fa3f51 }
+.block-related .product .product-details .product-name a:hover { text-decoration:underline }
+
+.block-related .product .product-details .price-box .price, 
+.checkout-onepage-index .col-right #checkout-progress-wrapper .block-content dl dt a { color:#7d7d7d }
+
+.review-temp .ratings .rating-links a:hover { text-decoration:none; color:#fa3f51 }
+
+.block-related .flex-direction-nav a.flex-prev:hover { background:#fc8b96 url(../images/ar-left.png) 8px 7px no-repeat }
+.block-related .flex-direction-nav a.flex-next:hover { background:#fc8b96 url(../images/ar-right.png) 9px 7px no-repeat }
+.upsell-slider .flex-direction-nav a.flex-prev:hover { background:#fc8b96 url(../images/ar-left.png) 8px 7px no-repeat }
+.upsell-slider .flex-direction-nav a.flex-next:hover { background:#fc8b96 url(../images/ar-right.png) 9px 7px no-repeat }
+.more-views ul.flex-direction-nav a.flex-prev:hover { background:#fc8b96 url(../images/ar-left.png) 8px 7px no-repeat }
+.more-views ul.flex-direction-nav a.flex-next:hover { background:#fc8b96 url(../images/ar-right.png) 9px 7px no-repeat }
+
+/* Multishipping pages */
+.checkout-progress li.active, .multiple-checkout .success-text p a, .cart-empty .empty-message a { color:#222 }
+
+
+/* Category list page */
+.catalog-category-view .std a, .pager .pages .current { color:#acacac }
+.pager .pages a, .index-down .right-col .home-news a#read-link  { color:#777 }
+.pager .pages a:hover { text-decoration:underline; }
+
+.col-sidebar .block-compare .block-content ol li a.btn-remove:hover, .catalog-category-view .col-sidebar .currently ul li a.btn-remove:hover, 
+.cart-box a.btn-remove:hover, .cart-box a.btn-edit:hover, .cart-box a.btn-remove:hover, 
+.col-sidebar .block-compare .block-content ol li a.btn-remove:hover, .btn-remove:hover, .btn-remove2:hover
+ {  }
+ 
+.cart-box a.btn-edit:hover { background:#5f5f5f url(../images/ico-edit.png) 6px -18px no-repeat; }
+
+.col-sidebar .block-compare .block-content ol li a.btn-remove:hover span, 
+.catalog-category-view .col-sidebar .currently ul li a.btn-remove:hover span, .cart-box a.btn-remove:hover span 
+{ text-shadow:none; color:#fff }
+
+.products-grid li.item .product-image:hover { background-size:100% 100% }
+
+/* Onestep checkout */
+.discount-form button#add_coupon_code_button, .cart .discount-form .btn-coupon
+ { display:block; float:right; width:132px !important; height:27px; background:url(../images/btn-coupon.png) left 0 no-repeat !important } 
+
+.discount-form button#add_coupon_code_button { background-size:132px 27px }
+
+.button-onestepcheckout button#onestepcheckout-button-place-order
+{ padding:0 !important; float:right; width:220px; height:32px; display:block; background:url(../images/btn-order.png) right 0 no-repeat }
+
+#one-step-checkout-form label.forgot a { display:block; text-indent:-999em; width:152px; height:27px; background:url(../images/btn-forgot.png) no-repeat }
+
+/* Home page and other colors */
+#recently-viewed-items li .rec h2 a:hover, .index-products .slides li.item .product-desc h2 a:hover, .breadcrumbs a:hover, 
+.products-grid li.item .product-desc h2 a:hover, .upsell-slider ul li.item h2 a:hover, .products-list li.item h2 a:hover, 
+.col-sidebar .block-compare .block-content .actions a:hover, .dashboard a:hover, .buttons-set .back-link a:hover,
+.my-wishlist .product-name a:hover, #wishlist-table .a-center p a:hover, 
+.cart-box #top-cart .block-content ol.mini-products-list li .product-details p.product-name a:hover, .cart-table .product-name a:hover 
+{ text-decoration:underline }
+ 
+.block .block-content li a:hover, .block .block-content li a:hover em { text-decoration:none; color:#ffff } 
+.block .block-content li.current:hover { background:none }
+.block .block-content li.current:hover em { color:#d0d0d0 }
+.catalogsearch-result-index .col-sidebar .block-content li a:hover em, .catalog-category-view .col-sidebar .block-content li a:hover em, 
+.customer-account-index .col-sidebar .block .block-content li em:hover, #nav > li > ul > li > a:hover { color:#ff5c6b !important; }
+
+/* Navigation */
+.customer-links ul li a:hover, .account-login .buttons-set a.f-left:hover,#form-validate .content p.back-link a:hover,
+.new-users .buttons-set p.back-link a:hover, .opc .buttons-set a:hover { text-decoration:underline }
+#nav ul, #nav div { border-top:2px solid #fc8b96 }
+#nav li.active a { background:#ececec; color:#7d7d7d }
+
+/* Site footer */
+.footer-canvas { background:#fff; }
+.footer-links .footer-list ul li a:hover { opacity:1; text-decoration:underline }
+.footer-links .footer-list ul li#email a, .new-users .content p a { color:#5b8ed9; }
+.footer-links .footer-list ul li#email a:hover { text-decoration:underline }
+
+

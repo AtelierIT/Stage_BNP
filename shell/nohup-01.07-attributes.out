@@ -1,0 +1,302 @@
+
+[30-06-2013 21:00:06] Reading configuration files
+[30-06-2013 21:00:22] Adding missing attributes
+[30-06-2013 21:00:22] Finished reading configuration files
+[30-06-2013 21:00:22] Started importing all attributes
+[30-06-2013 21:00:22] Processing attribute 1 out of 37 with the code "bnp_catalogadcode"
+[30-06-2013 21:00:22] 57147392 bytes (54.50 MB(0.05 GB))
+[30-06-2013 21:00:22] Adding attribute options(90)..........................................................................................
+[30-06-2013 21:00:22] Updating options for attribute: CatalogAdcode
+[30-06-2013 21:00:22] Saving attribute
+[30-06-2013 21:00:22] Saved
+[30-06-2013 21:00:22] Relating external id of options to the internal id of options
+[30-06-2013 21:00:22] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:22] Processing attribute 2 out of 37 with the code "bnp_catalogstatus"
+[30-06-2013 21:00:22] 57147392 bytes (54.50 MB(0.05 GB))
+[30-06-2013 21:00:22] Adding attribute options(102)......................................................................................................
+[30-06-2013 21:00:22] Updating options for attribute: CatalogStatus
+[30-06-2013 21:00:22] Saving attribute
+[30-06-2013 21:00:23] Saved
+[30-06-2013 21:00:23] Relating external id of options to the internal id of options
+[30-06-2013 21:00:23] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:23] Processing attribute 3 out of 37 with the code "bnp_catalogue"
+[30-06-2013 21:00:23] 56885248 bytes (54.25 MB(0.05 GB))
+[30-06-2013 21:00:23] Adding attribute options(188)............................................................................................................................................................................................
+[30-06-2013 21:00:23] Updating options for attribute: Catalogue
+[30-06-2013 21:00:23] Saving attribute
+[30-06-2013 21:00:23] Saved
+[30-06-2013 21:00:23] Relating external id of options to the internal id of options
+[30-06-2013 21:00:23] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:23] Processing attribute 4 out of 37 with the code "bnp_color"
+[30-06-2013 21:00:23] 56885248 bytes (54.25 MB(0.05 GB))
+[30-06-2013 21:00:23] Adding attribute options(1226)..........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+[30-06-2013 21:00:23] Updating options for attribute: Color
+[30-06-2013 21:00:23] Saving attribute
+[30-06-2013 21:00:23] Saved
+[30-06-2013 21:00:23] Relating external id of options to the internal id of options
+[30-06-2013 21:00:24] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:24] Processing attribute 5 out of 37 with the code "bnp_composition"
+[30-06-2013 21:00:24] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:24] Adding attribute options(839).......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+[30-06-2013 21:00:24] Updating options for attribute: Composition
+[30-06-2013 21:00:24] Saving attribute
+[30-06-2013 21:00:24] Saved
+[30-06-2013 21:00:24] Relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Processing attribute 6 out of 37 with the code "bnp_concept"
+[30-06-2013 21:00:25] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:25] Adding attribute options(9).........
+[30-06-2013 21:00:25] Updating options for attribute: Concept
+[30-06-2013 21:00:25] Saving attribute
+[30-06-2013 21:00:25] Saved
+[30-06-2013 21:00:25] Relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Processing attribute 7 out of 37 with the code "bnp_fitting"
+[30-06-2013 21:00:25] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:25] Adding attribute options(5).....
+[30-06-2013 21:00:25] Updating options for attribute: Fitting
+[30-06-2013 21:00:25] Saving attribute
+[30-06-2013 21:00:25] Saved
+[30-06-2013 21:00:25] Relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Processing attribute 8 out of 37 with the code "bnp_imagetype"
+[30-06-2013 21:00:25] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:25] Adding attribute options(9).........
+[30-06-2013 21:00:25] Updating options for attribute: ImageType
+[30-06-2013 21:00:25] Saving attribute
+[30-06-2013 21:00:25] Saved
+[30-06-2013 21:00:25] Relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Processing attribute 9 out of 37 with the code "bnp_lengthdescription"
+[30-06-2013 21:00:25] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:25] Adding attribute options(22)......................
+[30-06-2013 21:00:25] Updating options for attribute: LengthDescription
+[30-06-2013 21:00:25] Saving attribute
+[30-06-2013 21:00:25] Saved
+[30-06-2013 21:00:25] Relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Processing attribute 10 out of 37 with the code "bnp_measureheading"
+[30-06-2013 21:00:25] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:25] Adding attribute options(2)..
+[30-06-2013 21:00:25] Updating options for attribute: MeasureHeading
+[30-06-2013 21:00:25] Saving attribute
+[30-06-2013 21:00:25] Saved
+[30-06-2013 21:00:25] Relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:25] Processing attribute 11 out of 37 with the code "bnp_position"
+[30-06-2013 21:00:25] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:25] Adding attribute options(16)................
+[30-06-2013 21:00:25] Updating options for attribute: Position
+[30-06-2013 21:00:25] Saving attribute
+[30-06-2013 21:00:26] Saved
+[30-06-2013 21:00:26] Relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Processing attribute 12 out of 37 with the code "bnp_priority"
+[30-06-2013 21:00:26] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:26] Adding attribute options(4)....
+[30-06-2013 21:00:26] Updating options for attribute: Priority
+[30-06-2013 21:00:26] Saving attribute
+[30-06-2013 21:00:26] Saved
+[30-06-2013 21:00:26] Relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Processing attribute 13 out of 37 with the code "bnp_productgroup"
+[30-06-2013 21:00:26] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:26] Adding attribute options(483)...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+[30-06-2013 21:00:26] Updating options for attribute: ProductGroup
+[30-06-2013 21:00:26] Saving attribute
+[30-06-2013 21:00:26] Saved
+[30-06-2013 21:00:26] Relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Processing attribute 14 out of 37 with the code "bnp_productmaingroup"
+[30-06-2013 21:00:26] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:26] Adding attribute options(81).................................................................................
+[30-06-2013 21:00:26] Updating options for attribute: ProductMainGroup
+[30-06-2013 21:00:26] Saving attribute
+[30-06-2013 21:00:26] Saved
+[30-06-2013 21:00:26] Relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:26] Processing attribute 15 out of 37 with the code "bnp_productstatus"
+[30-06-2013 21:00:26] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:26] Adding attribute options(2)..
+[30-06-2013 21:00:26] Updating options for attribute: ProductStatus
+[30-06-2013 21:00:26] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 16 out of 37 with the code "bnp_productsubgroup"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(23).......................
+[30-06-2013 21:00:27] Updating options for attribute: ProductSubGroup
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 17 out of 37 with the code "bnp_program"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(16)................
+[30-06-2013 21:00:27] Updating options for attribute: Program
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 18 out of 37 with the code "bnp_season"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(11)...........
+[30-06-2013 21:00:27] Updating options for attribute: Season
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 19 out of 37 with the code "bnp_sizegroupnametransl"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(12)............
+[30-06-2013 21:00:27] Updating options for attribute: SizeGroupNameTransl
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 20 out of 37 with the code "bnp_tagtexts"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(13).............
+[30-06-2013 21:00:27] Updating options for attribute: TagTexts
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 21 out of 37 with the code "bnp_testcatalogs"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(2)..
+[30-06-2013 21:00:27] Updating options for attribute: TestCatalogs
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 22 out of 37 with the code "bnp_washicon"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(29).............................
+[30-06-2013 21:00:27] Updating options for attribute: WashIcon
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:27] Saved
+[30-06-2013 21:00:27] Relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:27] Processing attribute 23 out of 37 with the code "bnp_year"
+[30-06-2013 21:00:27] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:27] Adding attribute options(6)......
+[30-06-2013 21:00:27] Updating options for attribute: Year
+[30-06-2013 21:00:27] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 24 out of 37 with the code "bnp_size"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(171)...........................................................................................................................................................................
+[30-06-2013 21:00:28] Updating options for attribute: Size
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 25 out of 37 with the code "bnp_animalorigin"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(2)..
+[30-06-2013 21:00:28] Updating options for attribute: AnimalOrigin
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 26 out of 37 with the code "bnp_displaycomposition"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(2)..
+[30-06-2013 21:00:28] Updating options for attribute: DisplayComposition
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 27 out of 37 with the code "bnp_colorgroup"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(10)..........
+[30-06-2013 21:00:28] Updating options for attribute: ColorGroup
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 28 out of 37 with the code "bnp_adcodes"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(20)....................
+[30-06-2013 21:00:28] Updating options for attribute: AdCodes
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 29 out of 37 with the code "bnp_stylenbr"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(0)
+[30-06-2013 21:00:28] Updating options for attribute: StyleNbr
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 30 out of 37 with the code "bnp_sizetranslate"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(0)
+[30-06-2013 21:00:28] Updating options for attribute: SizeTranslate
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:28] Saved
+[30-06-2013 21:00:28] Relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:28] Processing attribute 31 out of 37 with the code "bnp_measurementchart"
+[30-06-2013 21:00:28] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:28] Adding attribute options(0)
+[30-06-2013 21:00:28] Updating options for attribute: MeasurementChart
+[30-06-2013 21:00:28] Saving attribute
+[30-06-2013 21:00:29] Saved
+[30-06-2013 21:00:29] Relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Processing attribute 32 out of 37 with the code "bnp_measurechartabrv"
+[30-06-2013 21:00:29] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:29] Adding attribute options(0)
+[30-06-2013 21:00:29] Updating options for attribute: MeasureChartAbrv
+[30-06-2013 21:00:29] Saving attribute
+[30-06-2013 21:00:29] Saved
+[30-06-2013 21:00:29] Relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Processing attribute 33 out of 37 with the code "bnp_length"
+[30-06-2013 21:00:29] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:29] Adding attribute options(0)
+[30-06-2013 21:00:29] Updating options for attribute: Length
+[30-06-2013 21:00:29] Saving attribute
+[30-06-2013 21:00:29] Saved
+[30-06-2013 21:00:29] Relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Processing attribute 34 out of 37 with the code "bnp_washinstructions"
+[30-06-2013 21:00:29] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:29] Adding attribute options(0)
+[30-06-2013 21:00:29] Updating options for attribute: WashInstructions
+[30-06-2013 21:00:29] Saving attribute
+[30-06-2013 21:00:29] Saved
+[30-06-2013 21:00:29] Relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Processing attribute 35 out of 37 with the code "bnp_trafficlight"
+[30-06-2013 21:00:29] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:29] Adding attribute options(4)....
+[30-06-2013 21:00:29] Creating attribute: TrafficLight
+[30-06-2013 21:00:29] Saving attribute
+[30-06-2013 21:00:29] Saved
+[30-06-2013 21:00:29] Relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Processing attribute 36 out of 37 with the code "bnp_pricecatalogue"
+[30-06-2013 21:00:29] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:29] Adding attribute options(0)
+[30-06-2013 21:00:29] Updating options for attribute: PriceCatalogue
+[30-06-2013 21:00:29] Saving attribute
+[30-06-2013 21:00:29] Saved
+[30-06-2013 21:00:29] Relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:29] Processing attribute 37 out of 37 with the code "bnp_pricecatalogadcode"
+[30-06-2013 21:00:29] 56623104 bytes (54.00 MB(0.05 GB))
+[30-06-2013 21:00:29] Adding attribute options(90)..........................................................................................
+[30-06-2013 21:00:29] Updating options for attribute: PriceCatalogAdcode
+[30-06-2013 21:00:29] Saving attribute
+[30-06-2013 21:00:29] Saved
+[30-06-2013 21:00:29] Relating external id of options to the internal id of options
+[30-06-2013 21:00:30] Finished relating external id of options to the internal id of options
+[30-06-2013 21:00:30] Finished importing attributes
